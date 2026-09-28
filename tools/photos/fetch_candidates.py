@@ -29,9 +29,17 @@ S.headers["User-Agent"] = UA
 LOG = []
 
 
+START = time.time()
+TIME_BUDGET = 35 * 60  # stop early and save, well inside the job's time limit
+
+
+def out_of_time():
+    return time.time() - START > TIME_BUDGET
+
+
 def log(*parts):
     line = " ".join(str(p) for p in parts)
-    print(line)
+    print(line, flush=True)
     LOG.append(line)
 
 
@@ -41,12 +49,12 @@ MAX_SIDE = 800
 
 
 def get_json(url, params):
-    for attempt in range(6):
+    for attempt in range(3):
         try:
             r = S.get(url, params=params, timeout=60)
             if r.status_code in (429, 500, 502, 503, 504):
                 log("  status", r.status_code, "waiting to retry")
-                time.sleep(15 * (attempt + 1))
+                time.sleep(10 * (attempt + 1))
                 continue
             r.raise_for_status()
             return r.json()
@@ -138,7 +146,7 @@ def commons_candidates(spec, want, skip):
     base = "https://commons.wikimedia.org/w/api.php"
     common = {
         "action": "query", "format": "json", "prop": "imageinfo",
-        "iiprop": "url|extmetadata|size|mime", "iiurlwidth": MAX_SIDE,
+        "iiprop": "url|extmetadata|size|mime", "iiurlwidth": 960,
     }
     queries = []
     for term in spec["commons"].get("search", []):
@@ -174,14 +182,14 @@ def commons_candidates(spec, want, skip):
 
 
 def save_image(url, path):
-    for attempt in range(5):
+    for attempt in range(3):
         r = S.get(url, timeout=60)
         if r.status_code in (429, 503):
-            time.sleep(10 * (attempt + 1))
+            time.sleep(8 * (attempt + 1))
             continue
         break
     r.raise_for_status()
-    time.sleep(0.5)
+    time.sleep(2 if "wikimedia" in url else 0.5)
     img = Image.open(io.BytesIO(r.content)).convert("RGB")
     img.thumbnail((MAX_SIDE, MAX_SIDE))
     img.save(path, "JPEG", quality=80, optimize=True, progressive=True)
@@ -215,6 +223,9 @@ def main():
     for spec in specs:
         if only and spec["id"] not in only:
             continue
+        if out_of_time():
+            log("out of time; stopping before", spec["id"])
+            break
         skip = int(skips.get(spec["id"], 0))
         log("==", spec["id"])
         cands = inat_candidates(spec, per, skip) if "inat" in spec else commons_candidates(spec, per, skip)
@@ -238,6 +249,7 @@ def main():
         if imgs:
             contact_sheet(imgs, os.path.join(OUT, "_sheets", spec["id"] + ".jpg"), "%s (%s)" % (spec["name"], spec["id"]))
         log("  kept", len(kept))
+        json.dump(manifest, open(mpath, "w"), indent=1)
     json.dump(manifest, open(mpath, "w"), indent=1)
     empty = [k for k, v in manifest.items() if not v["candidates"]]
     log("done:", len(manifest), "specimens; empty:", empty)
