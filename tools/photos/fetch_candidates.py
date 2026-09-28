@@ -8,6 +8,7 @@ Output goes to candidates/ and is pushed to the photo-candidates branch, where
 a person picks the photos that clearly show the right specimen.
 
 request.json controls a run: {"only": [ids], "per": 8, "skip": {id: n}}.
+A Commons spec may list exact "files" (names without "File:") to fetch first.
 """
 import html
 import io
@@ -149,6 +150,9 @@ def commons_candidates(spec, want, skip):
         "iiprop": "url|extmetadata|size|mime", "iiurlwidth": 960,
     }
     queries = []
+    files = spec["commons"].get("files", [])
+    if files:  # exact files a person suggested, checked first
+        queries.append(dict(common, titles="|".join("File:" + f for f in files)))
     for term in spec["commons"].get("search", []):
         queries.append(dict(common, generator="search", gsrsearch=term + " filetype:bitmap", gsrnamespace=6, gsrlimit=25))
     for cat in spec["commons"].get("categories", []):

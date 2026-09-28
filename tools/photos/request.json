@@ -1,11 +1,1 @@
-{
- "only": [
-  "scoria",
-  "mica",
-  "halite",
-  "galena",
-  "graphite"
- ],
- "per": 6,
- "skip": {}
-}
+{"only": ["halite", "mica"], "per": 8, "skip": {}}

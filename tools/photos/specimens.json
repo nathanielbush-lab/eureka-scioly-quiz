@@ -408,6 +408,9 @@
    "id": "halite",
    "name": "Halite",
    "commons": {
+    "files": [
+     "Halite_crystal.jpg"
+    ],
     "categories": [
      "Halite"
     ],
