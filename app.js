@@ -363,7 +363,9 @@
         "</button>"
       );
       cb.addEventListener("click", function () { state = { screen: "codebusters" }; window.EurekaCodebusters.open(); });
-      grid.appendChild(cb);
+      // Alphabetical with the events: right after Buzzworthy.
+      var after = tiles.map(function (t) { return t.id; }).indexOf("buzzworthy");
+      grid.insertBefore(cb, after === -1 ? null : grid.children[after + 1] || null);
     }
 
     app.replaceChildren(view);

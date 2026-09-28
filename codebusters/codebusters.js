@@ -787,10 +787,12 @@
       });
     });
 
+    // A blank box is never right (indexOf("") would be 0).
+    function isRight(x) { return !!x.value && x._cell.accept.indexOf(x.value) !== -1; }
     function countErrors() {
       var errs = 0;
       inputs.forEach(function (x) {
-        var ok = x.value && x._cell.accept.indexOf(x.value) !== -1;
+        var ok = isRight(x);
         x.classList.toggle("wrong", !ok);
         if (!ok) errs++;
       });
@@ -855,7 +857,7 @@
     });
 
     hintBtn.addEventListener("click", function () {
-      var todo = inputs.filter(function (x) { return !x.readOnly && x._cell.accept.indexOf(x.value) === -1; });
+      var todo = inputs.filter(function (x) { return !x.readOnly && !isRight(x); });
       if (!todo.length) return;
       var x = pick(todo);
       reveals++;
@@ -924,32 +926,53 @@
   }
 
   /* ---------- printing ---------- */
+  // Print opens the worksheet in its own tab, because pages embedded in
+  // Google Sites aren't allowed to open the print dialog themselves.
+  var PRINT_CSS =
+    "body{font-family:Verdana,system-ui,sans-serif;color:#000;margin:24px;font-size:15px}" +
+    "h1{font-size:22px;margin:0 0 10px}h2{font-size:18px}p{margin:0 0 10px}" +
+    ".bar{display:flex;gap:10px;margin-bottom:18px}.bar button{font:inherit;font-weight:700;padding:8px 16px;border-radius:10px;border:2px solid #2f6feb;background:#2f6feb;color:#fff;cursor:pointer}" +
+    ".grid{display:flex;flex-wrap:wrap;gap:22px 30px;align-items:flex-end;margin-top:20px}" +
+    ".word{display:flex;gap:6px;align-items:flex-end}.word.wide{flex-wrap:wrap}" +
+    ".cell{display:flex;flex-direction:column;align-items:center;gap:4px}" +
+    ".top{font-size:12px;font-weight:700}.code{min-height:32px;display:flex;align-items:flex-end}" +
+    ".ct{font-family:'DejaVu Sans Mono',Menlo,Consolas,monospace;font-weight:700;font-size:20px;line-height:1}" +
+    ".ct.tap{font-size:15px;white-space:nowrap}.ct.bacon{font-size:13px;letter-spacing:1px;white-space:nowrap}" +
+    ".blank{display:block;width:30px;height:30px;border-bottom:2px solid #000}.word.wide .blank{width:58px}" +
+    ".punct{font-weight:700;font-size:20px;padding-bottom:6px}" +
+    ".glyph{width:30px;height:30px;display:block;fill:none;stroke:#000;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}" +
+    ".glyph.tall{width:24px;height:32px}.glyph .fill{fill:#000;stroke:none}" +
+    ".key{break-before:page;page-break-before:always;margin-top:40px}" +
+    "@media print{.bar{display:none}body{margin:0}}";
+
   function printPuzzle(p) {
     var c = cipherById(p.cipher);
-    var old = document.getElementById("cb-print");
-    if (old) old.remove();
-    var sheet = el(
-      '<div id="cb-print" class="cb-print">' +
-        "<h1>Eureka! Codebusters: " + esc(c.name) + " (" + LEVELS[levelIndex(p.level)].name + ", " + p.points + " points)</h1>" +
-        '<p>Name: ______________________</p>' +
-        "<p>" + p.info + "</p>" +
-        '<div class="cb-grid">' + p.words.map(function (w) {
-          return '<span class="cb-word' + (p.wide ? " wide" : "") + '">' + w.map(function (x) {
-            if (x.punct) return '<span class="cb-punct">' + esc(x.punct) + "</span>";
-            return '<span class="cb-cell">' + (x.top ? '<span class="cb-keyletter">' + x.top + "</span>" : "") +
-              '<span class="cb-code">' + x.show + '</span><span class="cb-blank"></span></span>';
-          }).join("") + "</span>";
-        }).join("") + "</div>" +
-        '<div class="cb-print-key"><h2>Answer key</h2><p>' + esc(p.plain) + "</p></div>" +
-      "</div>"
-    );
-    document.body.appendChild(sheet);
-    document.body.classList.add("cb-printing");
-    window.addEventListener("afterprint", function done() {
-      document.body.classList.remove("cb-printing");
-      window.removeEventListener("afterprint", done);
-    });
-    window.print();
+    var title = "Eureka! Codebusters: " + c.name + " (" + LEVELS[levelIndex(p.level)].name + ", " + p.points + " points)";
+    var grid = p.words.map(function (w) {
+      return '<span class="word' + (p.wide ? " wide" : "") + '">' + w.map(function (x) {
+        if (x.punct) return '<span class="punct">' + esc(x.punct) + "</span>";
+        return '<span class="cell">' + (x.top ? '<span class="top">' + x.top + "</span>" : "") +
+          '<span class="code">' + x.show + '</span><span class="blank"></span></span>';
+      }).join("") + "</span>";
+    }).join("");
+    var html = "<!doctype html><html><head><meta charset=\"utf-8\"><title>" + esc(title) + "</title><style>" + PRINT_CSS + "</style></head><body>" +
+      '<div class="bar"><button onclick="window.print()">Print this worksheet</button><button onclick="window.close()">Close</button></div>' +
+      "<h1>" + esc(title) + "</h1><p>Name: ______________________</p><p>" + p.info + "</p>" +
+      '<div class="grid">' + grid + "</div>" +
+      '<div class="key"><h2>Answer key</h2><p>' + esc(p.plain) + "</p></div>" +
+      "<script>window.onload=function(){setTimeout(function(){window.print()},300)}<\/script></body></html>";
+    var url = URL.createObjectURL(new Blob([html], { type: "text/html" }));
+    var win = window.open(url, "_blank");
+    if (!win) {
+      // Pop-ups blocked: download the worksheet instead so it can be opened and printed.
+      var a = document.createElement("a");
+      a.href = url;
+      a.download = "codebusters-" + c.id + ".html";
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+    }
+    setTimeout(function () { URL.revokeObjectURL(url); }, 60000);
   }
 
   /* ---------- mock test ---------- */

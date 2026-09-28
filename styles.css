@@ -577,19 +577,6 @@ p { margin: 0; }
 .cb-inline .glyph { width: 28px; height: 28px; }
 .cb-results { width: 100%; border-collapse: collapse; }
 .cb-results th, .cb-results td { text-align: left; padding: 8px; border-bottom: 1px solid var(--line); }
-
-.cb-print { display: none; }
-.cb-blank { display: block; width: 28px; height: 30px; border-bottom: 2px solid #000; }
-@media print {
-  body { background: #fff; color: #000; }
-  body.cb-printing > *:not(.cb-print) { display: none !important; }
-  body.cb-printing .cb-print { display: block; color: #000; font-size: 14pt; }
-  .cb-print h1 { font-size: 18pt; margin: 0 0 8pt; }
-  .cb-print p { margin: 0 0 8pt; }
-  .cb-print .cb-grid { margin-top: 16pt; gap: 18pt 26pt; }
-  .cb-print .cb-word.wide .cb-blank { width: 54px; }
-  .cb-print-key { break-before: page; }
-}
 .cb-actions { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
 .cb-actions .btn:first-child { grid-column: 1 / -1; }
 @media (min-width: 640px) { .cb-actions { display: flex; } .cb-actions .btn:first-child { grid-column: auto; } }
