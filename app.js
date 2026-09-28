@@ -17,8 +17,8 @@
   ];
   var ENCOURAGE = [
     "Nice try!", "Not quite, but that's okay!", "Good guess!",
-    "So close! Let's learn this one.", "Almost! Here's the answer.",
-    "That's a tricky one!", "Good thinking! Here's the answer."
+    "Let's learn this one together.", "Good try! Here's the answer.",
+    "That's a tricky one!", "Keep going, you've got this!"
   ];
 
   var app = document.getElementById("app");
@@ -103,8 +103,17 @@
     norm(questionText || "").split(" ").forEach(function (w) { qWords[w] = true; });
     var trimmed = norm(input).split(" ").filter(function (w) { return !qWords[w]; }).join(" ");
     var second = trimmed ? matchTyped(trimmed, answers) : false;
-    return second === "exact" ? second : first || second;
+    if (second === "exact") return second;
+    var close = first || second;
+    // A "spelling slip" that is really a different science term (meter for
+    // meteor, reflection for refraction) is a wrong answer, not a typo.
+    if (close && (isKnownTerm(norm(input)) || isKnownTerm(trimmed))) return false;
+    return close;
   }
+  var KNOWN_TERMS = {};
+  function termKey(n) { return n.replace(/ /g, "").replace(/s$/, ""); }
+  function addKnownTerm(t) { var k = termKey(norm(t)); if (k) KNOWN_TERMS[k] = true; }
+  function isKnownTerm(n) { return !!n && KNOWN_TERMS[termKey(n)] === true; }
   function matchTyped(n, answers) {
     if (!n) return false;
     var best = false;
@@ -120,12 +129,24 @@
   }
 
   /* ---------- question preparation ---------- */
+  // Banks list questions grouped into topic sections; flatten them and
+  // remember each question's topic so results can say what to review.
   EVENTS.forEach(function (ev) {
+    if (ev.sections) {
+      ev.questions = [];
+      ev.sections.forEach(function (s) {
+        s.questions.forEach(function (q) {
+          if (!q.topic) q.topic = s.topic;
+          ev.questions.push(q);
+        });
+      });
+    }
     ev.questions.forEach(function (q) {
       q.id = hash(q.q);
       q.eventId = ev.id;
       q.kind = q.type === "type" ? "type" : "choice";
       if (q.kind === "type" && !Array.isArray(q.a)) q.a = [q.a];
+      [].concat(q.a, q.wrong || []).forEach(addKnownTerm);
     });
   });
   function eventById(id) {
@@ -244,7 +265,7 @@
       '<section class="home">' +
         '<div class="home-head">' +
           "<h1>What do you want to practice today?</h1>" +
-          '<p class="lede">Pick an event and answer the questions. You\'ll find out right away if you got each one, and every quiz brings new questions until you\'ve seen them all.</p>' +
+          '<p class="lede">Practice for the 2027 NC Science Olympiad Division A knowledge events. Pick an event and answer the questions. You\'ll find out right away if you got each one, and every quiz brings new questions until you\'ve seen them all.</p>' +
         "</div>" +
         '<div class="length-picker" role="group" aria-label="Questions per quiz"><span>Questions per quiz:</span></div>' +
         '<div class="events"></div>' +
@@ -320,7 +341,7 @@
         "</div>" +
         '<div class="card">' +
           '<div class="q-label"><span>Question ' + (state.index + 1) + " of " + total +
-            (showEventTag ? " &middot; " + esc(eventById(q.eventId).name) : "") + "</span>" +
+            (showEventTag ? " &middot; " + esc(eventById(q.eventId).name) : q.topic ? " &middot; " + esc(q.topic) : "") + "</span>" +
             (canSpeak ? '<button type="button" class="speak" id="speakBtn">🔊 Hear it</button>' : "") +
           "</div>" +
           '<div class="q-text">' + esc(q.q) + "</div>" +
@@ -501,7 +522,7 @@
           '<div class="btn-row" id="resultBtns"></div>' +
         "</div>" +
         (missed.length
-          ? '<div class="review"><h3>Let\'s review the ones to practice</h3></div>'
+          ? '<div class="review"><h3>Let\'s review the ones to practice</h3>' + topicChips(missed) + "</div>"
           : "") +
       "</section>"
     );
@@ -535,6 +556,23 @@
     app.replaceChildren(view);
     window.scrollTo(0, 0);
     if (pct >= 80) confetti();
+  }
+
+  // "Study next" chips: the topics of missed questions, most-missed first.
+  function topicChips(missed) {
+    var counts = {};
+    var order = [];
+    missed.forEach(function (it) {
+      var t = it.q.topic;
+      if (!t) return;
+      if (!counts[t]) { counts[t] = 0; order.push(t); }
+      counts[t]++;
+    });
+    if (!order.length) return "";
+    order.sort(function (a, b) { return counts[b] - counts[a]; });
+    return '<div class="study-next"><span>Study next:</span>' +
+      order.map(function (t) { return '<span class="pill topic">' + esc(t) + "</span>"; }).join("") +
+      "</div>";
   }
 
   function confetti() {

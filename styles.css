@@ -323,6 +323,7 @@ p { margin: 0; }
   text-transform: none;
   font-weight: 700;
   color: var(--ink);
+  white-space: nowrap;
 }
 .q-text {
   font-family: var(--display);
@@ -434,6 +435,16 @@ p { margin: 0; }
 }
 .score-big small { font-size: 0.45em; color: var(--ink-soft); }
 .review { display: flex; flex-direction: column; gap: 10px; }
+.study-next {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ink-soft);
+}
+.pill.topic { color: var(--ink); background: color-mix(in srgb, var(--sun) 25%, var(--surface)); }
 .review-item {
   background: var(--surface);
   border: 2px solid var(--line);

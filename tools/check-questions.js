@@ -16,6 +16,13 @@ const warn = (ev, i, msg) => { problems++; console.log(`  ${ev.id} #${i + 1}: ${
 const seenText = new Map();
 
 for (const ev of ctx.window.QUIZ_EVENTS) {
+  if (ev.sections) {
+    ev.questions = [];
+    for (const s of ev.sections) {
+      if (!s.topic) { problems++; console.log(`  ${ev.id}: a section is missing its topic`); }
+      for (const q of s.questions) ev.questions.push(q);
+    }
+  }
   let mc = 0, typed = 0;
   ev.questions.forEach((q, i) => {
     if (!q.q) warn(ev, i, "missing question text");
@@ -37,7 +44,8 @@ for (const ev of ctx.window.QUIZ_EVENTS) {
     }
   });
   const n = ev.questions.length;
-  console.log(`${ev.name}: ${n} questions (${mc} multiple choice, ${typed} typed) = ${Math.floor(n / 10)} different 10-question quizzes`);
+  const topics = ev.sections ? `, ${ev.sections.length} topics` : "";
+  console.log(`${ev.name}: ${n} questions${topics} (${mc} multiple choice, ${typed} typed) = ${Math.floor(n / 10)} different 10-question quizzes`);
   if (n < 100) { problems++; console.log(`  ${ev.id}: fewer than 100 questions`); }
 }
 console.log(problems ? `\n${problems} problem(s) found.` : "\nAll question banks look good.");

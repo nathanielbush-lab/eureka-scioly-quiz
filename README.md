@@ -1,6 +1,7 @@
 # Eureka! Science Olympiad Pop Quiz
 
-A self-quiz web app for young Science Olympiad students. Students pick an event, answer
+A self-quiz web app for students preparing for the **2027 North Carolina Science Olympiad
+Division A** (elementary) tournament. Students pick an event, answer
 a 10-question quiz (5 and 15 are options too), get gentle feedback and a short
 explanation after every question, and finish with a score, stars, and a review of what
 they missed.
@@ -8,12 +9,34 @@ they missed.
 It is plain HTML, CSS, and JavaScript with no build step, server, or login. Upload the
 folder to any web host and it works.
 
+## Events
+
+One quiz for each 2027 NC Division A event that is scored on knowledge (a test or
+stations). Every bank sticks to what that event's rules list.
+
+| Event | Questions | What it covers |
+|---|---|---|
+| Beam Me Up | 102 | The written test: reflection, refraction, absorption, transmission, scattering, and the 11 eye parts in the rules |
+| Buzzworthy | 153 | Arachnida, Chilopoda, Crustacea, Diplopoda, Insecta, and the 17 insect orders in the rules; body parts, life cycles, ecology, economic roles |
+| Deep Blue Sea | 103 | The six listed zones, conditions, adaptations, representative animals, daily vertical migration |
+| Geology Rocks! | 140 | Only the Official Rocks & Minerals List, properties, uses, classification, the rock cycle |
+| Pump It Up | 127 | Heart, four valves, blood pathway, blood, vessels, respiratory parts, the eight listed diseases |
+| Roots & Reptiles | 149 | The Official Specimen List, NC state symbols, plant parts, tropisms, gardening, reptiles and amphibians |
+| Science Sketchers | 199 | A clue for every word on the official word list, with a drawing tip for each |
+| Ship Shape | 101 | The written test: buoyancy, displacement, Archimedes' principle, flotation, density |
+| Storm Chasers | 132 | Thunderstorms, tornadoes, hurricanes, blizzards, floods, maps, watches and warnings, safety, effects |
+| Zap Lab | 130 | Circuits, conductors and insulators, V/A/Ω/W, series and parallel, schematics, meters, safety |
+
+Build events (Bridge-A-Roni, Egg-O-Naut, Just Plane Awesome), Describe It, Build It, and
+Codebusters aren't included.
+
 ## What students get
 
 - **Event picker** with a tile for each event, plus a **Surprise Mix** tile that pulls from every event.
 - **Multiple choice and type-in questions.** Typed answers ignore capital letters,
   punctuation, and "the/a/an", and they accept small spelling slips. A slip still counts
-  as right and comes with a spelling tip.
+  as right and comes with a spelling tip, unless the "slip" is actually a different science
+  term (like *meter* for *meteor*), which counts as wrong.
 - **Instant, kind feedback.** A cheer when they're right. When they're wrong, an
   encouraging message, the right answer, and a one or two sentence explanation.
 - **No repeats until the whole bank is used.** Each event has 100+ questions, and the app
@@ -21,6 +44,8 @@ folder to any web host and it works.
   anything comes back around.
 - **Practice my missed questions.** Missed questions are saved. Getting one right later
   takes it off the list.
+- **Topics.** Each question shows its topic, and the results screen lists the topics to
+  study next, most-missed first.
 - **Hints** on some tricky questions.
 - **Read aloud.** Turn it on and the device reads each question and its choices out loud.
 - **Keyboard shortcuts.** Press 1–4 or A–D to pick an answer.
@@ -41,7 +66,16 @@ tools/check-questions.js  checks the question banks for mistakes
 
 ## Adding or editing questions
 
-Each file in `questions/` holds one event. Questions look like this:
+Each file in `questions/` holds one event. Questions are grouped into topic sections:
+
+```js
+sections: [
+  { topic: "Rock cycle", questions: [ /* questions */ ] },
+  { topic: "Igneous rocks", questions: [ /* questions */ ] }
+]
+```
+
+Questions look like this:
 
 ```js
 // Multiple choice: the right answer goes in "a", the others in "wrong".
@@ -95,4 +129,8 @@ missing explanations, and any event with fewer than 100 questions.
 
 Questions were written for about 9-year-old students and fact-checked, but please skim the
 events you coach and adjust anything that doesn't match how you teach it or this
-season's rules.
+season's rules. Tournament rules can change during the season, so check for updates from NCSO.
+
+Note: the 2027 manual's Roots & Reptiles specimen list gives Black Gum the scientific name
+*Eucalyptus ovata*. Black gum's scientific name is *Nyssa sylvatica*. The quiz uses only
+common names, as the rules say.
