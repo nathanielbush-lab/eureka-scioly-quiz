@@ -345,7 +345,10 @@
             (canSpeak ? '<button type="button" class="speak" id="speakBtn">🔊 Hear it</button>' : "") +
           "</div>" +
           '<div class="q-text">' + esc(q.q) + "</div>" +
-          (q.image ? '<img class="q-image" src="' + esc(q.image) + '" alt="' + esc(q.imageAlt || "Picture for this question") + '">' : "") +
+          (q.image
+            ? '<figure class="q-figure"><img class="q-image" src="' + esc(q.image) + '" alt="' + esc(q.imageAlt || "Picture for this question") + '">' +
+              (q.credit ? '<figcaption class="q-credit">' + esc(q.credit) + "</figcaption>" : "") + "</figure>"
+            : "") +
           '<div class="answer-area"></div>' +
           '<div class="after"></div>' +
         "</div>" +
@@ -545,6 +548,7 @@
       review.appendChild(el(
         '<div class="review-item">' +
           "<div>" + esc(it.q.q) + "</div>" +
+          (it.q.image ? '<img class="review-image" src="' + esc(it.q.image) + '" alt="' + esc(it.q.imageAlt || "") + '">' : "") +
           '<div class="answer">Answer: ' + esc(correctText(it.q)) + "</div>" +
           (it.given ? '<div class="yours">You said: ' + esc(it.given) + "</div>" : "") +
           (it.q.why ? "<div>" + esc(it.q.why) + "</div>" : "") +
