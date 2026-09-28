@@ -80,6 +80,10 @@ contact sheets there and lists the good ones in `tools/photos/picks.txt`. Then
 `images/` and writes `questions/photos.js`. Identification tips are in `tools/photos/tips.json`.
 To remove a photo, delete its number from `picks.txt` and rebuild.
 
+Photos someone supplies by hand go in `tools/photos/manual/`, with their credit and
+source page listed in `tools/photos/manual.json`; the same build step includes them.
+Still needed: a Mica photo (a "book" of thin, shiny sheets).
+
 ## Adding or editing questions
 
 Each file in `questions/` holds one event. Questions are grouped into topic sections:
