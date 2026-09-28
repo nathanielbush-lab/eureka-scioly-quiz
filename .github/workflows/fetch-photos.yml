@@ -1,0 +1,41 @@
+name: Fetch candidate photos
+
+# Downloads openly licensed candidate photos for the Picture ID questions and
+# pushes them to the photo-candidates branch for review. Runs when
+# tools/photos/request.json or specimens.json changes, or by hand.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "tools/photos/request.json"
+      - "tools/photos/specimens.json"
+      - "tools/photos/fetch_candidates.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-photos
+  cancel-in-progress: true
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pillow
+      - run: python tools/photos/fetch_candidates.py
+      - name: Push candidates to the photo-candidates branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan photo-candidates
+          git rm -rf --cached . > /dev/null
+          git add candidates
+          git commit -m "Candidate photos from run ${{ github.run_id }}"
+          git push -f origin photo-candidates
