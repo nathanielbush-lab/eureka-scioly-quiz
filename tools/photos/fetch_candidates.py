@@ -57,14 +57,30 @@ def get_json(url, params):
     return {}
 
 
+def inat_taxon_id(name):
+    """Look up the exact taxon, so 'Diptera' means the fly order and not a
+    species that happens to be named 'diptera'."""
+    data = get_json("https://api.inaturalist.org/v1/taxa", {"q": name, "per_page": 30, "is_active": "true"})
+    time.sleep(1.5)
+    for t in data.get("results", []):
+        if t.get("name", "").lower() == name.lower():
+            log("  taxon", name, "->", t["id"], t.get("rank"))
+            return t["id"]
+    log("  no exact taxon for", name)
+    return None
+
+
 def inat_candidates(spec, want, skip):
     found, seen_users = [], set()
     places = [NC_PLACE_ID, None]
     for name in spec["inat"]:
+        taxon_id = inat_taxon_id(name)
+        if not taxon_id:
+            continue
         for place in places:
             for page, order_by in ((1, "votes"), (2, "votes"), (1, "observed_on")):
                 params = {
-                    "taxon_name": name, "quality_grade": "research", "photos": "true",
+                    "taxon_id": taxon_id, "quality_grade": "research", "photos": "true",
                     "photo_license": INAT_LICENSES, "per_page": 50, "page": page,
                     "order_by": order_by, "order": "desc",
                 }
