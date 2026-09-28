@@ -131,7 +131,8 @@ window.QUIZ_PHOTOS = {
   "quartz": "Glassy, six-sided crystals with pointed tips. Very hard (7), and it breaks with curved fractures.",
   "galena": "Heavy, shiny, lead-gray metal that forms or breaks into cubes. It leaves a gray streak.",
   "graphite": "Soft, black to steel-gray, and greasy-feeling. It leaves a mark on paper, like pencil lead.",
-  "scoria": "Dark red-brown or black, full of holes, but heavier than pumice. It usually sinks."
+  "scoria": "Dark red-brown or black, full of holes, but heavier than pumice. It usually sinks.",
+  "halite": "Clear to white cubes, often with stair-step faces. It tastes salty and dissolves in water."
  },
  "photos": [
   {
@@ -2893,6 +2894,16 @@ window.QUIZ_PHOTOS = {
    "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
    "source": "https://commons.wikimedia.org/wiki/File:Vesicular_basalt_(Quaternary;_Snake_River_Plain,_Idaho,_USA)_4.jpg",
    "alt": "Photo of a rock specimen"
+  },
+  {
+   "id": "halite",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Halite",
+   "image": "images/geology-rocks/halite-1.jpg",
+   "credit": "Photo: Aram Dulyan (Aramgutang), public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Halite_crystal.jpg",
+   "alt": "Photo of a mineral specimen"
   }
  ]
 };

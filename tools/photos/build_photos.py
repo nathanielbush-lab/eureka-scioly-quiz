@@ -6,6 +6,9 @@ picks.txt lists the photos a person approved after looking at them, one
 specimen per line: "<specimen id> <candidate number> <candidate number> ...".
 Each picked candidate is copied to images/<event>/<id>-<k>.jpg, and its credit
 comes from the candidates' manifest.json.
+
+manual.json adds photos a person supplied directly (kept in tools/photos/manual/),
+as {"<specimen id>": [{"file", "credit", "source"}]}.
 """
 import json
 import os
@@ -62,6 +65,22 @@ def main(cand_root):
             photos.append({
                 "id": sid, "event": spec["event"], "group": spec["group"], "name": spec["name"],
                 "image": rel, "credit": c["credit"], "source": c.get("source", ""),
+                "alt": ALT[spec["group"]],
+            })
+    manual_path = os.path.join(HERE, "manual.json")
+    manual = json.load(open(manual_path)) if os.path.exists(manual_path) else {}
+    for sid, items in manual.items():
+        spec = specs[sid]
+        start = sum(1 for p in photos if p["id"] == sid)
+        for k, item in enumerate(items, start + 1):
+            rel = "images/%s/%s-%d.jpg" % (spec["event"], sid, k)
+            os.makedirs(os.path.dirname(os.path.join(ROOT, rel)), exist_ok=True)
+            img = Image.open(os.path.join(ROOT, item["file"])).convert("RGB")
+            img.thumbnail((MAX_SIDE, MAX_SIDE))
+            img.save(os.path.join(ROOT, rel), "JPEG", quality=74, optimize=True, progressive=True)
+            photos.append({
+                "id": sid, "event": spec["event"], "group": spec["group"], "name": spec["name"],
+                "image": rel, "credit": item["credit"], "source": item.get("source", ""),
                 "alt": ALT[spec["group"]],
             })
     used_tips = {p["id"]: tips[p["id"]] for p in photos}
