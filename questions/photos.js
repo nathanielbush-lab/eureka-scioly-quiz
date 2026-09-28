@@ -119,7 +119,16 @@ window.QUIZ_PHOTOS = {
   "psocodea": "Tiny, soft insects with big heads. Barklice live on bark; lice are flat and wingless parasites.",
   "siphonaptera": "Tiny, wingless, and flattened side to side, with powerful jumping legs. Fleas.",
   "trichoptera": "Moth-like, but with hairy wings held like a tent and very long antennae. Larvae build cases in streams. Caddisflies.",
-  "zygentoma": "Wingless, flat, silvery, carrot-shaped body with three tail filaments. Silverfish."
+  "zygentoma": "Wingless, flat, silvery, carrot-shaped body with three tail filaments. Silverfish.",
+  "granite": "Speckled with large, interlocking crystals: glassy gray quartz, pink or white feldspar, and black specks of mica.",
+  "limestone-chemical": "Usually light gray to tan, fine-grained, with no big pieces. It fizzes with weak acid.",
+  "shale": "Fine-grained, gray or black, and splits into thin, flat layers. It feels smooth, like hardened mud.",
+  "feldspar": "Pink to salmon-colored and blocky, with flat, shiny cleavage faces that meet at nearly right angles.",
+  "fluorite": "Glassy cubes or octahedrons, often purple or green, sometimes banded. Hardness 4.",
+  "gypsum": "Soft (you can scratch it with a fingernail), white to clear, sometimes in long blades (selenite) or fibers.",
+  "talc": "Very soft (1), greasy or soapy to touch, and usually white, pale green, or gray.",
+  "pyrite": "Brassy, pale gold metallic cubes with striped faces. It leaves a greenish-black streak.",
+  "quartz": "Glassy, six-sided crystals with pointed tips. Very hard (7), and it breaks with curved fractures."
  },
  "photos": [
   {
@@ -2641,6 +2650,176 @@ window.QUIZ_PHOTOS = {
    "credit": "Photo: Morgan Freese, CC BY, via iNaturalist",
    "source": "https://www.inaturalist.org/observations/120847113",
    "alt": "Photo of an insect"
+  },
+  {
+   "id": "granite",
+   "event": "geology-rocks",
+   "group": "rock",
+   "name": "Granite",
+   "image": "images/geology-rocks/granite-1.jpg",
+   "credit": "Photo: Dexter Perkins, CC0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Biotite-hornblende_granite_(GeoDIL_number_-_21).jpg",
+   "alt": "Photo of a rock specimen"
+  },
+  {
+   "id": "granite",
+   "event": "geology-rocks",
+   "group": "rock",
+   "name": "Granite",
+   "image": "images/geology-rocks/granite-2.jpg",
+   "credit": "Photo: Dexter Perkins, CC0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Alkalic_granite_(GeoDIL_number_-_22).jpg",
+   "alt": "Photo of a rock specimen"
+  },
+  {
+   "id": "limestone-chemical",
+   "event": "geology-rocks",
+   "group": "rock",
+   "name": "Chemical limestone",
+   "image": "images/geology-rocks/limestone-chemical-1.jpg",
+   "credit": "Photo: Unknown author, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Limestone_with_fossils01.jpg",
+   "alt": "Photo of a rock specimen"
+  },
+  {
+   "id": "limestone-chemical",
+   "event": "geology-rocks",
+   "group": "rock",
+   "name": "Chemical limestone",
+   "image": "images/geology-rocks/limestone-chemical-2.jpg",
+   "credit": "Photo: Nessa Eull, CC0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Gray_limestone_(GeoDIL_number_-_484).jpg",
+   "alt": "Photo of a rock specimen"
+  },
+  {
+   "id": "shale",
+   "event": "geology-rocks",
+   "group": "rock",
+   "name": "Shale",
+   "image": "images/geology-rocks/shale-1.jpg",
+   "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Fragment_from_a_carbonate_concretion_(Ohio_Shale,_Upper_Devonian;_Lazarus_Run,_Delaware_County,_Ohio,_USA).jpg",
+   "alt": "Photo of a rock specimen"
+  },
+  {
+   "id": "shale",
+   "event": "geology-rocks",
+   "group": "rock",
+   "name": "Shale",
+   "image": "images/geology-rocks/shale-2.jpg",
+   "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Black_shale_with_concretions_(Ohio_Shale,_Upper_Devonian;_Lazarus_Run,_Delaware_County,_Ohio,_USA)_5.jpg",
+   "alt": "Photo of a rock specimen"
+  },
+  {
+   "id": "feldspar",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Feldspar (pink)",
+   "image": "images/geology-rocks/feldspar-1.jpg",
+   "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Microcline-199473.jpg",
+   "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "feldspar",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Feldspar (pink)",
+   "image": "images/geology-rocks/feldspar-2.jpg",
+   "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Quartz-Microcline-49598.jpg",
+   "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "fluorite",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Fluorite",
+   "image": "images/geology-rocks/fluorite-1.jpg",
+   "credit": "Photo: Raimond Spekking, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Fluorite._Salzburg,_Austria-8862.jpg",
+   "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "fluorite",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Fluorite",
+   "image": "images/geology-rocks/fluorite-2.jpg",
+   "credit": "Photo: Raimond Spekking, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Fluorite,_Oltschi-Alp,_Brienzwiler,_Berner_Oberland,_Switzerland-8783.jpg",
+   "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "fluorite",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Fluorite",
+   "image": "images/geology-rocks/fluorite-3.jpg",
+   "credit": "Photo: Raimond Spekking, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Fluorite._Wei%C3%9Feck,_Lungau,_Salzburg,_Austria-8995.jpg",
+   "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "gypsum",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Gypsum",
+   "image": "images/geology-rocks/gypsum-1.jpg",
+   "credit": "Photo: Carlquist, Sherwin John, 1930-2021, CC BY 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:(Twinned_gypsum_mineral_specimen_close-up_from_Bishop_Museum,_United_States)_-_DPLA_-_453a3d2fb57f6482299f8ec709b1086c.jpg",
+   "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "talc",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Talc",
+   "image": "images/geology-rocks/talc-1.jpg",
+   "credit": "Photo: John Krygier, Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Talc-386100.jpg",
+   "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "pyrite",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Pyrite",
+   "image": "images/geology-rocks/pyrite-1.jpg",
+   "credit": "Photo: Photo by and (c)2015 Derek Ramsey (Ram-Man), CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Pyrite_on_matrix_Specimen_1.JPG",
+   "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "pyrite",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Pyrite",
+   "image": "images/geology-rocks/pyrite-2.jpg",
+   "credit": "Photo: Photo by and (c)2015 Derek Ramsey (Ram-Man), CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Pyrite_on_matrix_Specimen_2.JPG",
+   "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "quartz",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Quartz",
+   "image": "images/geology-rocks/quartz-1.jpg",
+   "credit": "Photo: Meralt Limited, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Rutilated_Quartz_Specimen_from_Madagascar,_including_Copper_Rutiles_and_Schorl,_Polished.jpg",
+   "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "quartz",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Quartz",
+   "image": "images/geology-rocks/quartz-2.jpg",
+   "credit": "Photo: Photo by and (c)2015 Derek Ramsey (Ram-Man), CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Quartz_var_Amethyst_Specimen_22.JPG",
+   "alt": "Photo of a mineral specimen"
   }
  ]
 };

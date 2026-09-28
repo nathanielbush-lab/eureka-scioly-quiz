@@ -84,3 +84,12 @@ psocodea 4 7 8
 siphonaptera 1 5 4
 trichoptera 5 3 4
 zygentoma 2 8 3
+granite 2 1
+limestone-chemical 2 1
+shale 1 7
+feldspar 1 2
+fluorite 1 4 2
+gypsum 2
+talc 3
+pyrite 1 2
+quartz 4 2

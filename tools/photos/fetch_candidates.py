@@ -189,7 +189,7 @@ def save_image(url, path):
             continue
         break
     r.raise_for_status()
-    time.sleep(2 if "wikimedia" in url else 0.5)
+    time.sleep(6 if "wikimedia" in url else 0.5)
     img = Image.open(io.BytesIO(r.content)).convert("RGB")
     img.thumbnail((MAX_SIDE, MAX_SIDE))
     img.save(path, "JPEG", quality=80, optimize=True, progressive=True)

@@ -1,20 +1,11 @@
 {
  "only": [
-  "galena",
-  "halite",
-  "mica",
-  "pyrite",
-  "graphite",
-  "gypsum",
-  "talc",
-  "fluorite",
-  "feldspar",
-  "quartz",
-  "granite",
-  "limestone-chemical",
   "scoria",
-  "shale"
+  "mica",
+  "halite",
+  "galena",
+  "graphite"
  ],
- "per": 8,
+ "per": 6,
  "skip": {}
 }
