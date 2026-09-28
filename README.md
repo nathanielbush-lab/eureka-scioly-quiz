@@ -135,11 +135,11 @@ missing explanations, and any event with fewer than 100 questions.
 
 - **Any web host / school site that accepts uploaded files:** upload the whole folder and
   link to `index.html`.
-- **GitHub Pages (free):** in this repo's Settings → Pages, choose "Deploy from a branch",
-  pick `main` and `/ (root)`. The app will be at `https://<your-username>.github.io/eureka-scioly-quiz/`.
-  GitHub Pages needs a public repo on a free account.
-- **Google Sites, Squarespace, Wix, etc.:** host it somewhere above, then use the site
-  builder's "Embed" or "iframe" block to show that address inside your page.
+- **GitHub Pages (live):** the quiz is published at
+  https://nathanielbush-lab.github.io/eureka-scioly-quiz/ and updates a minute or two after
+  each push to `main`. (`.nojekyll` tells Pages to serve the files as-is.)
+- **Google Sites:** on the Pop Quiz page, Insert → Embed → By URL → paste the address →
+  Whole page, then drag the box to about 900 px tall and full width.
 
 ## Accuracy
 
