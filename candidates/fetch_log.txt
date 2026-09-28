@@ -1,0 +1,92 @@
+== arachnida
+  taxon Arachnida -> 47119 class
+  inat Arachnida place 30 page 1 votes -> 50 of 61139
+  kept 8
+== chilopoda
+  taxon Chilopoda -> 49556 class
+  inat Chilopoda place 30 page 1 votes -> 50 of 1596
+  kept 8
+== crustacea
+  taxon Isopoda -> 48147 order
+  inat Isopoda place 30 page 1 votes -> 50 of 5197
+  kept 8
+== diplopoda
+  taxon Diplopoda -> 47735 class
+  inat Diplopoda place 30 page 1 votes -> 50 of 4079
+  kept 8
+== archaeognatha
+  taxon Archaeognatha -> 461443 order
+  inat Archaeognatha place 30 page 1 votes -> 4 of 4
+  retry https://api.inaturalist.org/v1/observations ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+  inat Archaeognatha place 30 page 2 votes -> 0 of 4
+  inat Archaeognatha place 30 page 1 observed_on -> 4 of 4
+  inat Archaeognatha place None page 1 votes -> 50 of 1866
+  kept 8
+== blattodea
+  taxon Blattodea -> 81769 order
+  inat Blattodea place 30 page 1 votes -> 50 of 2234
+  kept 8
+== coleoptera
+  taxon Coleoptera -> 47208 order
+  inat Coleoptera place 30 page 1 votes -> 50 of 14749
+  kept 8
+== dermaptera
+  taxon Dermaptera -> 47793 order
+  inat Dermaptera place 30 page 1 votes -> 50 of 567
+  kept 8
+== diptera
+  taxon Diptera -> 47822 order
+  inat Diptera place 30 page 1 votes -> 50 of 4191
+  kept 8
+== ephemeroptera
+  taxon Ephemeroptera -> 48011 order
+  inat Ephemeroptera place 30 page 1 votes -> 50 of 102
+  kept 8
+== hemiptera
+  taxon Hemiptera -> 47744 order
+  inat Hemiptera place 30 page 1 votes -> 50 of 21473
+  kept 8
+== hymenoptera
+  taxon Hymenoptera -> 47201 order
+  inat Hymenoptera place 30 page 1 votes -> 50 of 7675
+  kept 8
+== lepidoptera
+  taxon Lepidoptera -> 47157 order
+  inat Lepidoptera place 30 page 1 votes -> 50 of 159383
+  kept 8
+== neuroptera
+  taxon Neuroptera -> 48763 order
+  inat Neuroptera place 30 page 1 votes -> 50 of 2355
+  kept 8
+== odonata
+  taxon Odonata -> 47792 order
+  inat Odonata place 30 page 1 votes -> 50 of 4595
+  kept 8
+== orthoptera
+  taxon Orthoptera -> 47651 order
+  inat Orthoptera place 30 page 1 votes -> 50 of 1912
+  kept 8
+== phasmatodea
+  taxon Phasmida -> 47198 order
+  inat Phasmida place 30 page 1 votes -> 50 of 227
+  kept 8
+== psocodea
+  taxon Psocodea -> 83187 order
+  inat Psocodea place 30 page 1 votes -> 50 of 785
+  kept 8
+== siphonaptera
+  taxon Siphonaptera -> 83204 order
+  inat Siphonaptera place 30 page 1 votes -> 8 of 8
+  inat Siphonaptera place 30 page 2 votes -> 0 of 8
+  inat Siphonaptera place 30 page 1 observed_on -> 8 of 8
+  inat Siphonaptera place None page 1 votes -> 50 of 451
+  kept 8
+== trichoptera
+  taxon Trichoptera -> 62164 order
+  inat Trichoptera place 30 page 1 votes -> 50 of 259
+  kept 8
+== zygentoma
+  taxon Zygentoma -> 48301 order
+  inat Zygentoma place 30 page 1 votes -> 50 of 176
+  kept 8
+done: 100 specimens; empty: ['galena', 'halite', 'mica']

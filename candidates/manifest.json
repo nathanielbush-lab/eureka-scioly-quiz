@@ -1831,13 +1831,159 @@
   "name": "Arachnida",
   "event": "buzzworthy",
   "group": "class",
-  "candidates": []
+  "candidates": [
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/220069212/large.jpg",
+    "credit": "Photo: Brian Bockhahn, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/129494070",
+    "taxon": "Microhexura montivaga",
+    "place": "North Carolina, US",
+    "file": "candidates/arachnida/1.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/161596651/large.jpg",
+    "credit": "Photo: Amy Padgett, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/97195959",
+    "taxon": "Phidippus otiosus",
+    "place": "Second run bridge, Bladen County, NC, USA",
+    "file": "candidates/arachnida/2.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/205763205/large.jpeg",
+    "credit": "Photo: wshear, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/121586204",
+    "taxon": "Sphodros rufipes",
+    "place": "Jackson County, NC, USA",
+    "file": "candidates/arachnida/3.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22001478/large.jpg",
+    "credit": "Photo: caterpillarscount, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/14745885",
+    "taxon": "Rhomphaea fictilium",
+    "place": "27607, Raleigh, NC, US",
+    "file": "candidates/arachnida/4.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/387923485/large.jpeg",
+    "credit": "Photo: Michael J. Papay, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/219179763",
+    "taxon": "Phidippus whitmani",
+    "place": "North Carolina, US",
+    "file": "candidates/arachnida/5.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108704799/large.jpg",
+    "credit": "Photo: benansel, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/67302233",
+    "taxon": "Centruroides hentzi",
+    "place": "Acorn Ct, Pine Knoll Shores, NC, US",
+    "file": "candidates/arachnida/6.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/571075245/large.jpg",
+    "credit": "Photo: josduv, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/316095603",
+    "taxon": "Peucetia viridans",
+    "place": "Wakefield Dr, Princeton, NC, US",
+    "file": "candidates/arachnida/7.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/147033505/large.jpeg",
+    "credit": "Photo: Erich P. Hofmann, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/89064199",
+    "taxon": "Libitioides",
+    "place": "North Carolina, US",
+    "file": "candidates/arachnida/8.jpg"
+   }
+  ]
  },
  "chilopoda": {
   "name": "Chilopoda",
   "event": "buzzworthy",
   "group": "class",
-  "candidates": []
+  "candidates": [
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/187186690/large.jpeg",
+    "credit": "Photo: Robby Deans, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/110920150",
+    "taxon": "Thereuonema tuberculata",
+    "place": "Rural Hall, NC, USA",
+    "file": "candidates/chilopoda/1.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/235222908/large.jpg",
+    "credit": "Photo: Tim Lewis, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/137699428",
+    "taxon": "Scolopendra viridis",
+    "place": "New Hanover County, NC, USA",
+    "file": "candidates/chilopoda/2.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/242842048/large.jpeg",
+    "credit": "Photo: Erich P. Hofmann, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/141714638",
+    "taxon": "Scolopendra viridis",
+    "place": "North Carolina, US",
+    "file": "candidates/chilopoda/3.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/262657937/large.jpg",
+    "credit": "Photo: Ken Kneidel, CC0, via iNaturalist",
+    "license": "CC0",
+    "source": "https://www.inaturalist.org/observations/152171526",
+    "taxon": "Strigamia bothriopus",
+    "place": "Cotswold, Charlotte, NC 28211, USA",
+    "file": "candidates/chilopoda/4.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120146474/large.jpeg",
+    "credit": "Photo: bonnieeamick, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/73582858",
+    "taxon": "Hemiscolopendra marginata",
+    "place": "Wake County, US-NC, US",
+    "file": "candidates/chilopoda/5.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27513933/large.jpeg",
+    "credit": "Photo: Kevin Metcalf, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/17998739",
+    "taxon": "Hemiscolopendra marginata",
+    "place": "Mecklenburg County, NC, USA",
+    "file": "candidates/chilopoda/6.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23973657/large.jpg",
+    "credit": "Photo: Dr. Mike Larsen, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/16007934",
+    "taxon": "Scutigera coleoptrata",
+    "place": "5201 Blue Stem Court Raleigh NC",
+    "file": "candidates/chilopoda/7.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36174069/large.jpeg",
+    "credit": "Photo: Luke Armstrong, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/23351080",
+    "taxon": "Hemiscolopendra marginata",
+    "place": "Northwest Raleigh, Raleigh, NC, USA",
+    "file": "candidates/chilopoda/8.jpg"
+   }
+  ]
  },
  "crustacea": {
   "name": "Crustacea",
@@ -1845,75 +1991,75 @@
   "group": "class",
   "candidates": [
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/507237061/large.jpg",
-    "credit": "Photo: magpies_friends, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152333717/large.jpg",
+    "credit": "Photo: Margarita Lankford, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/282328768",
-    "taxon": "Isopedella cerussata",
-    "place": "South Australia, AU",
+    "source": "https://www.inaturalist.org/observations/92041180",
+    "taxon": "Armadillidium nasatum",
+    "place": "Chapel Hill, NC, USA",
     "file": "candidates/crustacea/1.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/343396167/large.jpg",
-    "credit": "Photo: gee912, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5897010/large.jpeg",
+    "credit": "Photo: Robby Deans, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/195228175",
-    "taxon": "Isopedella cerussata",
-    "place": "Mildura - Pt B, AU-VI, AU",
+    "source": "https://www.inaturalist.org/observations/4856991",
+    "taxon": "Ligidium elrodii elrodii",
+    "place": "Beaufort County, NC, USA",
     "file": "candidates/crustacea/2.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/145764469/large.jpg",
-    "credit": "Photo: Dean Beaver, CC BY-NC, via iNaturalist",
-    "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/88351504",
-    "taxon": "Holconia nigrigularis",
-    "place": "Kwolyin, WA, AU",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166868952/large.jpeg",
+    "credit": "Photo: Troi Perkins, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/100018506",
+    "taxon": "Armadillidium nasatum",
+    "place": "Durham, NC 27705, USA",
     "file": "candidates/crustacea/3.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376143525/large.jpeg",
-    "credit": "Photo: cinclosoma, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/609364361/large.jpg",
+    "credit": "Photo: Larry Chen, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/179617808",
-    "taxon": "Isopedella cerussata",
-    "place": "Victoria, AU",
+    "source": "https://www.inaturalist.org/observations/335434469",
+    "taxon": "Chiridotea",
+    "place": "Ocracoke, NC 27960, USA",
     "file": "candidates/crustacea/4.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/626363640/large.jpg",
-    "credit": "Photo: Joshua S. Martin, CC0, via iNaturalist",
-    "license": "CC0",
-    "source": "https://www.inaturalist.org/observations/343816802",
-    "taxon": "Isopeda woodwardi",
-    "place": "Inman Valley SA 5211, Australia",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243222776/large.jpg",
+    "credit": "Photo: Max J. Ford, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/141916354",
+    "taxon": "Littorophiloscia vittata",
+    "place": "Croatan National Forest, Swansboro, NC, US",
     "file": "candidates/crustacea/5.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/474947979/large.jpg",
-    "credit": "Photo: P.D. Amara, CC BY-NC, via iNaturalist",
-    "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/264498314",
-    "taxon": "Isopeda woodwardi",
-    "place": "Mount Barker SA 5251, Australia",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30221802/large.jpg",
+    "credit": "Photo: Joshua Liverman, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/19628141",
+    "taxon": "Anilocra acuta",
+    "place": "Ships Bay, , NC, US",
     "file": "candidates/crustacea/6.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177100244/large.jpg",
-    "credit": "Photo: Mark Newton, CC BY-NC, via iNaturalist",
-    "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/105537809",
-    "taxon": "Isopedella cerussata",
-    "place": "Morgan SA 5320, Australia",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/609116820/large.jpg",
+    "credit": "Photo: harrier, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/335312810",
+    "taxon": "Chiridotea",
+    "place": "Ocracoke, NC 27960, USA",
     "file": "candidates/crustacea/7.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/517050499/large.jpg",
-    "credit": "Photo: eim03, CC BY-NC, via iNaturalist",
-    "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/287553518",
-    "taxon": "Isopedella cerussata",
-    "place": "New South Wales, AU",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60618380/large.jpg",
+    "credit": "Photo: Austin Pursley, CC0, via iNaturalist",
+    "license": "CC0",
+    "source": "https://www.inaturalist.org/observations/38167733",
+    "taxon": "Porcellionides virgatus",
+    "place": "Carteret County, NC, USA",
     "file": "candidates/crustacea/8.jpg"
    }
   ]
@@ -1922,13 +2068,159 @@
   "name": "Diplopoda",
   "event": "buzzworthy",
   "group": "class",
-  "candidates": []
+  "candidates": [
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117548586/large.jpeg",
+    "credit": "Photo: steve b, CC0, via iNaturalist",
+    "license": "CC0",
+    "source": "https://www.inaturalist.org/observations/72130254",
+    "taxon": "Euryurus carolinensis",
+    "place": "Chapel Hill, NC, USA",
+    "file": "candidates/diplopoda/1.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119869762/large.jpg",
+    "credit": "Photo: Morgan Heinz, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/73425397",
+    "taxon": "Narceus americanus",
+    "place": "Phacelia Way, Cary, NC, US",
+    "file": "candidates/diplopoda/2.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81172424/large.jpeg",
+    "credit": "Photo: Zoe O., CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/51100216",
+    "taxon": "Cherokia georgiana",
+    "place": "Macon County, US-NC, US",
+    "file": "candidates/diplopoda/3.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90380355/large.jpg",
+    "credit": "Photo: Derek Hennen, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/56704505",
+    "taxon": "Onomeris australora",
+    "place": "Highlands, NC 28741, USA",
+    "file": "candidates/diplopoda/4.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/528909238/large.jpg",
+    "credit": "Photo: Eve, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/293874232",
+    "taxon": "Apheloria tigana",
+    "place": "Timber View Ln, Cary, NC, US",
+    "file": "candidates/diplopoda/5.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/482604129/large.jpeg",
+    "credit": "Photo: LeslieMc, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/268482216",
+    "taxon": "Sigmoria nantahalae",
+    "place": "Hayesville, NC 28904, USA",
+    "file": "candidates/diplopoda/6.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/691773874/large.jpg",
+    "credit": "Photo: Jasen Liu, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/378249685",
+    "taxon": "Brachycybe lecontii",
+    "place": "Asheville, NC, USA",
+    "file": "candidates/diplopoda/7.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/203942371/large.jpeg",
+    "credit": "Photo: Jozef K. Richards, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/120575805",
+    "taxon": "Apheloria tigana",
+    "place": "North Carolina, US",
+    "file": "candidates/diplopoda/8.jpg"
+   }
+  ]
  },
  "archaeognatha": {
   "name": "Archaeognatha",
   "event": "buzzworthy",
   "group": "order",
-  "candidates": []
+  "candidates": [
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/266455573/large.jpg",
+    "credit": "Photo: john_copeland, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/154222872",
+    "taxon": "Trigoniophthalmus alternatus",
+    "place": "Pisgah National Forest, Balsam Grove, NC, US",
+    "file": "candidates/archaeognatha/1.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/513159680/large.jpg",
+    "credit": "Photo: this_person_exists, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/285491129",
+    "taxon": "Pedetontus saltator",
+    "place": "Franklin, NC 28734, USA",
+    "file": "candidates/archaeognatha/2.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/294432904/large.jpeg",
+    "credit": "Photo: Michael J. Papay, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/169809755",
+    "taxon": "Petrobiinae",
+    "place": "North Carolina, US",
+    "file": "candidates/archaeognatha/3.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/580232356/large.jpg",
+    "credit": "Photo: dutch1831, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/320880236",
+    "taxon": "Pedetontus saltator",
+    "place": "Walnut Cove, NC 27052, USA",
+    "file": "candidates/archaeognatha/4.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14005531/large.jpg",
+    "credit": "Photo: Pierre Bornand, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/10150002",
+    "taxon": "Trigoniophthalmus alternatus",
+    "place": "Vevey, Canton of Vaud, Switzerland",
+    "file": "candidates/archaeognatha/5.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/320478899/large.jpg",
+    "credit": "Photo: shapomacro, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/183671296",
+    "taxon": "Lepismachilis notata",
+    "place": "\u0413\u0440\u043e\u0434\u043d\u043e, \u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c",
+    "file": "candidates/archaeognatha/6.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/344715422/large.jpg",
+    "credit": "Photo: Julian Fuchs, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/195878286",
+    "taxon": "Trigoniophthalmus alternatus",
+    "place": "Prospect Park (incl. Brooklyn Botanic Garden), Kings, New Yo",
+    "file": "candidates/archaeognatha/7.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/621977272/large.jpg",
+    "credit": "Photo: Huang Baochen | \u9ec4\u5b9d\u81e3, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/341637160",
+    "taxon": "Hybographitarsus",
+    "place": "\u9a6c\u6765\u897f\u4e9a\u7802\u62c9\u8d8a\u53e4\u664b",
+    "file": "candidates/archaeognatha/8.jpg"
+   }
+  ]
  },
  "blattodea": {
   "name": "Blattodea",
@@ -1936,49 +2228,76 @@
   "group": "order",
   "candidates": [
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/528909625/large.jpg",
-    "credit": "Photo: Robert Simcox, CC BY, via iNaturalist",
-    "license": "CC-BY",
-    "source": "https://www.inaturalist.org/observations/293874585",
-    "taxon": "Metarhizium blattodeae",
-    "place": "Orange County, IN, USA",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23808833/large.jpg",
+    "credit": "Photo: Patrick Coin, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/15917471",
+    "taxon": "Plectoptera picta",
+    "place": "Durham, North Carolina, United States",
     "file": "candidates/blattodea/1.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189413187/large.jpeg",
-    "credit": "Photo: Jacob Kalichman, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200875739/large.jpeg",
+    "credit": "Photo: Robby Deans, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/112148581",
-    "taxon": "Metarhizium blattodeae",
-    "place": "Sweetwater Preserve, Gainesville, Florida, USA",
+    "source": "https://www.inaturalist.org/observations/118866522",
+    "taxon": "Cariblatta lutea",
+    "place": "Rural Hall, NC, USA",
     "file": "candidates/blattodea/2.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/483213031/large.jpeg",
-    "credit": "Photo: ritirene, CC BY, via iNaturalist",
-    "license": "CC-BY",
-    "source": "https://www.inaturalist.org/observations/268801421",
-    "taxon": "Metarhizium blattodeae",
-    "place": "8627+CV3, R\u00edo Grande 00745, Puerto Rico",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453457449/large.jpeg",
+    "credit": "Photo: elijahfreeman19, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/253270165",
+    "taxon": "Validiblatta fuliginosa",
+    "place": "Nicole Ln, Poplar Branch, NC, US",
     "file": "candidates/blattodea/3.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/461201838/large.jpeg",
-    "credit": "Photo: Kurt Miller, CC BY-SA, via iNaturalist",
-    "license": "CC-BY-SA",
-    "source": "https://www.inaturalist.org/observations/257134072",
-    "taxon": "Metarhizium blattodeae",
-    "place": "Miradero, Mayag\u00fcez, Puerto Rico",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100958599/large.jpg",
+    "credit": "Photo: channierenn9924, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/62955756",
+    "taxon": "Coptotermes formosanus",
+    "place": "E Tenth St, Greenville, NC, US",
     "file": "candidates/blattodea/4.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/600535352/large.jpg",
-    "credit": "Photo: Matthew Polanco, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176936159/large.jpg",
+    "credit": "Photo: Khajol D, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/331085997",
-    "taxon": "Metarhizium blattodeae",
-    "place": "Adjuntas, PR, US",
+    "source": "https://www.inaturalist.org/observations/105452170",
+    "taxon": "Periplaneta americana",
+    "place": "Albert Ct, Cary, NC, US",
     "file": "candidates/blattodea/5.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/439766851/large.jpeg",
+    "credit": "Photo: emma_rieves, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/246346476",
+    "taxon": "Periplaneta americana",
+    "place": "Tuscany Ln, Cornelius, NC, US",
+    "file": "candidates/blattodea/6.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/532379126/large.jpg",
+    "credit": "Photo: Nicol\u00e1s, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/295712877",
+    "taxon": "Pseudomops septentrionalis",
+    "place": "Elizabeth City, NC 27909, USA",
+    "file": "candidates/blattodea/7.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/416755910/large.jpg",
+    "credit": "Photo: Linda Watson, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/234431354",
+    "taxon": "Reticulitermes hageni",
+    "place": "EJ Wild Life Garden, Raleigh, NC, USA",
+    "file": "candidates/blattodea/8.jpg"
    }
   ]
  },
@@ -1986,7 +2305,80 @@
   "name": "Coleoptera",
   "event": "buzzworthy",
   "group": "order",
-  "candidates": []
+  "candidates": [
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/302090929/large.jpg",
+    "credit": "Photo: Kim H, CC BY-SA, via iNaturalist",
+    "license": "CC-BY-SA",
+    "source": "https://www.inaturalist.org/observations/173920616",
+    "taxon": "Photinus pyralis",
+    "place": "225 Joe Hampton Rd, Lansing, NC 28643",
+    "file": "candidates/coleoptera/1.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/206980687/large.jpeg",
+    "credit": "Photo: Robby Deans, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/122260192",
+    "taxon": "Ceratocanthus aeneus",
+    "place": "Rural Hall, NC, USA",
+    "file": "candidates/coleoptera/2.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83339141/large.jpg",
+    "credit": "Photo: Mark Shields, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/52426779",
+    "taxon": "Ellipsoptera lepida",
+    "place": "United States",
+    "file": "candidates/coleoptera/3.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146129611/large.jpg",
+    "credit": "Photo: marissaecole, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/88559878",
+    "taxon": "Micromalthus debilis",
+    "place": "NC State University, Raleigh, NC, US",
+    "file": "candidates/coleoptera/4.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/956143/large.jpg",
+    "credit": "Photo: Patrick Coin, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/7080373",
+    "taxon": "Lucanus capreolus",
+    "place": "North Carolina, US",
+    "file": "candidates/coleoptera/5.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/412368223/large.jpg",
+    "credit": "Photo: Sarah Oberlin, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/232133735",
+    "taxon": "Hippodamia glacialis",
+    "place": "Northgreen, Rocky Mount, NC 27804, USA",
+    "file": "candidates/coleoptera/6.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361147824/large.jpg",
+    "credit": "Photo: Matthew Moskwik, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/204152376",
+    "taxon": "Pyractomena borealis",
+    "place": "Durham, NC, USA",
+    "file": "candidates/coleoptera/7.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216933913/large.jpg",
+    "credit": "Photo: Ken Kneidel, CC0, via iNaturalist",
+    "license": "CC0",
+    "source": "https://www.inaturalist.org/observations/127760800",
+    "taxon": "Trigonopeltastes delta",
+    "place": "Bramlett Rd, Charlotte, NC, US",
+    "file": "candidates/coleoptera/8.jpg"
+   }
+  ]
  },
  "dermaptera": {
   "name": "Dermaptera",
@@ -1994,75 +2386,75 @@
   "group": "order",
   "candidates": [
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/271703564/large.jpeg",
-    "credit": "Photo: Nadia Funke, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/456677582/large.jpg",
+    "credit": "Photo: Larry Chen, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/157116771",
-    "taxon": "Myrina dermaptera dermaptera",
-    "place": "Royal Palm Estates, Dolphin Coast, South Africa",
+    "source": "https://www.inaturalist.org/observations/254833300",
+    "taxon": "Labidura riparia",
+    "place": "United States",
     "file": "candidates/dermaptera/1.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/217530564/large.png",
-    "credit": "Photo: Guillaume Delaitre, CC BY, via iNaturalist",
-    "license": "CC-BY",
-    "source": "https://www.inaturalist.org/observations/128152766",
-    "taxon": "Degranvillea dermaptera",
-    "place": "Sa\u00fcl, Guyane fran\u00e7aise",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/367730174/large.jpg",
+    "credit": "Photo: grinnin, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/207870069",
+    "taxon": "Forficula auricularia",
+    "place": "North Carolina, US",
     "file": "candidates/dermaptera/2.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244783978/large.jpeg",
-    "credit": "Photo: Lucky Okpanachi Atabo, CC BY, via iNaturalist",
-    "license": "CC-BY",
-    "source": "https://www.inaturalist.org/observations/142746335",
-    "taxon": "Myrina dermaptera subornata",
-    "place": "Lafia, NG-NA, NG",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/572874658/large.jpg",
+    "credit": "Photo: Sarah Oberlin, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/317059823",
+    "taxon": "Euborellia femoralis",
+    "place": "Northgreen, Rocky Mount, NC 27804, USA",
     "file": "candidates/dermaptera/3.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/285793601/large.jpeg",
-    "credit": "Photo: S\u00e9bastien SANT, CC BY-NC, via iNaturalist",
-    "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/165122916",
-    "taxon": "Degranvillea dermaptera",
-    "place": "Sa\u00fcl 97314, Guyane fran\u00e7aise, sentier des monts La Fum\u00e9e",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/268258482/large.jpeg",
+    "credit": "Photo: sunny tyson, CC0, via iNaturalist",
+    "license": "CC0",
+    "source": "https://www.inaturalist.org/observations/155225179",
+    "taxon": "Euborellia annulipes",
+    "place": "North Carolina, US",
     "file": "candidates/dermaptera/4.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/195938777/large.jpeg",
-    "credit": "Photo: Erwin Sieben, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/378658492/large.jpeg",
+    "credit": "Photo: Kristen, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/116098160",
-    "taxon": "Myrina dermaptera",
-    "place": "Kloof, 3610, South Africa",
+    "source": "https://www.inaturalist.org/observations/214238153",
+    "taxon": "Forficula auricularia",
+    "place": "North Carolina, US",
     "file": "candidates/dermaptera/5.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/513948395/large.jpg",
-    "credit": "Photo: Andrew Kruger, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384006392/large.jpeg",
+    "credit": "Photo: Denise Williams, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/285914176",
-    "taxon": "Myrina dermaptera dermaptera",
-    "place": "Ronaldskloof Ext, Kloof, 3610, South Africa",
+    "source": "https://www.inaturalist.org/observations/217096328",
+    "taxon": "Forficula auricularia",
+    "place": "Watauga County, NC, USA",
     "file": "candidates/dermaptera/6.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/507852885/large.jpg",
-    "credit": "Photo: Mary Ellen Lindsay, CC BY-NC, via iNaturalist",
-    "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/282666666",
-    "taxon": "Myrina dermaptera dermaptera",
-    "place": "Ugu District Municipality, South Africa",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519470225/large.jpg",
+    "credit": "Photo: Alison Northup, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/288841274",
+    "taxon": "Forficula auricularia",
+    "place": "King, NC, USA",
     "file": "candidates/dermaptera/7.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453726122/large.jpeg",
-    "credit": "Photo: galpinmd, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/631657060/large.jpg",
+    "credit": "Photo: cdanl2, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/253405783",
-    "taxon": "Myrina dermaptera dermaptera",
-    "place": "Ndlambe Local Municipality, South Africa",
+    "source": "https://www.inaturalist.org/observations/346513518",
+    "taxon": "Forficula auricularia",
+    "place": "Fieldstone Cir, Statesville, NC, US",
     "file": "candidates/dermaptera/8.jpg"
    }
   ]
@@ -2073,75 +2465,75 @@
   "group": "order",
   "candidates": [
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/234435684/large.jpg",
-    "credit": "Photo: Swarochi Tathagath, CC BY, via iNaturalist",
-    "license": "CC-BY",
-    "source": "https://www.inaturalist.org/observations/137283661",
-    "taxon": "Agaphthora diptera",
-    "place": "Nalgonda, IN-TG, IN",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4643399/large.jpg",
+    "credit": "Photo: Adair McNear, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/3942080",
+    "taxon": "Promachus rufipes",
+    "place": "1411 Gray Bluff Trail",
     "file": "candidates/diptera/1.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/599702935/large.jpg",
-    "credit": "Photo: Duraiswamy Navaneetham, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/203836233/large.jpeg",
+    "credit": "Photo: Robby Deans, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/330681347",
-    "taxon": "Agaphthora diptera",
-    "place": "Mannankadu, Tamil Nadu 614613, India",
+    "source": "https://www.inaturalist.org/observations/120512416",
+    "taxon": "Kribiodorum perpulchrum",
+    "place": "Stokes County, NC, USA",
     "file": "candidates/diptera/2.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/500297622/large.jpeg",
-    "credit": "Photo: Chandu, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/293537227/large.jpg",
+    "credit": "Photo: Ashley M Bradford, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/278624030",
-    "taxon": "Agaphthora diptera",
-    "place": "Krishnagiri, IN-AP, IN",
+    "source": "https://www.inaturalist.org/observations/169323731",
+    "taxon": "Promachus rufipes",
+    "place": "Mecklenburg County, NC, USA",
     "file": "candidates/diptera/3.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/482361165/large.jpg",
-    "credit": "Photo: Hrishu Aravind, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5968265/large.jpg",
+    "credit": "Photo: Patrick Coin, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/268354698",
-    "taxon": "Agaphthora diptera",
-    "place": "26FV+HQV Kotturpuram Tree Park, River View Rd, Adyar House, ",
+    "source": "https://www.inaturalist.org/observations/4904359",
+    "taxon": "Bombylius pygmaeus",
+    "place": "Hillsborough, North Carolina, United States",
     "file": "candidates/diptera/4.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/664141674/large.jpg",
-    "credit": "Photo: Dory M, CC BY-NC, via iNaturalist",
-    "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/363817799",
-    "taxon": "Psectra diptera",
-    "place": "United States",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/547120463/large.jpg",
+    "credit": "Photo: Zachary Dankowicz, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/303548668",
+    "taxon": "Leptopeza antennalis",
+    "place": "Haywood, Great Smoky Mountains National Park, North Carolina",
     "file": "candidates/diptera/5.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88880385/large.jpeg",
-    "credit": "Photo: Joe Girgente, CC BY-NC, via iNaturalist",
-    "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/55803845",
-    "taxon": "Psectra diptera",
-    "place": "Hethwood - Prices Fork, Blacksburg, VA, USA",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79367283/large.jpeg",
+    "credit": "Photo: jfox16, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/49987311",
+    "taxon": "Chlorotabanus crepuscularis",
+    "place": "North Carolina, US",
     "file": "candidates/diptera/6.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/559412344/large.jpg",
-    "credit": "Photo: Aditya Bari, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/300930504/large.jpg",
+    "credit": "Photo: peteeliot, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/309987871",
-    "taxon": "Agaphthora diptera",
-    "place": "Bengaluru, Karnataka, India",
+    "source": "https://www.inaturalist.org/observations/173296472",
+    "taxon": "Cuterebra buccata",
+    "place": "Madison County, NC, USA",
     "file": "candidates/diptera/7.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/583102955/large.jpg",
-    "credit": "Photo: Krishantha Gunawardana, CC BY-NC, via iNaturalist",
-    "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/322339934",
-    "taxon": "Agaphthora diptera",
-    "place": "Bulupitiya, Sri Lanka",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/223227124/large.jpg",
+    "credit": "Photo: Nell Cant, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/131194548",
+    "taxon": "Promachus rufipes",
+    "place": "Pinecrest Rd, Durham, NC, USA",
     "file": "candidates/diptera/8.jpg"
    }
   ]
@@ -2150,7 +2542,80 @@
   "name": "Ephemeroptera",
   "event": "buzzworthy",
   "group": "order",
-  "candidates": []
+  "candidates": [
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95253656/large.jpg",
+    "credit": "Photo: t7iguy, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/59608865",
+    "taxon": "Leucrocuta aphrodite",
+    "place": "Macon County, NC, USA",
+    "file": "candidates/ephemeroptera/1.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323935286/large.png",
+    "credit": "Photo: dbettini, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/185478708",
+    "taxon": "Baetisca berneri",
+    "place": "Boone, NC, USA",
+    "file": "candidates/ephemeroptera/2.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7933514/large.jpg",
+    "credit": "Photo: Courtney Long, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/6301910",
+    "taxon": "Litobrancha recurvata",
+    "place": "Pisgah National Forest, Pisgah Forest, NC, US",
+    "file": "candidates/ephemeroptera/3.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138799300/large.jpeg",
+    "credit": "Photo: Joe Girgente, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/84448695",
+    "taxon": "Stenacron interpunctatum heterotarsale",
+    "place": "Lincoln County, NC, USA",
+    "file": "candidates/ephemeroptera/4.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/605494058/large.jpg",
+    "credit": "Photo: harrier, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/333506981",
+    "taxon": "Baetisca carolina",
+    "place": "Silversteen Rd, Lake Toxaway, NC, US",
+    "file": "candidates/ephemeroptera/5.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73658581/large.jpeg",
+    "credit": "Photo: Jon Becker, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/46440657",
+    "taxon": "Maccaffertium modestum",
+    "place": "Cherokee County, NC, USA",
+    "file": "candidates/ephemeroptera/6.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/281102472/large.jpg",
+    "credit": "Photo: pmcdiddy, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/162565936",
+    "taxon": "Stenacron interpunctatum",
+    "place": "Chapel Hill, NC, USA",
+    "file": "candidates/ephemeroptera/7.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12691339/large.jpeg",
+    "credit": "Photo: Joshua Doby, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/9351370",
+    "taxon": "Maccaffertium smithae",
+    "place": "Barnardsville, NC 28709, USA",
+    "file": "candidates/ephemeroptera/8.jpg"
+   }
+  ]
  },
  "hemiptera": {
   "name": "Hemiptera",
@@ -2158,75 +2623,75 @@
   "group": "order",
   "candidates": [
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55707732/large.jpg",
-    "credit": "Photo: Vladimir Bryukhov, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/209364148/large.jpg",
+    "credit": "Photo: Larry Chen, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/35333631",
-    "taxon": "Phasia hemiptera",
-    "place": "\u041a\u0438\u0440\u043e\u0432\u043e-\u0427\u0435\u043f\u0435\u0446\u043a\u0438\u0439 \u0440-\u043d, \u041a\u0438\u0440\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b., \u0420\u043e\u0441\u0441\u0438\u044f",
+    "source": "https://www.inaturalist.org/observations/123580848",
+    "taxon": "Chlorochroa dismalia",
+    "place": "North Carolina, US",
     "file": "candidates/hemiptera/1.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/416133059/large.jpeg",
-    "credit": "Photo: pernillapl, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102613964/large.jpg",
+    "credit": "Photo: Abby H, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/234106728",
-    "taxon": "Phasia hemiptera",
-    "place": "Mosern, Grundlsee, Styria, AT",
+    "source": "https://www.inaturalist.org/observations/63887835",
+    "taxon": "Lycorma delicatula",
+    "place": "North Carolina, US",
     "file": "candidates/hemiptera/2.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/541825892/large.jpg",
-    "credit": "Photo: sirhck, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/590236647/large.jpg",
+    "credit": "Photo: Lor, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/300706076",
-    "taxon": "Phasia hemiptera",
-    "place": "Nordrhein-Westfalen, DE",
+    "source": "https://www.inaturalist.org/observations/325945615",
+    "taxon": "Prosapia bicincta",
+    "place": "Wake County, NC, USA",
     "file": "candidates/hemiptera/3.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8540828/large.jpg",
-    "credit": "Photo: portioid, CC BY, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393436140/large.gif",
+    "credit": "Photo: Lexi Amico, CC BY, via iNaturalist",
     "license": "CC-BY",
-    "source": "https://www.inaturalist.org/observations/6727767",
-    "taxon": "Dinocarsis hemipterus",
-    "place": "Sierra Nevada, Spain",
+    "source": "https://www.inaturalist.org/observations/222133116",
+    "taxon": "Magicicada",
+    "place": "Durham, North Carolina, United States",
     "file": "candidates/hemiptera/4.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/418956565/large.jpeg",
-    "credit": "Photo: Felix Riegel, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/324947468/large.jpg",
+    "credit": "Photo: rkm2490, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/235573981",
-    "taxon": "Phasia hemiptera",
-    "place": "Vorberg, Reichersbeuern, Bayern, Deutschland",
+    "source": "https://www.inaturalist.org/observations/185997029",
+    "taxon": "Lycorma delicatula",
+    "place": "Racine Dr, Wilmington, NC, US",
     "file": "candidates/hemiptera/5.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13583196/large.jpeg",
-    "credit": "Photo: Thorsten Us\u00e9e, CC BY-NC, via iNaturalist",
-    "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/9904674",
-    "taxon": "Phasia hemiptera",
-    "place": "Bad Wilhelmsh\u00f6he, 34131 Kassel, Germany",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24700861/large.jpeg",
+    "credit": "Photo: Ken Kneidel, CC0, via iNaturalist",
+    "license": "CC0",
+    "source": "https://www.inaturalist.org/observations/16418045",
+    "taxon": "Amphigonalia gothica",
+    "place": "Yancey County, NC, USA",
     "file": "candidates/hemiptera/6.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/296885564/large.jpg",
-    "credit": "Photo: Scott Shanks, CC BY, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/503686542/large.jpeg",
+    "credit": "Photo: David George, CC BY, via iNaturalist",
     "license": "CC-BY",
-    "source": "https://www.inaturalist.org/observations/171113004",
-    "taxon": "Phasia hemiptera",
-    "place": "Yorkhill Park, Glasgow, Scotland, GB",
+    "source": "https://www.inaturalist.org/observations/280444523",
+    "taxon": "Arenaeocoris enervatus",
+    "place": "North Carolina, US",
     "file": "candidates/hemiptera/7.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79486012/large.jpeg",
-    "credit": "Photo: naomi_b, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/320523612/large.jpg",
+    "credit": "Photo: The ADHD Animal Guy, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/50058385",
-    "taxon": "Phasia hemiptera",
-    "place": "Glasgow G21, UK",
+    "source": "https://www.inaturalist.org/observations/183695201",
+    "taxon": "Jikradia melanota",
+    "place": "North Carolina Aquariums, Manteo, NC, US",
     "file": "candidates/hemiptera/8.jpg"
    }
   ]
@@ -2235,7 +2700,80 @@
   "name": "Hymenoptera",
   "event": "buzzworthy",
   "group": "order",
-  "candidates": []
+  "candidates": [
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2809917/large.JPG",
+    "credit": "Photo: Robby Deans, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/2501209",
+    "taxon": "Camponotus chromaiodes",
+    "place": "blounts creek, nc",
+    "file": "candidates/hymenoptera/1.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66210434/large.jpg",
+    "credit": "Photo: Patrick Coin, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/41733130",
+    "taxon": "Megarhyssa atrata",
+    "place": "Durham Township, North Carolina, United States",
+    "file": "candidates/hymenoptera/2.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/360111357/large.jpeg",
+    "credit": "Photo: Michael J. Papay, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/203790823",
+    "taxon": "Camponotus castaneus",
+    "place": "North Carolina, US",
+    "file": "candidates/hymenoptera/3.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151350211/large.jpg",
+    "credit": "Photo: Lexi Amico, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/91493128",
+    "taxon": "Vespula squamosa",
+    "place": "Farrington Rd, Durham, NC, US",
+    "file": "candidates/hymenoptera/4.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/240525455/large.jpg",
+    "credit": "Photo: Evan M. Raskin, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/140507920",
+    "taxon": "Lasius claviger",
+    "place": "Upper Grassy Branch, Asheville, NC",
+    "file": "candidates/hymenoptera/5.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/211903295/large.jpg",
+    "credit": "Photo: grinnin, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/124980721",
+    "taxon": "Zethus spinipes variegatus",
+    "place": "North Carolina, US",
+    "file": "candidates/hymenoptera/6.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85949386/large.jpeg",
+    "credit": "Photo: jfox16, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/54027504",
+    "taxon": "Zaglyptus pictilis",
+    "place": "North Carolina, US",
+    "file": "candidates/hymenoptera/7.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108066942/large.jpg",
+    "credit": "Photo: Will Kuhn, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/66959821",
+    "taxon": "Zagrammosoma multilineatum",
+    "place": "Swain County, NC, USA",
+    "file": "candidates/hymenoptera/8.jpg"
+   }
+  ]
  },
  "lepidoptera": {
   "name": "Lepidoptera",
@@ -2243,75 +2781,75 @@
   "group": "order",
   "candidates": [
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/612051016/large.jpg",
-    "credit": "Photo: Andrey Vasquez, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411403500/large.jpg",
+    "credit": "Photo: Kenneth Geisert, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/336767752",
-    "taxon": "Micrathena lepidoptera",
-    "place": "R25Q+VP, Provincia de Puntarenas, Coto Brus, Linda Vista, Co",
+    "source": "https://www.inaturalist.org/observations/231622819",
+    "taxon": "Dryocampa rubicunda",
+    "place": "Northwest Raleigh, Raleigh, NC, USA",
     "file": "candidates/lepidoptera/1.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/562493043/large.jpg",
-    "credit": "Photo: backup-weevil, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/201010576/large.jpg",
+    "credit": "Photo: Izzy Ibarra, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/311589767",
-    "taxon": "Micrathena lepidoptera",
-    "place": "Costa Rica",
+    "source": "https://www.inaturalist.org/observations/118939096",
+    "taxon": "Dryocampa rubicunda",
+    "place": "Waterlily Dr, Flat Rock, NC, US",
     "file": "candidates/lepidoptera/2.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/449904772/large.jpg",
-    "credit": "Photo: oasispanama, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175002746/large.jpg",
+    "credit": "Photo: Patrick Coin, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/251441902",
-    "taxon": "Micrathena lepidoptera",
-    "place": "oasispanama.kml",
+    "source": "https://www.inaturalist.org/observations/104441327",
+    "taxon": "Actias luna",
+    "place": "North Carolina, US",
     "file": "candidates/lepidoptera/3.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/544088515/large.jpg",
-    "credit": "Photo: Jan, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/441997277/large.jpeg",
+    "credit": "Photo: cool_mammoth_dude, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/301919934",
-    "taxon": "Micrathena lepidoptera",
-    "place": "Colombia",
+    "source": "https://www.inaturalist.org/observations/247472312",
+    "taxon": "Actias luna",
+    "place": "Mayfaire, Wilmington, NC, US",
     "file": "candidates/lepidoptera/4.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/447924050/large.jpeg",
-    "credit": "Photo: Emily Christian, CC BY-NC, via iNaturalist",
-    "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/250450966",
-    "taxon": "Micrathena lepidoptera",
-    "place": "Provincia de Puntarenas, Coto Brus, Costa Rica",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/228216090/large.jpg",
+    "credit": "Photo: ragbird, CC0, via iNaturalist",
+    "license": "CC0",
+    "source": "https://www.inaturalist.org/observations/133937446",
+    "taxon": "Papilio glaucus",
+    "place": "Magnolia Ave, Charlotte, NC, US",
     "file": "candidates/lepidoptera/5.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/586209123/large.jpg",
-    "credit": "Photo: Anthony Ram\u00edrez Murillo, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6086865/large.jpeg",
+    "credit": "Photo: Rob Van Epps, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/323930253",
-    "taxon": "Micrathena lepidoptera",
-    "place": "Provincia de Puntarenas, Coto Brus, Costa Rica",
+    "source": "https://www.inaturalist.org/observations/4983691",
+    "taxon": "Estigmene acrea",
+    "place": "Mecklenburg County, NC, USA",
     "file": "candidates/lepidoptera/6.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117939261/large.jpg",
-    "credit": "Photo: lcolmer, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35730350/large.jpg",
+    "credit": "Photo: Sarah Towne, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/72346406",
-    "taxon": "Caesioperca lepidoptera",
-    "place": "Northland, New Zealand",
+    "source": "https://www.inaturalist.org/observations/23047124",
+    "taxon": "Hypercompe scribonia",
+    "place": "262 Ocean Hwy E, Supply, NC 28462, USA",
     "file": "candidates/lepidoptera/7.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182044316/large.jpg",
-    "credit": "Photo: Debra Baker, CC BY, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/362378659/large.jpeg",
+    "credit": "Photo: Michael J. Papay, CC BY, via iNaturalist",
     "license": "CC-BY",
-    "source": "https://www.inaturalist.org/observations/108156411",
-    "taxon": "Caesioperca lepidoptera",
-    "place": "Auckland, New Zealand",
+    "source": "https://www.inaturalist.org/observations/204981891",
+    "taxon": "Actias luna",
+    "place": "North Carolina, US",
     "file": "candidates/lepidoptera/8.jpg"
    }
   ]
@@ -2322,75 +2860,75 @@
   "group": "order",
   "candidates": [
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166103656/large.jpeg",
-    "credit": "Photo: Alexis L\u00f3pez Hern\u00e1ndez, CC BY, via iNaturalist",
-    "license": "CC-BY",
-    "source": "https://www.inaturalist.org/observations/99683479",
-    "taxon": "Schultesia brachyptera",
-    "place": "Calkin\u00ed, Camp., M\u00e9xico",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63687758/large.jpg",
+    "credit": "Photo: Ken Kneidel, CC0, via iNaturalist",
+    "license": "CC0",
+    "source": "https://www.inaturalist.org/observations/40099004",
+    "taxon": "Chrysoperla rufilabris",
+    "place": "Charlotte, NC 28207, USA",
     "file": "candidates/neuroptera/1.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/397701026/large.jpg",
-    "credit": "Photo: Lilian Eprendre, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117637863/large.jpeg",
+    "credit": "Photo: suchosauros, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/224393001",
-    "taxon": "Schultesia brachyptera",
-    "place": "Matoury, GF",
+    "source": "https://www.inaturalist.org/observations/72179475",
+    "taxon": "Leucochrysa pavida",
+    "place": "North Carolina, US",
     "file": "candidates/neuroptera/2.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45551447/large.jpeg",
-    "credit": "Photo: Jan Meerman, CC BY-NC, via iNaturalist",
-    "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/29194952",
-    "taxon": "Schultesia brachyptera",
-    "place": "Placencia Lagoon, West Shore: Stann Creek District, Belize",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/331982360/large.jpeg",
+    "credit": "Photo: Michael J. Papay, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/189499255",
+    "taxon": "Leucochrysa pavida",
+    "place": "North Carolina, US",
     "file": "candidates/neuroptera/3.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/404238229/large.jpeg",
-    "credit": "Photo: Arnaud Aury, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/613777785/large.jpg",
+    "credit": "Photo: KragiKuak, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/227841115",
-    "taxon": "Schultesia brachyptera",
-    "place": "Iracoubo 97350, Guyane fran\u00e7aise",
+    "source": "https://www.inaturalist.org/observations/337611462",
+    "taxon": "Leucochrysa pavida",
+    "place": "Southwest Raleigh, Raleigh, NC, \u7f8e\u56fd",
     "file": "candidates/neuroptera/4.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/406645047/large.jpeg",
-    "credit": "Photo: accidentalshrike, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/509191954/large.jpg",
+    "credit": "Photo: entheart, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/229107544",
-    "taxon": "Schultesia brachyptera",
-    "place": "Montsin\u00e9ry-Tonnegrande 97356, Guyane fran\u00e7aise",
+    "source": "https://www.inaturalist.org/observations/283382276",
+    "taxon": "Ascaloptynx appendiculata",
+    "place": "Cajah's Mountain, NC 28645, USA",
     "file": "candidates/neuroptera/5.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519888762/large.jpg",
-    "credit": "Photo: pelletier_vincent973, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736716638/large.jpg",
+    "credit": "Photo: Marty T, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/289066302",
-    "taxon": "Schultesia brachyptera",
-    "place": "Montsin\u00e9ry-Tonnegrande 97356, Guyane fran\u00e7aise",
+    "source": "https://www.inaturalist.org/observations/401391679",
+    "taxon": "Chrysopa incompleta",
+    "place": "Harbor Haven Dr, Apex, NC, US",
     "file": "candidates/neuroptera/6.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/385661296/large.jpg",
-    "credit": "Photo: Julien Piolain, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432808003/large.jpeg",
+    "credit": "Photo: iheartmollusks, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/217976856",
-    "taxon": "Schultesia brachyptera",
-    "place": "Organabo, Iracoubo 97350, Guyane fran\u00e7aise",
+    "source": "https://www.inaturalist.org/observations/242763095",
+    "taxon": "Climaciella brunnea",
+    "place": "North Carolina, US",
     "file": "candidates/neuroptera/7.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/392790790/large.jpg",
-    "credit": "Photo: Nils Servientis - Bivouac Naturaliste, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/701956327/large.jpg",
+    "credit": "Photo: grinnin, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/221781023",
-    "taxon": "Schultesia brachyptera",
-    "place": "Cal\u00e7oene - Amap\u00e1, 68960-000, Br\u00e9sil",
+    "source": "https://www.inaturalist.org/observations/383520274",
+    "taxon": "Zeugomantispa minuta",
+    "place": "Alexander County, NC, USA",
     "file": "candidates/neuroptera/8.jpg"
    }
   ]
@@ -2399,13 +2937,159 @@
   "name": "Odonata",
   "event": "buzzworthy",
   "group": "order",
-  "candidates": []
+  "candidates": [
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91249560/large.jpg",
+    "credit": "Photo: Patrick Coin, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/57218310",
+    "taxon": "Aphylla williamsoni",
+    "place": "North Carolina, US",
+    "file": "candidates/odonata/1.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/674052813/large.jpg",
+    "credit": "Photo: Michael J. Papay, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/369029639",
+    "taxon": "Erpetogomphus designatus",
+    "place": "Old Bynum Bridge, North Carolina 27312, USA",
+    "file": "candidates/odonata/2.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90783268/large.jpg",
+    "credit": "Photo: Allen Hurlbert, CC0, via iNaturalist",
+    "license": "CC0",
+    "source": "https://www.inaturalist.org/observations/56943029",
+    "taxon": "Libellula luctuosa",
+    "place": "Carrboro, NC, USA",
+    "file": "candidates/odonata/3.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/546724600/large.jpg",
+    "credit": "Photo: Alina Martin, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/303339228",
+    "taxon": "Plathemis lydia",
+    "place": "North Carolina, US",
+    "file": "candidates/odonata/4.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/435138965/large.jpg",
+    "credit": "Photo: Mark Shields, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/243981542",
+    "taxon": "Somatochlora filosa",
+    "place": "North Carolina, US",
+    "file": "candidates/odonata/5.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/415160711/large.jpg",
+    "credit": "Photo: Amy Padgett, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/233598643",
+    "taxon": "Celithemis eponina",
+    "place": "Lock and Dam #1, Riegelwood, NC",
+    "file": "candidates/odonata/6.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446337622/large.jpg",
+    "credit": "Photo: grinnin, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/249662717",
+    "taxon": "Hetaerina americana",
+    "place": "Franklinville, NC, USA",
+    "file": "candidates/odonata/7.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/587864110/large.jpg",
+    "credit": "Photo: Ryan Goodman, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/324756215",
+    "taxon": "Archilestes grandis",
+    "place": "Faculty Dr, Winston-Salem, NC, US",
+    "file": "candidates/odonata/8.jpg"
+   }
+  ]
  },
  "orthoptera": {
   "name": "Orthoptera",
   "event": "buzzworthy",
   "group": "order",
-  "candidates": []
+  "candidates": [
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/163389458/large.jpg",
+    "credit": "Photo: Patrick Coin, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/98166501",
+    "taxon": "Neocurtilla hexadactyla",
+    "place": "North Carolina, US",
+    "file": "candidates/orthoptera/1.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/294150375/large.jpeg",
+    "credit": "Photo: LeslieMc, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/169650700",
+    "taxon": "Melanoplus serrulatus",
+    "place": "North Carolina, US",
+    "file": "candidates/orthoptera/2.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/313042260/large.jpg",
+    "credit": "Photo: Carrie Seltzer, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/179775376",
+    "taxon": "Conocephalus stictomerus",
+    "place": "Hatteras Island, Rodanthe, NC, US",
+    "file": "candidates/orthoptera/3.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200875624/large.jpeg",
+    "credit": "Photo: Robby Deans, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/118866516",
+    "taxon": "Myrmecophilus pergandei",
+    "place": "Rural Hall, NC, USA",
+    "file": "candidates/orthoptera/4.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/521331995/large.jpg",
+    "credit": "Photo: Kevin Anderson, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/289839057",
+    "taxon": "Paratettix cucullatus",
+    "place": "Latta Road, Durham, NC 27712, USA",
+    "file": "candidates/orthoptera/5.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8318275/large.jpg",
+    "credit": "Photo: Evan M. Raskin, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/6559362",
+    "taxon": "Stethophyma celatum",
+    "place": "Sandy Run Savannas SNA",
+    "file": "candidates/orthoptera/6.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/212131701/large.jpg",
+    "credit": "Photo: Lydia Cox, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/124960711",
+    "taxon": "Atlanticus monticola",
+    "place": "Pisgah National Forest, Rosman, NC, US",
+    "file": "candidates/orthoptera/7.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213137777/large.jpg",
+    "credit": "Photo: Ken Kneidel, CC0, via iNaturalist",
+    "license": "CC0",
+    "source": "https://www.inaturalist.org/observations/125670305",
+    "taxon": "Pterophylla camellifolia",
+    "place": "Grier Heights, Charlotte, NC, USA",
+    "file": "candidates/orthoptera/8.jpg"
+   }
+  ]
  },
  "phasmatodea": {
   "name": "Phasmatodea",
@@ -2413,40 +3097,76 @@
   "group": "order",
   "candidates": [
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/501941551/large.jpg",
-    "credit": "Photo: Robin Gwen Agarwal, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/324644413/large.jpg",
+    "credit": "Photo: Anthony J. Mills, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/279524272",
-    "taxon": "Kabeiro phasmida",
-    "place": "Tingloy, Batangas, Philippines",
+    "source": "https://www.inaturalist.org/observations/185843312",
+    "taxon": "Diapheromera carolina",
+    "place": "Pisgah National Forest, Newland, NC, US",
     "file": "candidates/phasmatodea/1.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/599796625/large.jpg",
-    "credit": "Photo: Callum Macarthur, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/397193664/large.jpg",
+    "credit": "Photo: Nick Spigler, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/330726876",
-    "taxon": "Kabeiro phasmida",
-    "place": "SMALL LA LAGUNA, Puerto Galera, 5203 Oriental Mindoro, Phili",
+    "source": "https://www.inaturalist.org/observations/224125737",
+    "taxon": "Manomera",
+    "place": "North Carolina, US",
     "file": "candidates/phasmatodea/2.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/300548359/large.jpg",
-    "credit": "Photo: Bioexploradores Farallones, CC BY-NC, via iNaturalist",
-    "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/173091535",
-    "taxon": "Teagueia phasmida",
-    "place": "Cd Bol\u00edvar, Antioquia, Colombia",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107463849/large.jpeg",
+    "credit": "Photo: Steven Joyner, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/66634715",
+    "taxon": "Anisomorpha buprestoides",
+    "place": "Kure Beach, NC 28449, USA",
     "file": "candidates/phasmatodea/3.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/360667253/large.jpeg",
-    "credit": "Photo: Daniel Mesa, CC BY, via iNaturalist",
-    "license": "CC-BY",
-    "source": "https://www.inaturalist.org/observations/204079442",
-    "taxon": "Teagueia phasmida",
-    "place": "Colombia",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43778225/large.jpg",
+    "credit": "Photo: Logan Parker, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/28098690",
+    "taxon": "Diapheromera carolina",
+    "place": "North Carolina, US",
     "file": "candidates/phasmatodea/4.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323551986/large.jpeg",
+    "credit": "Photo: Morgan Greene, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/185191307",
+    "taxon": "Anisomorpha buprestoides",
+    "place": "Southport",
+    "file": "candidates/phasmatodea/5.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243600538/large.jpg",
+    "credit": "Photo: sarah6162, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/142116115",
+    "taxon": "Anisomorpha buprestoides",
+    "place": "Castle Hayne Rd, Castle Hayne, NC, US",
+    "file": "candidates/phasmatodea/6.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/236860748/large.jpg",
+    "credit": "Photo: mattiemc, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/138564943",
+    "taxon": "Anisomorpha buprestoides",
+    "place": "Northside Park, Wilmington, NC, US",
+    "file": "candidates/phasmatodea/7.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130586544/large.jpg",
+    "credit": "Photo: kcozy, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/79713858",
+    "taxon": "Diapheromera femorata",
+    "place": "The University of North Carolina at Charlotte, Charlotte, NC",
+    "file": "candidates/phasmatodea/8.jpg"
    }
   ]
  },
@@ -2454,13 +3174,159 @@
   "name": "Psocodea",
   "event": "buzzworthy",
   "group": "order",
-  "candidates": []
+  "candidates": [
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/302789947/large.jpg",
+    "credit": "Photo: theshersons, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/174299951",
+    "taxon": "Cerastipsocus venosus",
+    "place": "Lake Benson Park, Garner, NC, US",
+    "file": "candidates/psocodea/1.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32873142/large.jpg",
+    "credit": "Photo: clhawn, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/21262050",
+    "taxon": "Graphopsocus cruciatus",
+    "place": "500 S Salisbury St, Raleigh, NC, US",
+    "file": "candidates/psocodea/2.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4584138/large.jpeg",
+    "credit": "Photo: soulflower_ecological, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/3901049",
+    "taxon": "Cerastipsocus venosus",
+    "place": "Haywood, North Carolina, United States",
+    "file": "candidates/psocodea/3.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/418620025/large.jpg",
+    "credit": "Photo: solomon v. hendrix, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/235391892",
+    "taxon": "Hyalopsocus striatus",
+    "place": "Northwest Raleigh, Raleigh, NC, USA",
+    "file": "candidates/psocodea/4.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/134997981/large.jpg",
+    "credit": "Photo: David George, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/82259761",
+    "taxon": "Cerastipsocus venosus",
+    "place": "Whitley Dr, Durham, NC, US",
+    "file": "candidates/psocodea/5.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/428023331/large.jpg",
+    "credit": "Photo: Robert Meehan, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/240259111",
+    "taxon": "Echmepteryx hageni",
+    "place": "Duke Forest, Durham, NC, USA",
+    "file": "candidates/psocodea/6.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/407537185/large.jpg",
+    "credit": "Photo: Denise Williams, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/229587058",
+    "taxon": "Blaste quieta",
+    "place": "Lenoir, NC, USA",
+    "file": "candidates/psocodea/7.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/314653288/large.jpg",
+    "credit": "Photo: Rob Van Epps, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/180616715",
+    "taxon": "Teliapsocus conterminus",
+    "place": "Cornelius, NC, USA",
+    "file": "candidates/psocodea/8.jpg"
+   }
+  ]
  },
  "siphonaptera": {
   "name": "Siphonaptera",
   "event": "buzzworthy",
   "group": "order",
-  "candidates": []
+  "candidates": [
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95564853/large.jpg",
+    "credit": "Photo: ranlet, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/59793180",
+    "taxon": "Ctenocephalides felis",
+    "place": "US-70 W, Garner, NC, US",
+    "file": "candidates/siphonaptera/1.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/481295165/large.jpeg",
+    "credit": "Photo: Herpihiko Komatsu, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/267797214",
+    "taxon": "Ctenocephalides felis",
+    "place": "North Carolina, US",
+    "file": "candidates/siphonaptera/2.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/474402327/large.jpeg",
+    "credit": "Photo: Alexis Dodd, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/264018360",
+    "taxon": "Ctenocephalides felis",
+    "place": "Greensboro",
+    "file": "candidates/siphonaptera/3.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/573229817/large.jpg",
+    "credit": "Photo: Jess Kelley, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/317238785",
+    "taxon": "Ctenocephalides felis",
+    "place": "Merrills Ridge Rd, Asheville, NC, US",
+    "file": "candidates/siphonaptera/4.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/729248992/large.jpg",
+    "credit": "Photo: Robby Deans, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/397592863",
+    "taxon": "Ctenocephalides felis",
+    "place": "Bethania Rural Hall Rd, Rural Hall, NC, US",
+    "file": "candidates/siphonaptera/5.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410679840/large.jpeg",
+    "credit": "Photo: Bryson Hicks, CC BY-SA, via iNaturalist",
+    "license": "CC-BY-SA",
+    "source": "https://www.inaturalist.org/observations/231220969",
+    "taxon": "Ctenocephalides felis",
+    "place": "Burnsville",
+    "file": "candidates/siphonaptera/6.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/617262474/large.jpg",
+    "credit": "Photo: em_jo, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/339327031",
+    "taxon": "Orchopeas howardi",
+    "place": "Grandfather Trail, Blowing Rock, NC, US",
+    "file": "candidates/siphonaptera/7.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468924884/large.jpg",
+    "credit": "Photo: Gilles San Martin, CC BY-SA, via iNaturalist",
+    "license": "CC-BY-SA",
+    "source": "https://www.inaturalist.org/observations/261055782",
+    "taxon": "Hystrichopsylla talpae",
+    "place": "Grandhan, 6940 Durbuy, Belgium",
+    "file": "candidates/siphonaptera/8.jpg"
+   }
+  ]
  },
  "trichoptera": {
   "name": "Trichoptera",
@@ -2468,75 +3334,75 @@
   "group": "order",
   "candidates": [
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/334709546/large.jpeg",
-    "credit": "Photo: Matt Tank, CC BY-NC, via iNaturalist",
-    "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/190875847",
-    "taxon": "Cenolia trichoptera",
-    "place": "Onkaparinga - North Coast, South Australia, Australia",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21525522/large.jpeg",
+    "credit": "Photo: Ken Kneidel, CC0, via iNaturalist",
+    "license": "CC0",
+    "source": "https://www.inaturalist.org/observations/14463306",
+    "taxon": "Agrypnia vestita",
+    "place": "Bertonley Ave, Charlotte, NC 28211, USA",
     "file": "candidates/trichoptera/1.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183357454/large.jpeg",
-    "credit": "Photo: Darcy Nugent, CC0, via iNaturalist",
-    "license": "CC0",
-    "source": "https://www.inaturalist.org/observations/108855449",
-    "taxon": "Cenolia trichoptera",
-    "place": "Colac-Otway - South, AU-VI, AU",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/545639112/large.jpg",
+    "credit": "Photo: Larry Chen, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/302757371",
+    "taxon": "Nectopsyche waccamawensis",
+    "place": "North Carolina, US",
     "file": "candidates/trichoptera/2.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/733327325/large.jpg",
-    "credit": "Photo: Axel Gosseries, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/509308878/large.jpg",
+    "credit": "Photo: Tracy Fox, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/399687833",
-    "taxon": "Ulomyia fuliginosa",
-    "place": "No\u00fbs Coy\u00e9s, 6960 Grandmenil, Belgique",
+    "source": "https://www.inaturalist.org/observations/283445223",
+    "taxon": "Hydatophylax argus",
+    "place": "Pisgah National Forest, Burnsville, NC, US",
     "file": "candidates/trichoptera/3.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151975837/large.jpg",
-    "credit": "Photo: Loxley Fedec, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/689438748/large.jpg",
+    "credit": "Photo: scottmessick9, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/91839240",
-    "taxon": "Maireana trichoptera",
-    "place": "Mount Burges, WA, AU",
+    "source": "https://www.inaturalist.org/observations/377038038",
+    "taxon": "Goera calcarata",
+    "place": "Pisgah National Forest, Marshall, NC, US",
     "file": "candidates/trichoptera/4.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176451657/large.jpg",
-    "credit": "Photo: imogenisunderwater, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10838351/large.jpeg",
+    "credit": "Photo: bonnieeamick, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/105197514",
-    "taxon": "Cenolia trichoptera",
-    "place": "Mornington P'sula - South, AU-VI, AU",
+    "source": "https://www.inaturalist.org/observations/8182490",
+    "taxon": "Pycnopsyche antica",
+    "place": "1045 Tyler Dewar Ln, Fuquay Varina, NC 27526, USA",
     "file": "candidates/trichoptera/5.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79794881/large.jpeg",
-    "credit": "Photo: Paul Bowyer, CC BY-NC, via iNaturalist",
-    "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/50252353",
-    "taxon": "Ulomyia fuliginosa",
-    "place": "Bath and North East Somerset, UK",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/426890688/large.jpeg",
+    "credit": "Photo: jfox16, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/239670685",
+    "taxon": "Phryganea sayi",
+    "place": "North Carolina, US",
     "file": "candidates/trichoptera/6.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64089993/large.jpeg",
-    "credit": "Photo: David Spencer Muirhead, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/354521565/large.png",
+    "credit": "Photo: Jamie Simancas, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/40350119",
-    "taxon": "Cenolia trichoptera",
-    "place": "Bay Rd, Venus Bay SA 5607, Australia",
+    "source": "https://www.inaturalist.org/observations/117534219",
+    "taxon": "Nectopsyche candida",
+    "place": "Guilford County, NC, USA",
     "file": "candidates/trichoptera/7.jpg"
    },
    {
-    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102225302/large.jpg",
-    "credit": "Photo: David Cappaert, CC BY-NC, via iNaturalist",
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226283887/large.jpeg",
+    "credit": "Photo: Jim Brighton, CC BY-NC, via iNaturalist",
     "license": "CC-BY-NC",
-    "source": "https://www.inaturalist.org/observations/63679502",
-    "taxon": "Paracladura trichoptera",
-    "place": "Alsea, OR, USA",
+    "source": "https://www.inaturalist.org/observations/132897684",
+    "taxon": "Nectopsyche exquisita",
+    "place": "Burke County, NC, USA",
     "file": "candidates/trichoptera/8.jpg"
    }
   ]
@@ -2545,7 +3411,80 @@
   "name": "Zygentoma",
   "event": "buzzworthy",
   "group": "order",
-  "candidates": []
+  "candidates": [
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2915488/large.jpg",
+    "credit": "Photo: Kyle Smith, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/2609036",
+    "taxon": "Thermobia domestica",
+    "place": "Duke University",
+    "file": "candidates/zygentoma/1.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12670756/large.jpeg",
+    "credit": "Photo: Robby Deans, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/9339458",
+    "taxon": "Ctenolepisma lineatum",
+    "place": "Beaufort County, NC, USA",
+    "file": "candidates/zygentoma/2.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204437076/large.jpg",
+    "credit": "Photo: Morgan Freese, CC BY, via iNaturalist",
+    "license": "CC-BY",
+    "source": "https://www.inaturalist.org/observations/120847113",
+    "taxon": "Ctenolepisma lociplana",
+    "place": "United States",
+    "file": "candidates/zygentoma/3.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/127578546/large.jpeg",
+    "credit": "Photo: Laura Nelson, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/77986601",
+    "taxon": "Lepisma saccharinum",
+    "place": "North Carolina, US",
+    "file": "candidates/zygentoma/4.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/124971857/large.jpg",
+    "credit": "Photo: Courtney Smith, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/76396285",
+    "taxon": "Ctenolepisma lineatum",
+    "place": "S Walnut Creek Pkwy, Raleigh, NC, US",
+    "file": "candidates/zygentoma/5.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101686689/large.jpeg",
+    "credit": "Photo: alexbarnard, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/63368448",
+    "taxon": "Ctenolepisma longicaudatum",
+    "place": "Wilmington",
+    "file": "candidates/zygentoma/6.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42465831/large.jpg",
+    "credit": "Photo: dgkronsch, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/27302933",
+    "taxon": "Ctenolepisma lineatum",
+    "place": "2221 Queen St, Winston-Salem, NC, US",
+    "file": "candidates/zygentoma/7.jpg"
+   },
+   {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133287294/large.jpg",
+    "credit": "Photo: Robert Meehan, CC BY-NC, via iNaturalist",
+    "license": "CC-BY-NC",
+    "source": "https://www.inaturalist.org/observations/81269510",
+    "taxon": "Ctenolepisma lineatum",
+    "place": "Trinity Park, Durham, NC 27701, USA",
+    "file": "candidates/zygentoma/8.jpg"
+   }
+  ]
  },
  "american-beech": {
   "name": "American beech",
