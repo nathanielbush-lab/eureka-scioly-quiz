@@ -98,7 +98,28 @@ window.QUIZ_PHOTOS = {
   "southern-leopard-frog": "Slim, green or brown frog with dark round spots, a pointed snout, and light ridges down its back.",
   "marbled-salamander": "Stout, black salamander with bold silvery-white or gray bands. NC state salamander!",
   "red-backed-salamander": "Small, skinny salamander, usually with a red-orange stripe down its back (some are all gray).",
-  "white-spotted-slimy-salamander": "Shiny black salamander sprinkled with small white or silver spots. Very sticky slime."
+  "white-spotted-slimy-salamander": "Shiny black salamander sprinkled with small white or silver spots. Very sticky slime.",
+  "arachnida": "Eight legs, two body parts (cephalothorax and abdomen), and no antennae. Spiders, ticks, mites, scorpions.",
+  "chilopoda": "Long, flat body with ONE pair of legs on each segment, long antennae, and fast movement. Centipedes.",
+  "crustacea": "Two pairs of antennae, many legs, and a hard, segmented shell. Pill bugs, sow bugs, crayfish, crabs.",
+  "diplopoda": "Long, round body with TWO pairs of legs on most segments. Slow, and often curls into a spiral. Millipedes.",
+  "archaeognatha": "Wingless, humped back, big eyes that touch on top, and three tail filaments, the middle one longest. Jumping bristletails.",
+  "blattodea": "Flat, oval body, long antennae, and a head tucked under a shield. Cockroaches. Termites are pale, soft, and ant-like.",
+  "coleoptera": "Hard front wings (elytra) that meet in a straight line down the back, and chewing mouthparts. Beetles.",
+  "dermaptera": "Long, flat, brown body with pincers (cerci) at the tail and short front wings. Earwigs.",
+  "diptera": "Only ONE pair of wings, big eyes, and tiny knob-like halteres. Flies, mosquitoes, gnats.",
+  "ephemeroptera": "Delicate triangle-shaped wings held straight up, and 2 or 3 long thread-like tails. Mayflies.",
+  "hemiptera": "A straw-like beak for sucking. Many have front wings that are half hard and half clear, forming an X. Stink bugs, cicadas, aphids.",
+  "hymenoptera": "Two pairs of clear wings and often a narrow 'wasp waist.' Ants, bees, wasps.",
+  "lepidoptera": "Wings covered with colorful scales and a coiled drinking tube (proboscis). Butterflies and moths.",
+  "neuroptera": "Four clear wings with a lacy net of veins, held like a roof over the body. Lacewings, antlions.",
+  "odonata": "Long, thin abdomen, huge eyes, and four long, veined wings. Dragonflies and damselflies.",
+  "orthoptera": "Big jumping back legs and long, straight wings. Grasshoppers, crickets, katydids.",
+  "phasmatodea": "Long, thin body and legs that look just like twigs or leaves. Stick insects.",
+  "psocodea": "Tiny, soft insects with big heads. Barklice live on bark; lice are flat and wingless parasites.",
+  "siphonaptera": "Tiny, wingless, and flattened side to side, with powerful jumping legs. Fleas.",
+  "trichoptera": "Moth-like, but with hairy wings held like a tent and very long antennae. Larvae build cases in streams. Caddisflies.",
+  "zygentoma": "Wingless, flat, silvery, carrot-shaped body with three tail filaments. Silverfish."
  },
  "photos": [
   {
@@ -2000,6 +2021,626 @@ window.QUIZ_PHOTOS = {
    "credit": "Photo: venix, CC BY-NC, via iNaturalist",
    "source": "https://www.inaturalist.org/observations/146272327",
    "alt": "Photo of an amphibian"
+  },
+  {
+   "id": "arachnida",
+   "event": "buzzworthy",
+   "group": "class",
+   "name": "Arachnida",
+   "image": "images/buzzworthy/arachnida-1.jpg",
+   "credit": "Photo: Amy Padgett, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/97195959",
+   "alt": "Photo of an arthropod"
+  },
+  {
+   "id": "arachnida",
+   "event": "buzzworthy",
+   "group": "class",
+   "name": "Arachnida",
+   "image": "images/buzzworthy/arachnida-2.jpg",
+   "credit": "Photo: josduv, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/316095603",
+   "alt": "Photo of an arthropod"
+  },
+  {
+   "id": "arachnida",
+   "event": "buzzworthy",
+   "group": "class",
+   "name": "Arachnida",
+   "image": "images/buzzworthy/arachnida-3.jpg",
+   "credit": "Photo: wshear, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/121586204",
+   "alt": "Photo of an arthropod"
+  },
+  {
+   "id": "chilopoda",
+   "event": "buzzworthy",
+   "group": "class",
+   "name": "Chilopoda",
+   "image": "images/buzzworthy/chilopoda-1.jpg",
+   "credit": "Photo: Tim Lewis, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/137699428",
+   "alt": "Photo of an arthropod"
+  },
+  {
+   "id": "chilopoda",
+   "event": "buzzworthy",
+   "group": "class",
+   "name": "Chilopoda",
+   "image": "images/buzzworthy/chilopoda-2.jpg",
+   "credit": "Photo: Kevin Metcalf, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/17998739",
+   "alt": "Photo of an arthropod"
+  },
+  {
+   "id": "chilopoda",
+   "event": "buzzworthy",
+   "group": "class",
+   "name": "Chilopoda",
+   "image": "images/buzzworthy/chilopoda-3.jpg",
+   "credit": "Photo: Dr. Mike Larsen, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/16007934",
+   "alt": "Photo of an arthropod"
+  },
+  {
+   "id": "crustacea",
+   "event": "buzzworthy",
+   "group": "class",
+   "name": "Crustacea",
+   "image": "images/buzzworthy/crustacea-1.jpg",
+   "credit": "Photo: Margarita Lankford, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/92041180",
+   "alt": "Photo of an arthropod"
+  },
+  {
+   "id": "crustacea",
+   "event": "buzzworthy",
+   "group": "class",
+   "name": "Crustacea",
+   "image": "images/buzzworthy/crustacea-2.jpg",
+   "credit": "Photo: Troi Perkins, CC BY, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/100018506",
+   "alt": "Photo of an arthropod"
+  },
+  {
+   "id": "crustacea",
+   "event": "buzzworthy",
+   "group": "class",
+   "name": "Crustacea",
+   "image": "images/buzzworthy/crustacea-3.jpg",
+   "credit": "Photo: Austin Pursley, CC0, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/38167733",
+   "alt": "Photo of an arthropod"
+  },
+  {
+   "id": "diplopoda",
+   "event": "buzzworthy",
+   "group": "class",
+   "name": "Diplopoda",
+   "image": "images/buzzworthy/diplopoda-1.jpg",
+   "credit": "Photo: Morgan Heinz, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/73425397",
+   "alt": "Photo of an arthropod"
+  },
+  {
+   "id": "diplopoda",
+   "event": "buzzworthy",
+   "group": "class",
+   "name": "Diplopoda",
+   "image": "images/buzzworthy/diplopoda-2.jpg",
+   "credit": "Photo: Zoe O., CC BY, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/51100216",
+   "alt": "Photo of an arthropod"
+  },
+  {
+   "id": "diplopoda",
+   "event": "buzzworthy",
+   "group": "class",
+   "name": "Diplopoda",
+   "image": "images/buzzworthy/diplopoda-3.jpg",
+   "credit": "Photo: Jozef K. Richards, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/120575805",
+   "alt": "Photo of an arthropod"
+  },
+  {
+   "id": "archaeognatha",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Archaeognatha",
+   "image": "images/buzzworthy/archaeognatha-1.jpg",
+   "credit": "Photo: this_person_exists, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/285491129",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "archaeognatha",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Archaeognatha",
+   "image": "images/buzzworthy/archaeognatha-2.jpg",
+   "credit": "Photo: shapomacro, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/183671296",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "archaeognatha",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Archaeognatha",
+   "image": "images/buzzworthy/archaeognatha-3.jpg",
+   "credit": "Photo: dutch1831, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/320880236",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "blattodea",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Blattodea",
+   "image": "images/buzzworthy/blattodea-1.jpg",
+   "credit": "Photo: Patrick Coin, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/15917471",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "blattodea",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Blattodea",
+   "image": "images/buzzworthy/blattodea-2.jpg",
+   "credit": "Photo: elijahfreeman19, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/253270165",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "blattodea",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Blattodea",
+   "image": "images/buzzworthy/blattodea-3.jpg",
+   "credit": "Photo: channierenn9924, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/62955756",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "coleoptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Coleoptera",
+   "image": "images/buzzworthy/coleoptera-1.jpg",
+   "credit": "Photo: Patrick Coin, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/7080373",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "coleoptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Coleoptera",
+   "image": "images/buzzworthy/coleoptera-2.jpg",
+   "credit": "Photo: Ken Kneidel, CC0, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/127760800",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "coleoptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Coleoptera",
+   "image": "images/buzzworthy/coleoptera-3.jpg",
+   "credit": "Photo: Sarah Oberlin, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/232133735",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "dermaptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Dermaptera",
+   "image": "images/buzzworthy/dermaptera-1.jpg",
+   "credit": "Photo: Denise Williams, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/217096328",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "dermaptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Dermaptera",
+   "image": "images/buzzworthy/dermaptera-2.jpg",
+   "credit": "Photo: sunny tyson, CC0, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/155225179",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "dermaptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Dermaptera",
+   "image": "images/buzzworthy/dermaptera-3.jpg",
+   "credit": "Photo: Alison Northup, CC BY, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/288841274",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "diptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Diptera",
+   "image": "images/buzzworthy/diptera-1.jpg",
+   "credit": "Photo: Nell Cant, CC BY, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/131194548",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "diptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Diptera",
+   "image": "images/buzzworthy/diptera-2.jpg",
+   "credit": "Photo: jfox16, CC BY, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/49987311",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "diptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Diptera",
+   "image": "images/buzzworthy/diptera-3.jpg",
+   "credit": "Photo: Patrick Coin, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/4904359",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "ephemeroptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Ephemeroptera",
+   "image": "images/buzzworthy/ephemeroptera-1.jpg",
+   "credit": "Photo: Joe Girgente, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/84448695",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "ephemeroptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Ephemeroptera",
+   "image": "images/buzzworthy/ephemeroptera-2.jpg",
+   "credit": "Photo: t7iguy, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/59608865",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "ephemeroptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Ephemeroptera",
+   "image": "images/buzzworthy/ephemeroptera-3.jpg",
+   "credit": "Photo: dbettini, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/185478708",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "hemiptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Hemiptera",
+   "image": "images/buzzworthy/hemiptera-1.jpg",
+   "credit": "Photo: Larry Chen, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/123580848",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "hemiptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Hemiptera",
+   "image": "images/buzzworthy/hemiptera-2.jpg",
+   "credit": "Photo: Lexi Amico, CC BY, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/222133116",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "hemiptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Hemiptera",
+   "image": "images/buzzworthy/hemiptera-3.jpg",
+   "credit": "Photo: Abby H, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/63887835",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "hymenoptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Hymenoptera",
+   "image": "images/buzzworthy/hymenoptera-1.jpg",
+   "credit": "Photo: grinnin, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/124980721",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "hymenoptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Hymenoptera",
+   "image": "images/buzzworthy/hymenoptera-2.jpg",
+   "credit": "Photo: Michael J. Papay, CC BY, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/203790823",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "hymenoptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Hymenoptera",
+   "image": "images/buzzworthy/hymenoptera-3.jpg",
+   "credit": "Photo: Patrick Coin, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/41733130",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "lepidoptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Lepidoptera",
+   "image": "images/buzzworthy/lepidoptera-1.jpg",
+   "credit": "Photo: ragbird, CC0, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/133937446",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "lepidoptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Lepidoptera",
+   "image": "images/buzzworthy/lepidoptera-2.jpg",
+   "credit": "Photo: Kenneth Geisert, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/231622819",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "lepidoptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Lepidoptera",
+   "image": "images/buzzworthy/lepidoptera-3.jpg",
+   "credit": "Photo: Patrick Coin, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/104441327",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "neuroptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Neuroptera",
+   "image": "images/buzzworthy/neuroptera-1.jpg",
+   "credit": "Photo: Marty T, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/401391679",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "neuroptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Neuroptera",
+   "image": "images/buzzworthy/neuroptera-2.jpg",
+   "credit": "Photo: entheart, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/283382276",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "odonata",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Odonata",
+   "image": "images/buzzworthy/odonata-1.jpg",
+   "credit": "Photo: Patrick Coin, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/57218310",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "odonata",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Odonata",
+   "image": "images/buzzworthy/odonata-2.jpg",
+   "credit": "Photo: Amy Padgett, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/233598643",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "odonata",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Odonata",
+   "image": "images/buzzworthy/odonata-3.jpg",
+   "credit": "Photo: Mark Shields, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/243981542",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "orthoptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Orthoptera",
+   "image": "images/buzzworthy/orthoptera-1.jpg",
+   "credit": "Photo: Evan M. Raskin, CC BY, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/6559362",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "orthoptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Orthoptera",
+   "image": "images/buzzworthy/orthoptera-2.jpg",
+   "credit": "Photo: Kevin Anderson, CC BY, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/289839057",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "orthoptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Orthoptera",
+   "image": "images/buzzworthy/orthoptera-3.jpg",
+   "credit": "Photo: Patrick Coin, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/98166501",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "phasmatodea",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Phasmatodea",
+   "image": "images/buzzworthy/phasmatodea-1.jpg",
+   "credit": "Photo: Logan Parker, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/28098690",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "phasmatodea",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Phasmatodea",
+   "image": "images/buzzworthy/phasmatodea-2.jpg",
+   "credit": "Photo: Anthony J. Mills, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/185843312",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "phasmatodea",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Phasmatodea",
+   "image": "images/buzzworthy/phasmatodea-3.jpg",
+   "credit": "Photo: Steven Joyner, CC BY, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/66634715",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "psocodea",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Psocodea",
+   "image": "images/buzzworthy/psocodea-1.jpg",
+   "credit": "Photo: solomon v. hendrix, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/235391892",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "psocodea",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Psocodea",
+   "image": "images/buzzworthy/psocodea-2.jpg",
+   "credit": "Photo: Denise Williams, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/229587058",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "psocodea",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Psocodea",
+   "image": "images/buzzworthy/psocodea-3.jpg",
+   "credit": "Photo: Rob Van Epps, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/180616715",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "siphonaptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Siphonaptera",
+   "image": "images/buzzworthy/siphonaptera-1.jpg",
+   "credit": "Photo: ranlet, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/59793180",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "siphonaptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Siphonaptera",
+   "image": "images/buzzworthy/siphonaptera-2.jpg",
+   "credit": "Photo: Robby Deans, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/397592863",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "siphonaptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Siphonaptera",
+   "image": "images/buzzworthy/siphonaptera-3.jpg",
+   "credit": "Photo: Jess Kelley, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/317238785",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "trichoptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Trichoptera",
+   "image": "images/buzzworthy/trichoptera-1.jpg",
+   "credit": "Photo: bonnieeamick, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/8182490",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "trichoptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Trichoptera",
+   "image": "images/buzzworthy/trichoptera-2.jpg",
+   "credit": "Photo: Tracy Fox, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/283445223",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "trichoptera",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Trichoptera",
+   "image": "images/buzzworthy/trichoptera-3.jpg",
+   "credit": "Photo: scottmessick9, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/377038038",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "zygentoma",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Zygentoma",
+   "image": "images/buzzworthy/zygentoma-1.jpg",
+   "credit": "Photo: Robby Deans, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/9339458",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "zygentoma",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Zygentoma",
+   "image": "images/buzzworthy/zygentoma-2.jpg",
+   "credit": "Photo: Robert Meehan, CC BY-NC, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/81269510",
+   "alt": "Photo of an insect"
+  },
+  {
+   "id": "zygentoma",
+   "event": "buzzworthy",
+   "group": "order",
+   "name": "Zygentoma",
+   "image": "images/buzzworthy/zygentoma-3.jpg",
+   "credit": "Photo: Morgan Freese, CC BY, via iNaturalist",
+   "source": "https://www.inaturalist.org/observations/120847113",
+   "alt": "Photo of an insect"
   }
  ]
 };

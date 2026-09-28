@@ -44,6 +44,10 @@ Codebusters aren't included.
   anything comes back around.
 - **Practice my missed questions.** Missed questions are saved. Getting one right later
   takes it off the list.
+- **Picture ID.** Geology Rocks!, Buzzworthy, and Roots & Reptiles include photo questions
+  ("Which mineral from the official list is this?"). Every photo was reviewed by eye, is
+  openly licensed (Wikimedia Commons or iNaturalist, mostly North Carolina observations), and
+  shows its photographer credit. After answering, students see how to recognize the specimen.
 - **Topics.** Each question shows its topic, and the results screen lists the topics to
   study next, most-missed first.
 - **Hints** on some tricky questions.
@@ -61,8 +65,20 @@ index.html              the page
 styles.css              the look
 app.js                  quiz logic
 questions/*.js          one question bank per event
-tools/check-questions.js  checks the question banks for mistakes
+questions/photos.js     Picture ID photos (generated)
+images/                 the photos
+tools/check-questions.js  checks the question banks and photos for mistakes
+tools/photos/           how the photos were found, reviewed, and built
 ```
+
+### How the photos were chosen
+
+`.github/workflows/fetch-photos.yml` downloads candidate photos for the specimens in
+`tools/photos/specimens.json` to the `photo-candidates` branch. A person reviews the
+contact sheets there and lists the good ones in `tools/photos/picks.txt`. Then
+`python tools/photos/build_photos.py <photo-candidates checkout>` copies the picks into
+`images/` and writes `questions/photos.js`. Identification tips are in `tools/photos/tips.json`.
+To remove a photo, delete its number from `picks.txt` and rebuild.
 
 ## Adding or editing questions
 
