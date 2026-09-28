@@ -1,1 +1,27 @@
-{ "only": [], "per": 8, "skip": {} }
+{
+ "only": [
+  "fluorite",
+  "galena",
+  "graphite",
+  "gypsum",
+  "halite",
+  "mica",
+  "pyrite",
+  "talc",
+  "arachnida",
+  "chilopoda",
+  "diplopoda",
+  "archaeognatha",
+  "coleoptera",
+  "ephemeroptera",
+  "hymenoptera",
+  "odonata",
+  "orthoptera",
+  "phasmatodea",
+  "psocodea",
+  "siphonaptera",
+  "zygentoma"
+ ],
+ "per": 8,
+ "skip": {}
+}

@@ -29,13 +29,21 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests pillow
-      - run: python tools/photos/fetch_candidates.py
+      - name: Start from the existing candidates, if any
+        run: |
+          if git fetch origin photo-candidates; then
+            git worktree add out FETCH_HEAD
+            git -C out checkout -B photo-candidates
+          else
+            git worktree add --orphan -b photo-candidates out
+          fi
+      - run: python ../tools/photos/fetch_candidates.py
+        working-directory: out
       - name: Push candidates to the photo-candidates branch
+        working-directory: out
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout --orphan photo-candidates
-          git rm -rf --cached . > /dev/null
           git add candidates
           git commit -m "Candidate photos from run ${{ github.run_id }}"
-          git push -f origin photo-candidates
+          git push origin photo-candidates

@@ -128,7 +128,46 @@
     return best;
   }
 
+  /* ---------- picture questions ---------- */
+  // questions/photos.js lists specimen photos. Each photo becomes a "Which
+  // ___ is this?" question in its event's Picture ID section, with the wrong
+  // choices drawn from other specimens in the same group.
+  function addPictureQuestions(photoData) {
+    if (!photoData || !photoData.photos) return;
+    var groups = photoData.groups || {};
+    var names = {};
+    photoData.photos.forEach(function (p) {
+      var key = p.event + "/" + p.group;
+      names[key] = names[key] || [];
+      if (names[key].indexOf(p.name) === -1) names[key].push(p.name);
+    });
+    EVENTS.forEach(function (ev) {
+      var mine = photoData.photos.filter(function (p) { return p.event === ev.id; });
+      if (!mine.length || !ev.sections) return;
+      ev.sections.push({
+        topic: "Picture ID",
+        questions: mine.map(function (p) {
+          var g = groups[p.group] || {};
+          var pool = (names[p.event + "/" + p.group] || []).concat(g.extra || [])
+            .filter(function (n) { return n !== p.name; });
+          var tip = (photoData.tips || {})[p.id];
+          return {
+            q: g.prompt || "What is this?",
+            a: p.name,
+            wrong: shuffle(pool).slice(0, 3),
+            why: tip ? "How to recognize it: " + tip : "",
+            image: p.image,
+            imageAlt: p.alt || "Photo of a specimen to identify",
+            credit: p.credit
+          };
+        })
+      });
+    });
+  }
+
   /* ---------- question preparation ---------- */
+  addPictureQuestions(window.QUIZ_PHOTOS);
+
   // Banks list questions grouped into topic sections; flatten them and
   // remember each question's topic so results can say what to review.
   EVENTS.forEach(function (ev) {
@@ -142,7 +181,7 @@
       });
     }
     ev.questions.forEach(function (q) {
-      q.id = hash(q.q);
+      q.id = hash(q.q + (q.image || ""));
       q.eventId = ev.id;
       q.kind = q.type === "type" ? "type" : "choice";
       if (q.kind === "type" && !Array.isArray(q.a)) q.a = [q.a];

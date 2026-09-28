@@ -26,23 +26,34 @@ UA = "EurekaSciOlyQuiz/1.0 (educational quiz for elementary Science Olympiad stu
 S = requests.Session()
 S.headers["User-Agent"] = UA
 
+LOG = []
+
+
+def log(*parts):
+    line = " ".join(str(p) for p in parts)
+    print(line)
+    LOG.append(line)
+
+
 INAT_LICENSES = "cc0,cc-by,cc-by-sa,cc-by-nc"
 NC_PLACE_ID = 30  # North Carolina on iNaturalist
 MAX_SIDE = 800
 
 
 def get_json(url, params):
-    for attempt in range(4):
+    for attempt in range(6):
         try:
-            r = S.get(url, params=params, timeout=40)
-            if r.status_code == 429:
-                time.sleep(10 * (attempt + 1))
+            r = S.get(url, params=params, timeout=60)
+            if r.status_code in (429, 500, 502, 503, 504):
+                log("  status", r.status_code, "waiting to retry")
+                time.sleep(15 * (attempt + 1))
                 continue
             r.raise_for_status()
             return r.json()
         except requests.RequestException as e:
-            print("  retry", url, e)
-            time.sleep(3 * (attempt + 1))
+            log("  retry", url, e)
+            time.sleep(5 * (attempt + 1))
+    log("  gave up", url, params)
     return {}
 
 
@@ -51,18 +62,19 @@ def inat_candidates(spec, want, skip):
     places = [NC_PLACE_ID, None]
     for name in spec["inat"]:
         for place in places:
-            for page in (1, 2):
+            for page, order_by in ((1, "votes"), (2, "votes"), (1, "observed_on")):
                 params = {
                     "taxon_name": name, "quality_grade": "research", "photos": "true",
                     "photo_license": INAT_LICENSES, "per_page": 50, "page": page,
-                    "order_by": "votes", "order": "desc",
+                    "order_by": order_by, "order": "desc",
                 }
                 if place:
                     params["place_id"] = place
                 if spec.get("adult"):
                     params.update({"term_id": 1, "term_value_id": 2})
                 data = get_json("https://api.inaturalist.org/v1/observations", params)
-                time.sleep(1.1)
+                log("  inat", name, "place", place, "page", page, order_by, "->", len(data.get("results", [])), "of", data.get("total_results"))
+                time.sleep(1.5)
                 for obs in data.get("results", []):
                     user = (obs.get("user") or {}).get("login")
                     if user in seen_users:
@@ -79,7 +91,7 @@ def inat_candidates(spec, want, skip):
                         "taxon": (obs.get("taxon") or {}).get("name"),
                         "place": (obs.get("place_guess") or "")[:60],
                     })
-                if len(found) >= want + skip or len(data.get("results", [])) < 50:
+                if len(found) >= want + skip:
                     break
             if len(found) >= want + skip:
                 break
@@ -119,7 +131,8 @@ def commons_candidates(spec, want, skip):
         queries.append(dict(common, generator="categorymembers", gcmtitle="Category:" + cat, gcmtype="file", gcmlimit=40))
     for params in queries:
         data = get_json(base, params)
-        time.sleep(0.5)
+        log("  commons", params.get("gsrsearch") or params.get("gcmtitle"), "->", len((data.get("query") or {}).get("pages", {})))
+        time.sleep(1)
         pages = sorted((data.get("query") or {}).get("pages", {}).values(), key=lambda p: p.get("index", 0))
         for page in pages:
             title = page.get("title", "")
@@ -145,8 +158,14 @@ def commons_candidates(spec, want, skip):
 
 
 def save_image(url, path):
-    r = S.get(url, timeout=60)
+    for attempt in range(5):
+        r = S.get(url, timeout=60)
+        if r.status_code in (429, 503):
+            time.sleep(10 * (attempt + 1))
+            continue
+        break
     r.raise_for_status()
+    time.sleep(0.5)
     img = Image.open(io.BytesIO(r.content)).convert("RGB")
     img.thumbnail((MAX_SIDE, MAX_SIDE))
     img.save(path, "JPEG", quality=80, optimize=True, progressive=True)
@@ -175,14 +194,18 @@ def main():
     req = json.load(open(os.path.join(HERE, "request.json")))
     only, per, skips = set(req.get("only") or []), int(req.get("per", 8)), req.get("skip") or {}
     os.makedirs(os.path.join(OUT, "_sheets"), exist_ok=True)
-    manifest = {}
+    mpath = os.path.join(OUT, "manifest.json")
+    manifest = json.load(open(mpath)) if os.path.exists(mpath) else {}
     for spec in specs:
         if only and spec["id"] not in only:
             continue
         skip = int(skips.get(spec["id"], 0))
-        print("==", spec["id"])
+        log("==", spec["id"])
         cands = inat_candidates(spec, per, skip) if "inat" in spec else commons_candidates(spec, per, skip)
         folder = os.path.join(OUT, spec["id"])
+        if os.path.isdir(folder):
+            for old in os.listdir(folder):
+                os.remove(os.path.join(folder, old))
         os.makedirs(folder, exist_ok=True)
         imgs, kept = [], []
         for c in cands:
@@ -191,17 +214,18 @@ def main():
             try:
                 imgs.append(save_image(c["url"], path))
             except Exception as e:  # skip unreadable images
-                print("  skip", c["url"], e)
+                log("  skip", c["url"], e)
                 continue
             c["file"] = "candidates/%s/%d.jpg" % (spec["id"], n)
             kept.append(c)
         manifest[spec["id"]] = {"name": spec["name"], "event": spec["event"], "group": spec["group"], "candidates": kept}
         if imgs:
             contact_sheet(imgs, os.path.join(OUT, "_sheets", spec["id"] + ".jpg"), "%s (%s)" % (spec["name"], spec["id"]))
-        print("  kept", len(kept))
-    json.dump(manifest, open(os.path.join(OUT, "manifest.json"), "w"), indent=1)
+        log("  kept", len(kept))
+    json.dump(manifest, open(mpath, "w"), indent=1)
     empty = [k for k, v in manifest.items() if not v["candidates"]]
-    print("done:", len(manifest), "specimens; empty:", empty)
+    log("done:", len(manifest), "specimens; empty:", empty)
+    open(os.path.join(OUT, "fetch_log.txt"), "w").write("\n".join(LOG) + "\n")
 
 
 if __name__ == "__main__":
