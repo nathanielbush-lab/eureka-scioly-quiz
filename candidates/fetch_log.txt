@@ -1,92 +1,107 @@
-== arachnida
-  taxon Arachnida -> 47119 class
-  inat Arachnida place 30 page 1 votes -> 50 of 61139
+== granite
+  commons granite igneous rock sample closeup filetype:bitmap -> 1
+  commons pink granite rock specimen filetype:bitmap -> 18
+  commons granite hand specimen filetype:bitmap -> 25
+  commons Category:Granite samples -> 40
   kept 8
-== chilopoda
-  taxon Chilopoda -> 49556 class
-  inat Chilopoda place 30 page 1 votes -> 50 of 1596
+== limestone-chemical
+  commons gray limestone rock sample filetype:bitmap -> 25
+  commons micritic limestone hand specimen filetype:bitmap -> 0
+  commons limestone sedimentary rock sample filetype:bitmap -> 25
+  commons Category:Limestone samples -> 40
   kept 8
-== crustacea
-  taxon Isopoda -> 48147 order
-  inat Isopoda place 30 page 1 votes -> 50 of 5197
+== scoria
+  commons scoria vesicular volcanic rock sample filetype:bitmap -> 0
+  commons red scoria rock filetype:bitmap -> 15
+  commons scoria cinder rock specimen filetype:bitmap -> 0
+  commons Category:Scoria samples -> 0
   kept 8
-== diplopoda
-  taxon Diplopoda -> 47735 class
-  inat Diplopoda place 30 page 1 votes -> 50 of 4079
+== shale
+  commons gray shale sedimentary rock sample filetype:bitmap -> 23
+  commons black shale hand specimen filetype:bitmap -> 3
+  commons fissile shale layers rock filetype:bitmap -> 3
+  commons Category:Shale samples -> 2
   kept 8
-== archaeognatha
-  taxon Archaeognatha -> 461443 order
-  inat Archaeognatha place 30 page 1 votes -> 4 of 4
-  retry https://api.inaturalist.org/v1/observations ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-  inat Archaeognatha place 30 page 2 votes -> 0 of 4
-  inat Archaeognatha place 30 page 1 observed_on -> 4 of 4
-  inat Archaeognatha place None page 1 votes -> 50 of 1866
-  kept 8
-== blattodea
-  taxon Blattodea -> 81769 order
-  inat Blattodea place 30 page 1 votes -> 50 of 2234
-  kept 8
-== coleoptera
-  taxon Coleoptera -> 47208 order
-  inat Coleoptera place 30 page 1 votes -> 50 of 14749
-  kept 8
-== dermaptera
-  taxon Dermaptera -> 47793 order
-  inat Dermaptera place 30 page 1 votes -> 50 of 567
-  kept 8
-== diptera
-  taxon Diptera -> 47822 order
-  inat Diptera place 30 page 1 votes -> 50 of 4191
-  kept 8
-== ephemeroptera
-  taxon Ephemeroptera -> 48011 order
-  inat Ephemeroptera place 30 page 1 votes -> 50 of 102
-  kept 8
-== hemiptera
-  taxon Hemiptera -> 47744 order
-  inat Hemiptera place 30 page 1 votes -> 50 of 21473
-  kept 8
-== hymenoptera
-  taxon Hymenoptera -> 47201 order
-  inat Hymenoptera place 30 page 1 votes -> 50 of 7675
-  kept 8
-== lepidoptera
-  taxon Lepidoptera -> 47157 order
-  inat Lepidoptera place 30 page 1 votes -> 50 of 159383
-  kept 8
-== neuroptera
-  taxon Neuroptera -> 48763 order
-  inat Neuroptera place 30 page 1 votes -> 50 of 2355
-  kept 8
-== odonata
-  taxon Odonata -> 47792 order
-  inat Odonata place 30 page 1 votes -> 50 of 4595
-  kept 8
-== orthoptera
-  taxon Orthoptera -> 47651 order
-  inat Orthoptera place 30 page 1 votes -> 50 of 1912
-  kept 8
-== phasmatodea
-  taxon Phasmida -> 47198 order
-  inat Phasmida place 30 page 1 votes -> 50 of 227
-  kept 8
-== psocodea
-  taxon Psocodea -> 83187 order
-  inat Psocodea place 30 page 1 votes -> 50 of 785
-  kept 8
-== siphonaptera
-  taxon Siphonaptera -> 83204 order
-  inat Siphonaptera place 30 page 1 votes -> 8 of 8
-  inat Siphonaptera place 30 page 2 votes -> 0 of 8
-  inat Siphonaptera place 30 page 1 observed_on -> 8 of 8
-  inat Siphonaptera place None page 1 votes -> 50 of 451
-  kept 8
-== trichoptera
-  taxon Trichoptera -> 62164 order
-  inat Trichoptera place 30 page 1 votes -> 50 of 259
-  kept 8
-== zygentoma
-  taxon Zygentoma -> 48301 order
-  inat Zygentoma place 30 page 1 votes -> 50 of 176
-  kept 8
-done: 100 specimens; empty: ['galena', 'halite', 'mica']
+== feldspar
+  commons microcline crystal specimen filetype:bitmap -> 25
+  commons orthoclase feldspar crystal specimen filetype:bitmap -> 23
+  commons potassium feldspar pink crystal filetype:bitmap -> 25
+  commons Category:Microcline crystals -> 0
+  commons Category:Orthoclase crystals -> 0
+  skip https://upload.wikimedia.org/wikipedia/commons/d/de/Arfvedsonite-Microcline-rw19a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/d/de/Arfvedsonite-Microcline-rw19a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  kept 7
+== fluorite
+  commons fluorite mineral specimen filetype:bitmap -> 25
+  commons purple fluorite cube filetype:bitmap -> 25
+  commons Category:Fluorite -> 40
+  skip https://upload.wikimedia.org/wikipedia/commons/2/22/Fluorite-Quartz-54392.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/2/22/Fluorite-Quartz-54392.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/d/d8/Fluorite-Quartz-k294a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/d/d8/Fluorite-Quartz-k294a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/9/95/Fluorite-176265.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/9/95/Fluorite-176265.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/b/b1/Fluorite-Pyrite-rom03b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/b/b1/Fluorite-Pyrite-rom03b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  kept 4
+== galena
+  commons galena mineral specimen filetype:bitmap -> 25
+  commons galena cubes filetype:bitmap -> 25
+  commons Category:Galena -> 40
+  skip https://upload.wikimedia.org/wikipedia/commons/6/60/Galena%2C_Quartz-236400.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/6/60/Galena%2C_Quartz-236400.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/a/ae/Galena-Quartz-60781.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/a/ae/Galena-Quartz-60781.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/4/4b/Galena-Quartz-113302.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/4/4b/Galena-Quartz-113302.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/f/f0/Galena-Quartz-122981.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/f/f0/Galena-Quartz-122981.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/7/75/Galena-Quartz-42122.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/7/75/Galena-Quartz-42122.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/3/36/Galena-54372.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/3/36/Galena-54372.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/4/40/Galena-203246.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/4/40/Galena-203246.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/f/f2/Galena-24619.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/f/f2/Galena-24619.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  kept 0
+== graphite
+  commons graphite mineral specimen filetype:bitmap -> 25
+  commons graphite filetype:bitmap -> 25
+  commons Category:Graphite -> 40
+  skip https://upload.wikimedia.org/wikipedia/commons/3/3d/Graphite-233436.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/3/3d/Graphite-233436.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/4/49/Graphite-208904.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/4/49/Graphite-208904.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/7/7b/Diamond_and_graphite_without_structures.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/7/7b/Diamond_and_graphite_without_structures.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/5/5d/Graphite-208903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/5/5d/Graphite-208903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/c/cd/Graphite-208911.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/c/cd/Graphite-208911.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/f/f6/Graphite-208906.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/f/f6/Graphite-208906.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/9/9e/Graphite-208909.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/9/9e/Graphite-208909.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/a/ab/Graphite-208908.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/a/ab/Graphite-208908.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  kept 0
+== gypsum
+  commons gypsum mineral specimen filetype:bitmap -> 25
+  commons selenite gypsum crystal filetype:bitmap -> 25
+  commons Category:Gypsum -> 40
+  commons Category:Selenite -> 40
+  skip https://upload.wikimedia.org/wikipedia/commons/c/c2/Gypsum-39597.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/c/c2/Gypsum-39597.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/6/63/Gypsum-44390.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/6/63/Gypsum-44390.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/5/54/Gypsum-64038.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/5/54/Gypsum-64038.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/7/7a/Gypsum-40636.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/7/7a/Gypsum-40636.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/7/7d/Gypsum-49964.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/7/7d/Gypsum-49964.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/8/83/Gypsum-146096.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/8/83/Gypsum-146096.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  kept 2
+== halite
+  commons halite mineral specimen filetype:bitmap -> 25
+  commons halite cubic crystals filetype:bitmap -> 25
+  commons Category:Halite -> 40
+  skip https://upload.wikimedia.org/wikipedia/commons/5/53/Halite-34681.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/5/53/Halite-34681.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/e/e7/Halite-44509.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/e/e7/Halite-44509.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/5/58/Halite-199589.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/5/58/Halite-199589.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/6/6c/Halite-Malachite-160756.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/6/6c/Halite-Malachite-160756.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/d/d6/Halite-63995.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/d/d6/Halite-63995.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/b/bb/Halite-66596.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/b/bb/Halite-66596.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/d/d3/Halite-211563.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/d/d3/Halite-211563.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/3/3f/Halite-233134.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/3/3f/Halite-233134.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  kept 0
+== mica
+  commons muscovite mica specimen filetype:bitmap -> 25
+  commons mica sheets mineral filetype:bitmap -> 25
+  commons Category:Muscovite -> 40
+  commons Category:Biotite -> 40
+  skip https://upload.wikimedia.org/wikipedia/commons/8/8d/Muscovite_mica_%26_biotite_mica_derived_from_pegmatitic_granite_%28Ruggles_Pegmatite%2C_Devonian%3B_Ruggles_Pegmatite_Mine%2C_New_Hampshire%2C_USA%29_2_%288291623278%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/8/8d/Muscovite_mica_%26_biotite_mica_derived_from_pegmatitic_granite_%28Ruggles_Pegmatite%2C_Devonian%3B_Ruggles_Pegmatite_Mine%2C_New_Hampshire%2C_USA%29_2_%288291623278%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/8/86/Muscovite_mica_%26_biotite_mica_derived_from_pegmatitic_granite_%28Ruggles_Pegmatite%2C_Devonian%3B_Ruggles_Pegmatite_Mine%2C_New_Hampshire%2C_USA%29_1_%288291623644%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/8/86/Muscovite_mica_%26_biotite_mica_derived_from_pegmatitic_granite_%28Ruggles_Pegmatite%2C_Devonian%3B_Ruggles_Pegmatite_Mine%2C_New_Hampshire%2C_USA%29_1_%288291623644%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/7/79/Muscovite-4jg43a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/7/79/Muscovite-4jg43a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/9/9d/Muscovite-243370.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/9/9d/Muscovite-243370.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/1/12/Muscovite-238973.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/1/12/Muscovite-238973.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/d/d4/Muscovite-237466.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/d/d4/Muscovite-237466.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/5/53/Beryl-Fluorite-Muscovite-242501.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/5/53/Beryl-Fluorite-Muscovite-242501.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  kept 1
+out of time; stopping before pyrite
+done: 100 specimens; empty: ['galena', 'graphite', 'halite']
