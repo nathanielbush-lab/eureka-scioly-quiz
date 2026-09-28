@@ -10,6 +10,7 @@ vm.createContext(ctx);
 for (const f of fs.readdirSync(dir).filter((f) => f.endsWith(".js")).sort()) {
   vm.runInContext(fs.readFileSync(path.join(dir, f), "utf8"), ctx, { filename: f });
 }
+const photoData = ctx.window.QUIZ_PHOTOS;
 
 let problems = 0;
 const warn = (ev, i, msg) => { problems++; console.log(`  ${ev.id} #${i + 1}: ${msg}`); };
@@ -47,6 +48,19 @@ for (const ev of ctx.window.QUIZ_EVENTS) {
   const topics = ev.sections ? `, ${ev.sections.length} topics` : "";
   console.log(`${ev.name}: ${n} questions${topics} (${mc} multiple choice, ${typed} typed) = ${Math.floor(n / 10)} different 10-question quizzes`);
   if (n < 100) { problems++; console.log(`  ${ev.id}: fewer than 100 questions`); }
+}
+if (photoData) {
+  const root = path.join(__dirname, "..");
+  const ids = new Set(ctx.window.QUIZ_EVENTS.map((e) => e.id));
+  const perEvent = {};
+  for (const p of photoData.photos) {
+    perEvent[p.event] = (perEvent[p.event] || 0) + 1;
+    if (!ids.has(p.event)) { problems++; console.log(`  photo ${p.image}: unknown event ${p.event}`); }
+    if (!fs.existsSync(path.join(root, p.image))) { problems++; console.log(`  photo ${p.image}: file missing`); }
+    if (!p.credit) { problems++; console.log(`  photo ${p.image}: missing credit`); }
+    if (!photoData.groups[p.group]) { problems++; console.log(`  photo ${p.image}: unknown group ${p.group}`); }
+  }
+  console.log("Picture ID photos:", Object.entries(perEvent).map(([e, n]) => `${e} ${n}`).join(", "));
 }
 console.log(problems ? `\n${problems} problem(s) found.` : "\nAll question banks look good.");
 process.exit(problems ? 1 : 0);
