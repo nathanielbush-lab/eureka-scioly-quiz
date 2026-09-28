@@ -1667,12 +1667,68 @@
   "group": "mineral",
   "candidates": [
    {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Halite_crystal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Photo: Aram Dulyan (User:Aramgutang), Public domain, via Wikimedia Commons",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Halite_crystal.jpg",
+    "title": "File:Halite crystal.jpg",
+    "file": "candidates/halite/1.jpg"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Halite-pb61a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Halite-pb61a.jpg",
+    "title": "File:Halite-pb61a.jpg",
+    "file": "candidates/halite/2.jpg"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Halite-66596.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Halite-66596.jpg",
+    "title": "File:Halite-66596.jpg",
+    "file": "candidates/halite/3.jpg"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Halite-199588.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Halite-199588.jpg",
+    "title": "File:Halite-199588.jpg",
+    "file": "candidates/halite/4.jpg"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Halite-199589.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Halite-199589.jpg",
+    "title": "File:Halite-199589.jpg",
+    "file": "candidates/halite/5.jpg"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Halite-282334.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Halite-282334.jpg",
+    "title": "File:Halite-282334.jpg",
+    "file": "candidates/halite/6.jpg"
+   },
+   {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Galena_%28GeoDIL_number_-_1082%29.jpg/960px-Galena_%28GeoDIL_number_-_1082%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "credit": "Photo: Nessa Eull, CC0, via Wikimedia Commons",
     "license": "CC0",
     "source": "https://commons.wikimedia.org/wiki/File:Galena_(GeoDIL_number_-_1082).jpg",
     "title": "File:Galena (GeoDIL number - 1082).jpg",
-    "file": "candidates/halite/1.jpg"
+    "file": "candidates/halite/7.jpg"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Halite-rock-salt-inowroclaw-poland.jpg/960px-Halite-rock-salt-inowroclaw-poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: Zbynek Burival, CC BY-SA 4.0, via Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Halite-rock-salt-inowroclaw-poland.jpg",
+    "title": "File:Halite-rock-salt-inowroclaw-poland.jpg",
+    "file": "candidates/halite/8.jpg"
    }
   ]
  },
@@ -1729,12 +1785,44 @@
   "group": "mineral",
   "candidates": [
    {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Large_mica_crystal_in_pegmatitic_granite_%28Ruggles_Pegmatite%2C_Devonian%3B_Ruggles_Pegmatite_Mine%2C_New_Hampshire%2C_USA%29_2_%288290567239%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Large_mica_crystal_in_pegmatitic_granite_(Ruggles_Pegmatite,_Devonian;_Ruggles_Pegmatite_Mine,_New_Hampshire,_USA)_2_(8290567239).jpg",
+    "title": "File:Large mica crystal in pegmatitic granite (Ruggles Pegmatite, Devonian; Ruggles Pegmatite Mine, New Hampshire, USA) 2 (8290567239).jpg",
+    "file": "candidates/mica/1.jpg"
+   },
+   {
     "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Horn_book_front_%28hires%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "credit": "Photo: Geneus01, CC BY-SA 4.0, via Wikimedia Commons",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Horn_book_front_(hires).jpg",
     "title": "File:Horn book front (hires).jpg",
-    "file": "candidates/mica/1.jpg"
+    "file": "candidates/mica/2.jpg"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Fluorapatite-Muscovite-tuc8-098a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fluorapatite-Muscovite-tuc8-098a.jpg",
+    "title": "File:Fluorapatite-Muscovite-tuc8-098a.jpg",
+    "file": "candidates/mica/3.jpg"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Beryl-Muscovite-54620.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Beryl-Muscovite-54620.jpg",
+    "title": "File:Beryl-Muscovite-54620.jpg",
+    "file": "candidates/mica/4.jpg"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Beryl-Muscovite-206936.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Beryl-Muscovite-206936.jpg",
+    "title": "File:Beryl-Muscovite-206936.jpg",
+    "file": "candidates/mica/5.jpg"
    }
   ]
  },
