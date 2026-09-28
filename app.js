@@ -298,6 +298,7 @@
   /* ---------- screens ---------- */
   function renderHome() {
     stopSpeaking();
+    if (window.EurekaCodebusters) window.EurekaCodebusters.stop();
     state = { screen: "home" };
     var totalQs = EVENTS.reduce(function (s, e) { return s + e.questions.length; }, 0);
     var view = el(
@@ -348,6 +349,22 @@
       tile.addEventListener("click", function () { startQuiz(ev.id, "new"); });
       grid.appendChild(tile);
     });
+
+    // Codebusters has its own puzzle screens (codebusters/codebusters.js).
+    if (window.EurekaCodebusters) {
+      var solved = window.EurekaCodebusters.solved();
+      var cb = el(
+        '<button type="button" class="event" style="--tint:#7a5cff">' +
+          '<span class="event-icon" aria-hidden="true">🕵️</span>' +
+          '<span class="event-name">Codebusters</span>' +
+          '<span class="event-blurb">Crack secret codes: all nine cipher types on the test, plus memory drills and a mock test.</span>' +
+          '<span class="event-meta"><span class="pill">New puzzles every time</span>' +
+          (solved ? '<span class="pill best">Solved ' + solved + "</span>" : "") + "</span>" +
+        "</button>"
+      );
+      cb.addEventListener("click", function () { state = { screen: "codebusters" }; window.EurekaCodebusters.open(); });
+      grid.appendChild(cb);
+    }
 
     app.replaceChildren(view);
     window.scrollTo(0, 0);
@@ -647,6 +664,7 @@
     if (btns[idx]) btns[idx].click();
   });
 
+  window.EurekaConfetti = confetti;
   document.getElementById("homeBtn").addEventListener("click", renderHome);
   renderHome();
 })();

@@ -27,8 +27,35 @@ stations). Every bank sticks to what that event's rules list.
 | Storm Chasers | 132 | Thunderstorms, tornadoes, hurricanes, blizzards, floods, maps, watches and warnings, safety, effects |
 | Zap Lab | 130 | Circuits, conductors and insulators, V/A/Ω/W, series and parallel, schematics, meters, safety |
 
-Build events (Bridge-A-Roni, Egg-O-Naut, Just Plane Awesome), Describe It, Build It, and
-Codebusters aren't included.
+Build events (Bridge-A-Roni, Egg-O-Naut, Just Plane Awesome), Describe It, and Build It
+aren't included. Codebusters has its own section, described below.
+
+## Codebusters
+
+A separate practice area for the Codebusters event, reached from its own tile on the home
+screen. It covers all nine code types in the 2027 NC rules: Aristocrat, Atbash, Caesar
+(shift of 3 or less), Vigenère (key given), Baconian (24 letters, up to 4 symbols), PigPen,
+Tap Code (C/K share a square), Knight's Templar, and Standard Galactic Alphabet.
+
+- **New puzzles every time.** Each puzzle encrypts a message from
+  `codebusters/phrases.js`, so students never run out.
+- **Easy, Medium, and Hard levels.** Easy gives extra help, such as prefilled letters on
+  Aristocrats, the Caesar shift, or the key letters written over a Vigenère. Hard uses
+  longer messages, and Aristocrats get no hint.
+- **Solve like on paper.** A box under each code symbol. For codes where a symbol always
+  means the same letter, typing it once fills it in everywhere. Aristocrats also have a
+  letter-count table and flag a letter used for two different code letters.
+- **Official scoring.** 2 or fewer mistakes earns full points, then each extra mistake
+  costs 50 points. Revealing a letter costs 25.
+- **How it works** for each code, with a worked example and the key chart.
+- **Resource sheet** matching what event leaders hand out: letter frequencies, Atbash,
+  Baconian, and Vigenère tables, and the Galactic "quick brown fox" phrase. It leaves out
+  PigPen, Tap Code, and Knight's Templar, just like the real one.
+- **Memory drills** (10 flash cards) for the three codes students must memorize.
+- **Mock test.** 5 puzzles of different types worth points, with a 25-minute timer and no hints.
+- **Print** any puzzle as a worksheet with the answer key on a second page.
+
+The Knight's Templar key follows the chart used at last year's NC tournament.
 
 ## What students get
 
@@ -66,6 +93,8 @@ styles.css              the look
 app.js                  quiz logic
 questions/*.js          one question bank per event
 questions/photos.js     Picture ID photos (generated)
+codebusters/            Codebusters practice: codebusters.js (ciphers, puzzles, drills,
+                        mock test) and phrases.js (the messages puzzles are made from)
 images/                 the photos
 tools/check-questions.js  checks the question banks and photos for mistakes
 tools/photos/           how the photos were found, reviewed, and built
