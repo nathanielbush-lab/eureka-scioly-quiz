@@ -2901,6 +2901,26 @@ window.QUIZ_PHOTOS = {
    "group": "mineral",
    "name": "Halite",
    "image": "images/geology-rocks/halite-1.jpg",
+   "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Halite-pb61a.jpg",
+   "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "halite",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Halite",
+   "image": "images/geology-rocks/halite-2.jpg",
+   "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Halite-282334.jpg",
+   "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "halite",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Halite",
+   "image": "images/geology-rocks/halite-3.jpg",
    "credit": "Photo: Aram Dulyan (Aramgutang), public domain, via Wikimedia Commons",
    "source": "https://commons.wikimedia.org/wiki/File:Halite_crystal.jpg",
    "alt": "Photo of a mineral specimen"

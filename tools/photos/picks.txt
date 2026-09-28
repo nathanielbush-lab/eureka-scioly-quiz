@@ -96,3 +96,4 @@ quartz 4 2
 galena 6 5 4
 graphite 1 2
 scoria 2 5
+halite 2 6
