@@ -82,7 +82,6 @@ To remove a photo, delete its number from `picks.txt` and rebuild.
 
 Photos someone supplies by hand go in `tools/photos/manual/`, with their credit and
 source page listed in `tools/photos/manual.json`; the same build step includes them.
-Still needed: a Mica photo (a "book" of thin, shiny sheets).
 
 ## Adding or editing questions
 

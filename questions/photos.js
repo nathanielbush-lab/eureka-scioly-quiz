@@ -132,7 +132,8 @@ window.QUIZ_PHOTOS = {
   "galena": "Heavy, shiny, lead-gray metal that forms or breaks into cubes. It leaves a gray streak.",
   "graphite": "Soft, black to steel-gray, and greasy-feeling. It leaves a mark on paper, like pencil lead.",
   "scoria": "Dark red-brown or black, full of holes, but heavier than pumice. It usually sinks.",
-  "halite": "Clear to white cubes, often with stair-step faces. It tastes salty and dissolves in water."
+  "halite": "Clear to white cubes, often with stair-step faces. It tastes salty and dissolves in water.",
+  "mica": "Peels into thin, flexible, shiny sheets, like pages of a book. It can be clear (muscovite) or black (biotite)."
  },
  "photos": [
   {
@@ -2923,6 +2924,16 @@ window.QUIZ_PHOTOS = {
    "image": "images/geology-rocks/halite-3.jpg",
    "credit": "Photo: Aram Dulyan (Aramgutang), public domain, via Wikimedia Commons",
    "source": "https://commons.wikimedia.org/wiki/File:Halite_crystal.jpg",
+   "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "mica",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Mica",
+   "image": "images/geology-rocks/mica-1.jpg",
+   "credit": "Photo: Mai Seppel, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "",
    "alt": "Photo of a mineral specimen"
   }
  ]
