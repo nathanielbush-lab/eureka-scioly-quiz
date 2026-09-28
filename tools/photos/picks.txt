@@ -93,3 +93,6 @@ gypsum 2
 talc 3
 pyrite 1 2
 quartz 4 2
+galena 6 5 4
+graphite 1 2
+scoria 2 5

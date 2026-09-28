@@ -128,7 +128,10 @@ window.QUIZ_PHOTOS = {
   "gypsum": "Soft (you can scratch it with a fingernail), white to clear, sometimes in long blades (selenite) or fibers.",
   "talc": "Very soft (1), greasy or soapy to touch, and usually white, pale green, or gray.",
   "pyrite": "Brassy, pale gold metallic cubes with striped faces. It leaves a greenish-black streak.",
-  "quartz": "Glassy, six-sided crystals with pointed tips. Very hard (7), and it breaks with curved fractures."
+  "quartz": "Glassy, six-sided crystals with pointed tips. Very hard (7), and it breaks with curved fractures.",
+  "galena": "Heavy, shiny, lead-gray metal that forms or breaks into cubes. It leaves a gray streak.",
+  "graphite": "Soft, black to steel-gray, and greasy-feeling. It leaves a mark on paper, like pencil lead.",
+  "scoria": "Dark red-brown or black, full of holes, but heavier than pumice. It usually sinks."
  },
  "photos": [
   {
@@ -2820,6 +2823,76 @@ window.QUIZ_PHOTOS = {
    "credit": "Photo: Photo by and (c)2015 Derek Ramsey (Ram-Man), CC BY-SA 4.0, via Wikimedia Commons",
    "source": "https://commons.wikimedia.org/wiki/File:Quartz_var_Amethyst_Specimen_22.JPG",
    "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "galena",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Galena",
+   "image": "images/geology-rocks/galena-1.jpg",
+   "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Galena-228346.jpg",
+   "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "galena",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Galena",
+   "image": "images/geology-rocks/galena-2.jpg",
+   "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Galena-244309.jpg",
+   "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "galena",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Galena",
+   "image": "images/geology-rocks/galena-3.jpg",
+   "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Galena-69466.jpg",
+   "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "graphite",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Graphite",
+   "image": "images/geology-rocks/graphite-1.jpg",
+   "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Graphite-233436.jpg",
+   "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "graphite",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Graphite",
+   "image": "images/geology-rocks/graphite-2.jpg",
+   "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Graphite-208903.jpg",
+   "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "scoria",
+   "event": "geology-rocks",
+   "group": "rock",
+   "name": "Scoria",
+   "image": "images/geology-rocks/scoria-1.jpg",
+   "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Vesicular_basalt_(16128028613).jpg",
+   "alt": "Photo of a rock specimen"
+  },
+  {
+   "id": "scoria",
+   "event": "geology-rocks",
+   "group": "rock",
+   "name": "Scoria",
+   "image": "images/geology-rocks/scoria-2.jpg",
+   "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Vesicular_basalt_(Quaternary;_Snake_River_Plain,_Idaho,_USA)_4.jpg",
+   "alt": "Photo of a rock specimen"
   }
  ]
 };
