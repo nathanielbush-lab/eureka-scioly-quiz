@@ -51,6 +51,10 @@ Tap Code (C/K share a square), Knight's Templar, and Standard Galactic Alphabet.
 - **Resource sheet** matching what event leaders hand out: letter frequencies, Atbash,
   Baconian, and Vigenère tables, and the Galactic "quick brown fox" phrase. It leaves out
   PigPen, Tap Code, and Knight's Templar, just like the real one.
+- **Study sheet (all codes).** A printable 3-page sheet with every key. Page 1 has the
+  three keys students must memorize (PigPen, Tap Code, Knight's Templar), page 2 has the
+  other codes, and page 3 has the Vigenère table. It's separate from the resource sheet,
+  which shows only what students get at the event.
 - **Memory drills** (10 flash cards) for the three codes students must memorize.
 - **Mock test.** 5 puzzles of different types worth points, with a 25-minute timer and no hints.
 - **Print** any puzzle as a worksheet with the answer key on a second page.

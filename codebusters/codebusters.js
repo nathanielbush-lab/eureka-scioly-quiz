@@ -603,6 +603,7 @@
         '<div class="btn-row">' +
           '<button type="button" class="btn" data-go="test">&#9201; Mock test</button>' +
           '<button type="button" class="btn secondary" data-go="sheet">&#128196; Resource sheet</button>' +
+          '<button type="button" class="btn secondary" data-go="study">&#128424; Study sheet (all codes)</button>' +
         "</div>" +
         '<h2 class="cb-h2">Pick a code</h2>' +
         '<div class="events cb-ciphers"></div>' +
@@ -614,6 +615,7 @@
     view.querySelector(".cb-top").appendChild(backLink("All events", function () { document.getElementById("homeBtn").click(); }));
     view.querySelector('[data-go="test"]').addEventListener("click", renderTestIntro);
     view.querySelector('[data-go="sheet"]').addEventListener("click", openSheet);
+    view.querySelector('[data-go="study"]').addEventListener("click", printStudySheet);
     var grid = view.querySelector(".cb-ciphers");
     CIPHERS.forEach(function (c) {
       var st = cipherStats(c.id);
@@ -955,24 +957,120 @@
           '<span class="code">' + x.show + '</span><span class="blank"></span></span>';
       }).join("") + "</span>";
     }).join("");
-    var html = "<!doctype html><html><head><meta charset=\"utf-8\"><title>" + esc(title) + "</title><style>" + PRINT_CSS + "</style></head><body>" +
-      '<div class="bar"><button onclick="window.print()">Print this worksheet</button><button onclick="window.close()">Close</button></div>' +
+    openPrintable(title, "Print this worksheet",
       "<h1>" + esc(title) + "</h1><p>Name: ______________________</p><p>" + p.info + "</p>" +
       '<div class="grid">' + grid + "</div>" +
-      '<div class="key"><h2>Answer key</h2><p>' + esc(p.plain) + "</p></div>" +
+      '<div class="key"><h2>Answer key</h2><p>' + esc(p.plain) + "</p></div>",
+      "codebusters-" + c.id + ".html");
+  }
+
+  // Opens a printable page in its own tab and starts printing.
+  function openPrintable(title, buttonLabel, body, filename) {
+    var html = "<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><title>" + esc(title) + "</title><style>" + PRINT_CSS + STUDY_CSS + "</style></head><body>" +
+      '<div class="bar"><button onclick="window.print()">' + esc(buttonLabel) + '</button><button onclick="window.close()">Close</button></div>' +
+      body +
       "<script>window.onload=function(){setTimeout(function(){window.print()},300)}<\/script></body></html>";
     var url = URL.createObjectURL(new Blob([html], { type: "text/html" }));
     var win = window.open(url, "_blank");
     if (!win) {
-      // Pop-ups blocked: download the worksheet instead so it can be opened and printed.
+      // Pop-ups blocked: download the page instead so it can be opened and printed.
       var a = document.createElement("a");
       a.href = url;
-      a.download = "codebusters-" + c.id + ".html";
+      a.download = filename;
       document.body.appendChild(a);
       a.click();
       a.remove();
     }
     setTimeout(function () { URL.revokeObjectURL(url); }, 60000);
+  }
+
+  /* ---------- study sheet: every key, for learning before the event ---------- */
+  var STUDY_CSS =
+    ".study h1{font-size:24px;margin-bottom:4px}.study .sub{color:#444;margin-bottom:14px}" +
+    ".study section{border:2px solid #000;border-radius:10px;padding:10px 14px;margin:0 0 14px;break-inside:avoid;page-break-inside:avoid}" +
+    ".study section.memo{border-width:3px;border-style:double}" +
+    ".study h2{font-size:18px;margin:0 0 6px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}" +
+    ".study .badge{font-size:11px;font-weight:700;letter-spacing:.06em;padding:2px 8px;border-radius:999px;border:1.5px solid #000}" +
+    ".study .badge.memo{border-width:2.5px;color:#000;font-size:12px}" +
+    ".study ul{margin:4px 0 6px;padding-left:20px}.study li{margin:2px 0}" +
+    ".study .newpage{break-before:page;page-break-before:always}" +
+    ".study .pair{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:start}.study .pair section{margin:0}" +
+    ".study .full{width:100%;table-layout:fixed;font-size:11px}.study .full td,.study .full th{min-width:0;padding:2px 1px}.study .full th:first-child{width:52px}" +
+    ".study .kt .chart{max-width:300px}.study .pp .chart{max-width:500px}" +
+    ".chart{width:100%;height:auto;max-width:520px;display:block;margin:6px auto;fill:none;stroke:#000;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}" +
+    ".chart text{fill:#000;stroke:none;font-family:Verdana,sans-serif;font-weight:700;font-size:20px;text-anchor:middle}" +
+    ".chart .fill{fill:#000;stroke:none}" +
+    ".cb-table-wrap{overflow-x:auto}.cb-table{border-collapse:collapse;font-size:12px;margin:4px 0}" +
+    ".cb-table th,.cb-table td{border:1px solid #000;padding:2px 4px;text-align:center;min-width:16px}" +
+    ".cb-table th{background:#eee}.tap-table{font-size:17px;font-weight:700}.tap-table td,.tap-table th{min-width:40px;padding:5px}" +
+    ".cb-table.vig{width:100%;table-layout:fixed;font-family:'DejaVu Sans Mono',Menlo,Consolas,monospace;font-size:12px}.cb-table.vig td,.cb-table.vig th{padding:1px 0;min-width:0}" +
+    ".cb-bacon-table{display:grid;grid-template-columns:repeat(4,1fr);gap:1px 14px;font-family:'DejaVu Sans Mono',Menlo,monospace;font-size:13px}" +
+    ".cb-bacon-table b{display:inline-block;min-width:30px;font-family:Verdana,sans-serif}" +
+    ".sga{display:grid;grid-template-columns:repeat(13,1fr);gap:8px 4px}" +
+    ".sga span{display:flex;flex-direction:column;align-items:center;font-weight:700;font-size:13px}" +
+    ".sga .glyph{width:24px;height:32px}" +
+    ".cb-note{font-size:13px;color:#333}" +
+    "@media print{.study section{margin-bottom:10px}}";
+
+  function caesarTable() {
+    var shifts = [1, 2, 3, -1, -2, -3];
+    var h = '<table class="cb-table"><tr><th>Message</th>' + ALPHA.split("").map(function (c) { return "<td><b>" + c + "</b></td>"; }).join("") + "</tr>";
+    shifts.forEach(function (n) {
+      h += "<tr><th>" + (n > 0 ? "+" + n : "\u2212" + -n) + "</th>" +
+        ALPHA.split("").map(function (c, i) { return "<td>" + ALPHA[mod(i + n, 26)] + "</td>"; }).join("") + "</tr>";
+    });
+    return '<div class="cb-table-wrap">' + h + "</table></div>";
+  }
+
+  function printStudySheet() {
+    function section(title, badge, body, memo, cls) {
+      return '<section class="' + (memo ? "memo " : "") + (cls || "") + '"><h2>' + title +
+        (badge ? '<span class="badge' + (memo ? " memo" : "") + '">' + badge + "</span>" : "") + "</h2>" + body + "</section>";
+    }
+    var sga = '<div class="sga">' + ALPHA.split("").map(function (ch) { return "<span>" + galactic(ch) + ch + "</span>"; }).join("") + "</div>";
+    var body =
+      '<div class="study">' +
+      "<h1>Codebusters Study Sheet</h1>" +
+      '<p class="sub">Eureka! &middot; 2027 NC Science Olympiad Division A. Every code on the test, all in one place. ' +
+      "The three keys marked <b>MEMORIZE</b> are <b>not</b> on the resource sheet you get at the event, so learn to draw them from memory!</p>" +
+
+      section("PigPen (Masonic)", "MEMORIZE", pigpenChart() +
+        "<ul><li>Two tic-tac-toe grids, then two big Xs. The second grid and second X get a dot in every space.</li>" +
+        "<li>A&ndash;I go in the first grid, J&ndash;R in the dotted grid.</li>" +
+        "<li>S top, T left, U right, V bottom in the first X; W X Y Z the same way in the dotted X.</li>" +
+        "<li>Each letter is drawn as the lines (and dot) around its space.</li></ul>", true, "pp") +
+
+      '<div class="pair">' +
+      section("Tap Code", "MEMORIZE", tapTable() +
+        "<ul><li>The alphabet in rows of five, skipping K. <b>C and K share a square.</b></li>" +
+        "<li>Each letter is two numbers: <b>row first, then column</b>. Example: 2,3 = H.</li></ul>", true) +
+
+      section("Knight's Templar", "MEMORIZE", knightsChart() +
+        "<ul><li>Two rows of three crosses, with an X for <b>N</b> in the middle. Arms are open Vs, then triangles, then kites. The bottom row gets dots.</li>" +
+        "<li>Most crosses go clockwise from the top: A B C D, I/J K L M, O P Q R, S T U V.</li>" +
+        "<li>Tricky ones: E F G H go left, right, bottom, top. W X Y Z go bottom, top, right, left.</li>" +
+        "<li>I and J share an arm. Check: the top letters are A H I O S X.</li></ul>", true, "kt") +
+      "</div>" +
+
+      '<div class="newpage"></div>' +
+      section("Standard Galactic Alphabet", "on the resource sheet as a phrase", sga +
+        '<p class="cb-note">At the event you get these as the phrase THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG. Knowing the common letters by heart (E, T, A, O) saves time.</p>') +
+      section("Atbash", "on the resource sheet", atbashTable().replace('class="cb-table"', 'class="cb-table full"') +
+        '<p class="cb-note">The alphabet flipped: A&harr;Z, B&harr;Y, C&harr;X&hellip; Decoding works the same way as encoding.</p>') +
+      section("Caesar (shift of 3 or less)", "no table at the event", caesarTable().replace('class="cb-table"', 'class="cb-table full"') +
+        '<p class="cb-note">Find the code letter in the row for the shift, and the message letter is at the top. Don\'t know the shift? Try all six on a short word.</p>') +
+      section("Baconian (24 letters)", "on the resource sheet", baconTable() +
+        '<p class="cb-note">Split the code into groups of 5. I/J and U/V share codes. With symbols, figure out which ones mean A and which mean B.</p>') +
+      section("Aristocrat", "frequency table on the resource sheet",
+        "<ul><li>Most common letters in English: <b>E T A O I N S H R</b>.</li>" +
+        "<li>One-letter words: <b>A</b> or <b>I</b>. Common short words: <b>THE, AND, OF, TO, IS, IT, IN</b>.</li>" +
+        "<li>No letter ever stands for itself. Look for patterns like double letters.</li></ul>") +
+
+      '<div class="newpage"></div>' +
+      section("Vigen\u00e8re", "on the resource sheet", vigenereTable() +
+        '<p class="cb-note">Row = key letter. Find the code letter in that row; the message letter is at the top of its column. Or count the code letter back by the key letter (A=0, B=1, C=2&hellip;).</p>') +
+      "</div>";
+    openPrintable("Codebusters Study Sheet", "Print the study sheet", body, "codebusters-study-sheet.html");
   }
 
   /* ---------- mock test ---------- */
