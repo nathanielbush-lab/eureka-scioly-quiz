@@ -1644,20 +1644,100 @@
   "group": "mineral",
   "candidates": [
    {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Gypsum_%28selenite%29_%28GeoDIL_number_-_609%29.jpg/960px-Gypsum_%28selenite%29_%28GeoDIL_number_-_609%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: Darla Sondrol, CC0, via Wikimedia Commons",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gypsum_(selenite)_(GeoDIL_number_-_609).jpg",
+    "title": "File:Gypsum (selenite) (GeoDIL number - 609).jpg",
+    "file": "candidates/gypsum/1.jpg"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Selenite_%28GeoDIL_number_-_944%29.jpg/960px-Selenite_%28GeoDIL_number_-_944%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: Twyla Baker, CC0, via Wikimedia Commons",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Selenite_(GeoDIL_number_-_944).jpg",
+    "title": "File:Selenite (GeoDIL number - 944).jpg",
+    "file": "candidates/gypsum/2.jpg"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Gypsum-43267.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gypsum-43267.jpg",
+    "title": "File:Gypsum-43267.jpg",
+    "file": "candidates/gypsum/3.jpg"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Gypsum-239910.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gypsum-239910.jpg",
+    "title": "File:Gypsum-239910.jpg",
+    "file": "candidates/gypsum/4.jpg"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Gypsum-67904.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gypsum-67904.jpg",
+    "title": "File:Gypsum-67904.jpg",
+    "file": "candidates/gypsum/5.jpg"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Creedite-Gypsum-132379.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Creedite-Gypsum-132379.jpg",
+    "title": "File:Creedite-Gypsum-132379.jpg",
+    "file": "candidates/gypsum/6.jpg"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Gypsum-51116.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gypsum-51116.jpg",
+    "title": "File:Gypsum-51116.jpg",
+    "file": "candidates/gypsum/7.jpg"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Pyrite-Enargite-Gypsum-41657.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pyrite-Enargite-Gypsum-41657.jpg",
+    "title": "File:Pyrite-Enargite-Gypsum-41657.jpg",
+    "file": "candidates/gypsum/8.jpg"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Gypsum_%28GeoDIL_number_-_617%29.jpg/960px-Gypsum_%28GeoDIL_number_-_617%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: Darla Sondrol, CC0, via Wikimedia Commons",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gypsum_(GeoDIL_number_-_617).jpg",
+    "title": "File:Gypsum (GeoDIL number - 617).jpg",
+    "file": "candidates/gypsum/9.jpg"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Gypsum_%28GeoDIL_number_-_630%29.jpg/960px-Gypsum_%28GeoDIL_number_-_630%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: Shannon Heinle, CC0, via Wikimedia Commons",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gypsum_(GeoDIL_number_-_630).jpg",
+    "title": "File:Gypsum (GeoDIL number - 630).jpg",
+    "file": "candidates/gypsum/10.jpg"
+   },
+   {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Gypsum_var._selenite_from_Andamooka_Ranges_-_Lake_Torrens_area%2C_South_Australia.jpg/960px-Gypsum_var._selenite_from_Andamooka_Ranges_-_Lake_Torrens_area%2C_South_Australia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "credit": "Photo: JJ Harrison (https://www.jjharrison.com.au/), CC BY-SA 2.5, via Wikimedia Commons",
     "license": "CC BY-SA 2.5",
     "source": "https://commons.wikimedia.org/wiki/File:Gypsum_var._selenite_from_Andamooka_Ranges_-_Lake_Torrens_area,_South_Australia.jpg",
     "title": "File:Gypsum var. selenite from Andamooka Ranges - Lake Torrens area, South Australia.jpg",
-    "file": "candidates/gypsum/1.jpg"
+    "file": "candidates/gypsum/11.jpg"
    },
    {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/%28Twinned_gypsum_mineral_specimen_close-up_from_Bishop_Museum%2C_United_States%29_-_DPLA_-_453a3d2fb57f6482299f8ec709b1086c.jpg/960px-%28Twinned_gypsum_mineral_specimen_close-up_from_Bishop_Museum%2C_United_States%29_-_DPLA_-_453a3d2fb57f6482299f8ec709b1086c.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Photo: Carlquist, Sherwin John, 1930-2021, CC BY 4.0, via Wikimedia Commons",
-    "license": "CC BY 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:(Twinned_gypsum_mineral_specimen_close-up_from_Bishop_Museum,_United_States)_-_DPLA_-_453a3d2fb57f6482299f8ec709b1086c.jpg",
-    "title": "File:(Twinned gypsum mineral specimen close-up from Bishop Museum, United States) - DPLA - 453a3d2fb57f6482299f8ec709b1086c.jpg",
-    "file": "candidates/gypsum/2.jpg"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Gypse_Caresse.jpg/960px-Gypse_Caresse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: Didier Descouens, CC BY-SA 4.0, via Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gypse_Caresse.jpg",
+    "title": "File:Gypse Caresse.jpg",
+    "file": "candidates/gypsum/12.jpg"
    }
   ]
  },

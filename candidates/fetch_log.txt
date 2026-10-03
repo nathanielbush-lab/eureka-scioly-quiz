@@ -1,17 +1,10 @@
-== halite
-  commons None -> 1
-  commons halite crystal cube specimen filetype:bitmap -> 12
-  commons rock salt halite crystal filetype:bitmap -> 25
-  commons Category:Halite -> 40
-  kept 8
-== mica
-  commons muscovite mica book sheets filetype:bitmap -> 5
-  commons muscovite mineral specimen filetype:bitmap -> 25
-  commons mica sheet mineral filetype:bitmap -> 25
-  commons Category:Muscovite -> 40
-  commons Category:Biotite -> 40
-  skip https://upload.wikimedia.org/wikipedia/commons/f/fd/Beryl-Muscovite-122813.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/f/fd/Beryl-Muscovite-122813.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-  skip https://upload.wikimedia.org/wikipedia/commons/c/ce/Beryl-Muscovite-266960.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/c/ce/Beryl-Muscovite-266960.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-  skip https://upload.wikimedia.org/wikipedia/commons/3/34/Beryl-Muscovite-119423.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/3/34/Beryl-Muscovite-119423.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-  kept 5
+== gypsum
+  commons selenite gypsum crystal blade filetype:bitmap -> 12
+  commons satin spar gypsum filetype:bitmap -> 25
+  commons gypsum mineral specimen white filetype:bitmap -> 25
+  commons gypsum crystal clear filetype:bitmap -> 25
+  commons Category:Selenite -> 40
+  commons Category:Satin spar -> 0
+  commons Category:Gypsum (mineral) -> 0
+  kept 12
 done: 100 specimens; empty: []
