@@ -1,1 +1,1 @@
-{"only": ["gypsum"], "per": 12, "skip": {}}
+{"only": ["calcite", "hematite", "quartz", "feldspar"], "per": 12, "skip": {}}

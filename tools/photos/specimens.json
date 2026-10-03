@@ -271,11 +271,13 @@
    "name": "Calcite",
    "commons": {
     "categories": [
-     "Calcite"
+     "Iceland spar",
+     "Calcite rhombohedra"
     ],
     "search": [
-     "calcite mineral specimen",
-     "calcite rhomb"
+     "Iceland spar calcite rhombohedron",
+     "calcite rhombohedral crystal clear",
+     "calcite cleavage rhomb white"
     ]
    }
   },
@@ -316,13 +318,13 @@
    "name": "Feldspar (pink)",
    "commons": {
     "categories": [
-     "Microcline crystals",
-     "Orthoclase crystals"
+     "Orthoclase",
+     "Microcline"
     ],
     "search": [
-     "microcline crystal specimen",
-     "orthoclase feldspar crystal specimen",
-     "potassium feldspar pink crystal"
+     "orthoclase feldspar pink",
+     "microcline feldspar specimen",
+     "feldspar cleavage pink"
     ]
    }
   },
@@ -430,11 +432,14 @@
    "name": "Hematite",
    "commons": {
     "categories": [
-     "Hematite"
+     "Kidney ore",
+     "Botryoidal hematite"
     ],
     "search": [
-     "hematite mineral specimen",
-     "hematite"
+     "kidney ore hematite",
+     "botryoidal hematite",
+     "hematite red earthy specimen",
+     "hematite streak plate red"
     ]
    }
   },
@@ -492,12 +497,14 @@
    "name": "Quartz",
    "commons": {
     "categories": [
-     "Rock crystal"
+     "Rock crystal",
+     "Quartz crystals"
     ],
     "search": [
-     "clear quartz crystal point specimen",
-     "rock crystal quartz specimen",
-     "quartz crystal cluster Arkansas"
+     "clear quartz crystal cluster",
+     "rock crystal quartz points",
+     "quartz crystal six-sided point",
+     "milky quartz"
     ]
    }
   },
