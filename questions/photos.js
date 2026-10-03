@@ -660,6 +660,17 @@ window.QUIZ_PHOTOS = {
    "alt": "Photo of a mineral specimen"
   },
   {
+   "id": "olivine",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Olivine",
+   "image": "images/geology-rocks/olivine-3.jpg",
+   "credit": "Photo: Darla Sondrol, CC0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Olivine_(GeoDIL_number_-_2386).jpg",
+   "alt": "Photo of a mineral specimen",
+   "note": "These are peridot, the gem name for olivine. They've been tumbled smooth and shiny, the way you'd find them in a rock shop. Rough olivine is grainier, but it's the same olive-green color."
+  },
+  {
    "id": "copperhead",
    "event": "roots-reptiles",
    "group": "reptile",

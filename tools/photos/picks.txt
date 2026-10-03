@@ -16,7 +16,7 @@ copper 1 4 3
 corundum 1 2 5
 gold 1 7 5
 hematite 7 3 5
-olivine 2 6
+olivine 2 6 3
 copperhead 2 4 6
 american-beech 5 4 8
 black-gum 2 8 5
