@@ -1196,44 +1196,100 @@
   "group": "mineral",
   "candidates": [
    {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Calcite%2C_Mexico-8827.jpg/960px-Calcite%2C_Mexico-8827.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Photo: Raimond Spekking, CC BY-SA 4.0, via Wikimedia Commons",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Calcite,_Mexico-8827.jpg",
-    "title": "File:Calcite, Mexico-8827.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Birefringence_of_calcite.jpg/960px-Birefringence_of_calcite.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: Masha Milshina, CC BY 4.0, via Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Birefringence_of_calcite.jpg",
+    "title": "File:Birefringence of calcite.jpg",
     "file": "candidates/calcite/1.jpg"
    },
    {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Calcite._Lemerva%2C_USA-8831.jpg/960px-Calcite._Lemerva%2C_USA-8831.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Photo: Raimond Spekking, CC BY-SA 4.0, via Wikimedia Commons",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Calcite._Lemerva,_USA-8831.jpg",
-    "title": "File:Calcite. Lemerva, USA-8831.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Calcite-Hematite-163155.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Calcite-Hematite-163155.jpg",
+    "title": "File:Calcite-Hematite-163155.jpg",
     "file": "candidates/calcite/2.jpg"
    },
    {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Wulfenite_mexique.jpg/960px-Wulfenite_mexique.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Photo: Didier Descouens, CC BY-SA 4.0, via Wikimedia Commons",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Wulfenite_mexique.jpg",
-    "title": "File:Wulfenite mexique.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Calcite_rhomb_%28GeoDIL_number_-_519%29.jpg/960px-Calcite_rhomb_%28GeoDIL_number_-_519%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: Dexter Perkins, CC0, via Wikimedia Commons",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Calcite_rhomb_(GeoDIL_number_-_519).jpg",
+    "title": "File:Calcite rhomb (GeoDIL number - 519).jpg",
     "file": "candidates/calcite/3.jpg"
    },
    {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Calcite-20188.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Apophyllite-%28KF%29-Calcite-Ilvaite-253970.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
     "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Calcite-20188.jpg",
-    "title": "File:Calcite-20188.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Apophyllite-(KF)-Calcite-Ilvaite-253970.jpg",
+    "title": "File:Apophyllite-(KF)-Calcite-Ilvaite-253970.jpg",
     "file": "candidates/calcite/4.jpg"
    },
    {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Calcite-Quartz-61050.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
-    "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Calcite-Quartz-61050.jpg",
-    "title": "File:Calcite-Quartz-61050.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Calcite_mineralization_in_limestone_%28Columbus_Limestone%2C_Middle_Devonian%3B_Kelleys_Island%2C_Lake_Erie%2C_Ohio%2C_USA%29_2_%2848541660097%29.jpg/960px-Calcite_mineralization_in_limestone_%28Columbus_Limestone%2C_Middle_Devonian%3B_Kelleys_Island%2C_Lake_Erie%2C_Ohio%2C_USA%29_2_%2848541660097%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Calcite_mineralization_in_limestone_(Columbus_Limestone,_Middle_Devonian;_Kelleys_Island,_Lake_Erie,_Ohio,_USA)_2_(48541660097).jpg",
+    "title": "File:Calcite mineralization in limestone (Columbus Limestone, Middle Devonian; Kelleys Island, Lake Erie, Ohio, USA) 2 (48541660097).jpg",
     "file": "candidates/calcite/5.jpg"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Calcite_mineralization_in_limestone_%28Columbus_Limestone%2C_Middle_Devonian%3B_Kelleys_Island%2C_Lake_Erie%2C_Ohio%2C_USA%29_3_%2848541659207%29.jpg/960px-Calcite_mineralization_in_limestone_%28Columbus_Limestone%2C_Middle_Devonian%3B_Kelleys_Island%2C_Lake_Erie%2C_Ohio%2C_USA%29_3_%2848541659207%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Calcite_mineralization_in_limestone_(Columbus_Limestone,_Middle_Devonian;_Kelleys_Island,_Lake_Erie,_Ohio,_USA)_3_(48541659207).jpg",
+    "title": "File:Calcite mineralization in limestone (Columbus Limestone, Middle Devonian; Kelleys Island, Lake Erie, Ohio, USA) 3 (48541659207).jpg",
+    "file": "candidates/calcite/6.jpg"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Calcite_mineralization_in_limestone_%28Columbus_Limestone%2C_Middle_Devonian%3B_Kelleys_Island%2C_Lake_Erie%2C_Ohio%2C_USA%29_15_%2848541651477%29.jpg/960px-Calcite_mineralization_in_limestone_%28Columbus_Limestone%2C_Middle_Devonian%3B_Kelleys_Island%2C_Lake_Erie%2C_Ohio%2C_USA%29_15_%2848541651477%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Calcite_mineralization_in_limestone_(Columbus_Limestone,_Middle_Devonian;_Kelleys_Island,_Lake_Erie,_Ohio,_USA)_15_(48541651477).jpg",
+    "title": "File:Calcite mineralization in limestone (Columbus Limestone, Middle Devonian; Kelleys Island, Lake Erie, Ohio, USA) 15 (48541651477).jpg",
+    "file": "candidates/calcite/7.jpg"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Calcite_mineralization_in_limestone_%28Columbus_Limestone%2C_Middle_Devonian%3B_Kelleys_Island%2C_Lake_Erie%2C_Ohio%2C_USA%29_7_%2848541656227%29.jpg/960px-Calcite_mineralization_in_limestone_%28Columbus_Limestone%2C_Middle_Devonian%3B_Kelleys_Island%2C_Lake_Erie%2C_Ohio%2C_USA%29_7_%2848541656227%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Calcite_mineralization_in_limestone_(Columbus_Limestone,_Middle_Devonian;_Kelleys_Island,_Lake_Erie,_Ohio,_USA)_7_(48541656227).jpg",
+    "title": "File:Calcite mineralization in limestone (Columbus Limestone, Middle Devonian; Kelleys Island, Lake Erie, Ohio, USA) 7 (48541656227).jpg",
+    "file": "candidates/calcite/8.jpg"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Calcite_mineralization_in_limestone_%28Columbus_Limestone%2C_Middle_Devonian%3B_Kelleys_Island%2C_Lake_Erie%2C_Ohio%2C_USA%29_4_%2848541510906%29.jpg/960px-Calcite_mineralization_in_limestone_%28Columbus_Limestone%2C_Middle_Devonian%3B_Kelleys_Island%2C_Lake_Erie%2C_Ohio%2C_USA%29_4_%2848541510906%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Calcite_mineralization_in_limestone_(Columbus_Limestone,_Middle_Devonian;_Kelleys_Island,_Lake_Erie,_Ohio,_USA)_4_(48541510906).jpg",
+    "title": "File:Calcite mineralization in limestone (Columbus Limestone, Middle Devonian; Kelleys Island, Lake Erie, Ohio, USA) 4 (48541510906).jpg",
+    "file": "candidates/calcite/9.jpg"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Calcite_mineralization_in_limestone_%28Columbus_Limestone%2C_Middle_Devonian%3B_Kelleys_Island%2C_Lake_Erie%2C_Ohio%2C_USA%29_8_%2848541655477%29.jpg/960px-Calcite_mineralization_in_limestone_%28Columbus_Limestone%2C_Middle_Devonian%3B_Kelleys_Island%2C_Lake_Erie%2C_Ohio%2C_USA%29_8_%2848541655477%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Calcite_mineralization_in_limestone_(Columbus_Limestone,_Middle_Devonian;_Kelleys_Island,_Lake_Erie,_Ohio,_USA)_8_(48541655477).jpg",
+    "title": "File:Calcite mineralization in limestone (Columbus Limestone, Middle Devonian; Kelleys Island, Lake Erie, Ohio, USA) 8 (48541655477).jpg",
+    "file": "candidates/calcite/10.jpg"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Calcite_mineralization_in_limestone_%28Columbus_Limestone%2C_Middle_Devonian%3B_Kelleys_Island%2C_Lake_Erie%2C_Ohio%2C_USA%29_12_%2848541505411%29.jpg/960px-Calcite_mineralization_in_limestone_%28Columbus_Limestone%2C_Middle_Devonian%3B_Kelleys_Island%2C_Lake_Erie%2C_Ohio%2C_USA%29_12_%2848541505411%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Calcite_mineralization_in_limestone_(Columbus_Limestone,_Middle_Devonian;_Kelleys_Island,_Lake_Erie,_Ohio,_USA)_12_(48541505411).jpg",
+    "title": "File:Calcite mineralization in limestone (Columbus Limestone, Middle Devonian; Kelleys Island, Lake Erie, Ohio, USA) 12 (48541505411).jpg",
+    "file": "candidates/calcite/11.jpg"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Calcite_mineralization_in_limestone_%28Columbus_Limestone%2C_Middle_Devonian%3B_Kelleys_Island%2C_Lake_Erie%2C_Ohio%2C_USA%29_13_%2848541504916%29.jpg/960px-Calcite_mineralization_in_limestone_%28Columbus_Limestone%2C_Middle_Devonian%3B_Kelleys_Island%2C_Lake_Erie%2C_Ohio%2C_USA%29_13_%2848541504916%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Calcite_mineralization_in_limestone_(Columbus_Limestone,_Middle_Devonian;_Kelleys_Island,_Lake_Erie,_Ohio,_USA)_13_(48541504916).jpg",
+    "title": "File:Calcite mineralization in limestone (Columbus Limestone, Middle Devonian; Kelleys Island, Lake Erie, Ohio, USA) 13 (48541504916).jpg",
+    "file": "candidates/calcite/12.jpg"
    }
   ]
  },
@@ -1385,60 +1441,100 @@
   "group": "mineral",
   "candidates": [
    {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Microcline-199473.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Orthoclase-246312.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
     "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Microcline-199473.jpg",
-    "title": "File:Microcline-199473.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Orthoclase-246312.jpg",
+    "title": "File:Orthoclase-246312.jpg",
     "file": "candidates/feldspar/1.jpg"
    },
    {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Quartz-Microcline-49598.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Fluorite-Orthoclase-tuc09107abg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
     "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Quartz-Microcline-49598.jpg",
-    "title": "File:Quartz-Microcline-49598.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Fluorite-Orthoclase-tuc09107abg.jpg",
+    "title": "File:Fluorite-Orthoclase-tuc09107abg.jpg",
     "file": "candidates/feldspar/2.jpg"
    },
    {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Fluorite-Microcline-174567.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Fluorite-Orthoclase-tuc09106abg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
     "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Fluorite-Microcline-174567.jpg",
-    "title": "File:Fluorite-Microcline-174567.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Fluorite-Orthoclase-tuc09106abg.jpg",
+    "title": "File:Fluorite-Orthoclase-tuc09106abg.jpg",
     "file": "candidates/feldspar/3.jpg"
    },
    {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Quartz-Microcline-25831.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Fluorite-Orthoclase-tuc09105abg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
     "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Quartz-Microcline-25831.jpg",
-    "title": "File:Quartz-Microcline-25831.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Fluorite-Orthoclase-tuc09105abg.jpg",
+    "title": "File:Fluorite-Orthoclase-tuc09105abg.jpg",
     "file": "candidates/feldspar/4.jpg"
    },
    {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Microcline-139587.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Tourmaline-Orthoclase-Albite-36840.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
     "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Microcline-139587.jpg",
-    "title": "File:Microcline-139587.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Tourmaline-Orthoclase-Albite-36840.jpg",
+    "title": "File:Tourmaline-Orthoclase-Albite-36840.jpg",
     "file": "candidates/feldspar/5.jpg"
    },
    {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Microcline-23744.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Quartz-Orthoclase-Albite-271566.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
     "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Microcline-23744.jpg",
-    "title": "File:Microcline-23744.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Quartz-Orthoclase-Albite-271566.jpg",
+    "title": "File:Quartz-Orthoclase-Albite-271566.jpg",
     "file": "candidates/feldspar/6.jpg"
    },
    {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Magnetite-Microcline-LTH60A.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Rocks_-_Alkali_feldspar_granite.JPG/960px-Rocks_-_Alkali_feldspar_granite.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: Khruner, CC BY-SA 4.0, via Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rocks_-_Alkali_feldspar_granite.JPG",
+    "title": "File:Rocks - Alkali feldspar granite.JPG",
+    "file": "candidates/feldspar/7.jpg"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Fluorapatite%2C_beryl%2C_feldspar.jpg/960px-Fluorapatite%2C_beryl%2C_feldspar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: G\u00e9ry PARENT, Public domain, via Wikimedia Commons",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Fluorapatite,_beryl,_feldspar.jpg",
+    "title": "File:Fluorapatite, beryl, feldspar.jpg",
+    "file": "candidates/feldspar/8.jpg"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Fluorapatite%2C_bery%3B_feldspar.jpg/960px-Fluorapatite%2C_bery%3B_feldspar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: G\u00e9ry PARENT, Public domain, via Wikimedia Commons",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Fluorapatite,_bery;_feldspar.jpg",
+    "title": "File:Fluorapatite, bery; feldspar.jpg",
+    "file": "candidates/feldspar/9.jpg"
+   },
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/%D0%9E%D1%80%D1%82%D0%BE%D0%BA%D0%BB%D0%B0%D0%B7.jpg/960px-%D0%9E%D1%80%D1%82%D0%BE%D0%BA%D0%BB%D0%B0%D0%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: \u0406\u0440\u0438\u043d\u0430 \u0411\u0443\u0447\u043d\u0454\u0432\u0430, CC BY 4.0, via Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%9E%D1%80%D1%82%D0%BE%D0%BA%D0%BB%D0%B0%D0%B7.jpg",
+    "title": "File:\u041e\u0440\u0442\u043e\u043a\u043b\u0430\u0437.jpg",
+    "file": "candidates/feldspar/10.jpg"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Microcline-Feldspar-Group-Quartz-33947.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
     "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Magnetite-Microcline-LTH60A.JPG",
-    "title": "File:Magnetite-Microcline-LTH60A.JPG",
-    "file": "candidates/feldspar/7.jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Microcline-Feldspar-Group-Quartz-33947.jpg",
+    "title": "File:Microcline-Feldspar-Group-Quartz-33947.jpg",
+    "file": "candidates/feldspar/11.jpg"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Feldspar-Group-Microcline-Quartz-283297.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Feldspar-Group-Microcline-Quartz-283297.jpg",
+    "title": "File:Feldspar-Group-Microcline-Quartz-283297.jpg",
+    "file": "candidates/feldspar/12.jpg"
    }
   ]
  },
@@ -1818,44 +1914,60 @@
   "group": "mineral",
   "candidates": [
    {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Pyrit-with-hematite-01.jpg/960px-Pyrit-with-hematite-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Photo: CEphoto, Uwe Aranas, CC BY-SA 3.0, via Wikimedia Commons",
-    "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Pyrit-with-hematite-01.jpg",
-    "title": "File:Pyrit-with-hematite-01.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Hematite_%28Kidney_Ore%29_%2848522453911%29.jpg/960px-Hematite_%28Kidney_Ore%29_%2848522453911%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: Pacific Museum of Earth from Canada, CC BY-SA 2.0, via Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hematite_(Kidney_Ore)_(48522453911).jpg",
+    "title": "File:Hematite (Kidney Ore) (48522453911).jpg",
     "file": "candidates/hematite/1.jpg"
    },
    {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Hematite-turgite_3.jpg/960px-Hematite-turgite_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Hematite-turgite_3.jpg",
-    "title": "File:Hematite-turgite 3.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Hematite_%28Kidney_Ore%29_%2848603530857%29.jpg/960px-Hematite_%28Kidney_Ore%29_%2848603530857%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: Pacific Museum of Earth from Canada, CC BY-SA 2.0, via Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hematite_(Kidney_Ore)_(48603530857).jpg",
+    "title": "File:Hematite (Kidney Ore) (48603530857).jpg",
     "file": "candidates/hematite/2.jpg"
    },
    {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Hematite-turgite_1.jpg/960px-Hematite-turgite_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Hematite_%28Florence_Mine%2C_near_Egremont%2C_England%29.jpg/960px-Hematite_%28Florence_Mine%2C_near_Egremont%2C_England%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
     "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Hematite-turgite_1.jpg",
-    "title": "File:Hematite-turgite 1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Hematite_(Florence_Mine,_near_Egremont,_England).jpg",
+    "title": "File:Hematite (Florence Mine, near Egremont, England).jpg",
     "file": "candidates/hematite/3.jpg"
    },
    {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Hematite-turgite_2.jpg/960px-Hematite-turgite_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Hematite-turgite_2.jpg",
-    "title": "File:Hematite-turgite 2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Hematite.jpg/960px-Hematite.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: DanielCD~commonswiki, CC BY-SA 3.0, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hematite.jpg",
+    "title": "File:Hematite.jpg",
     "file": "candidates/hematite/4.jpg"
    },
    {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Hematite_%28Cavradi_Gorge%2C_Switzerland%29_4.jpg/960px-Hematite_%28Cavradi_Gorge%2C_Switzerland%29_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Hematite_(Cavradi_Gorge,_Switzerland)_4.jpg",
-    "title": "File:Hematite (Cavradi Gorge, Switzerland) 4.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Hematite_%2820255007100%29.jpg/960px-Hematite_%2820255007100%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: Joe deSousa, CC0, via Wikimedia Commons",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hematite_(20255007100).jpg",
+    "title": "File:Hematite (20255007100).jpg",
     "file": "candidates/hematite/5.jpg"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Quartz-Hematite-192610.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Quartz-Hematite-192610.jpg",
+    "title": "File:Quartz-Hematite-192610.jpg",
+    "file": "candidates/hematite/6.jpg"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Hematite-40638.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hematite-40638.jpg",
+    "title": "File:Hematite-40638.jpg",
+    "file": "candidates/hematite/7.jpg"
    }
   ]
  },
@@ -1990,59 +2102,59 @@
   "group": "mineral",
   "candidates": [
    {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Geode-with-encrustation-of-quartz-crystals-on-a-base-of-limonite-01.jpg/960px-Geode-with-encrustation-of-quartz-crystals-on-a-base-of-limonite-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Photo: CEphoto, Uwe Aranas, CC BY-SA 4.0, via Wikimedia Commons",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Geode-with-encrustation-of-quartz-crystals-on-a-base-of-limonite-01.jpg",
-    "title": "File:Geode-with-encrustation-of-quartz-crystals-on-a-base-of-limonite-01.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Rutilated_Quartz_Specimen_1_-_very_rare_formation_of_meteor-like_cluster_of_rutile_strands.jpg/960px-Rutilated_Quartz_Specimen_1_-_very_rare_formation_of_meteor-like_cluster_of_rutile_strands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: FluffyThornOnRose, CC BY 4.0, via Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rutilated_Quartz_Specimen_1_-_very_rare_formation_of_meteor-like_cluster_of_rutile_strands.jpg",
+    "title": "File:Rutilated Quartz Specimen 1 - very rare formation of meteor-like cluster of rutile strands.jpg",
     "file": "candidates/quartz/1.jpg"
    },
    {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Quartz_var_Amethyst_Specimen_22.JPG/960px-Quartz_var_Amethyst_Specimen_22.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Photo: Photo by and (c)2015 Derek Ramsey (Ram-Man), CC BY-SA 4.0, via Wikimedia Commons",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Quartz_var_Amethyst_Specimen_22.JPG",
-    "title": "File:Quartz var Amethyst Specimen 22.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Quartz_%28Ellenville%2C_New_York_State%2C_USA%29_20.jpg/960px-Quartz_%28Ellenville%2C_New_York_State%2C_USA%29_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Quartz_(Ellenville,_New_York_State,_USA)_20.jpg",
+    "title": "File:Quartz (Ellenville, New York State, USA) 20.jpg",
     "file": "candidates/quartz/2.jpg"
    },
    {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Quartz_Citrine_Crystals_in_Their_Natural_Form.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "credit": "Photo: Jennifer A Hogan, CC BY-SA 4.0, via Wikimedia Commons",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Quartz_Citrine_Crystals_in_Their_Natural_Form.jpg",
-    "title": "File:Quartz Citrine Crystals in Their Natural Form.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Quartz_%28Ellenville%2C_New_York_State%2C_USA%29_15.jpg/960px-Quartz_%28Ellenville%2C_New_York_State%2C_USA%29_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Quartz_(Ellenville,_New_York_State,_USA)_15.jpg",
+    "title": "File:Quartz (Ellenville, New York State, USA) 15.jpg",
     "file": "candidates/quartz/3.jpg"
    },
    {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Rutilated_Quartz_Specimen_from_Madagascar%2C_including_Copper_Rutiles_and_Schorl%2C_Polished.jpg/960px-Rutilated_Quartz_Specimen_from_Madagascar%2C_including_Copper_Rutiles_and_Schorl%2C_Polished.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Photo: Meralt Limited, CC BY-SA 4.0, via Wikimedia Commons",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Rutilated_Quartz_Specimen_from_Madagascar,_including_Copper_Rutiles_and_Schorl,_Polished.jpg",
-    "title": "File:Rutilated Quartz Specimen from Madagascar, including Copper Rutiles and Schorl, Polished.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Quartz_%28Ellenville%2C_New_York_State%2C_USA%29_18.jpg/960px-Quartz_%28Ellenville%2C_New_York_State%2C_USA%29_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Quartz_(Ellenville,_New_York_State,_USA)_18.jpg",
+    "title": "File:Quartz (Ellenville, New York State, USA) 18.jpg",
     "file": "candidates/quartz/4.jpg"
    },
    {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Agate-Geode-with-Quartz-crystals-01.jpg/960px-Agate-Geode-with-Quartz-crystals-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Photo: CEphoto, Uwe Aranas, CC BY-SA 3.0, via Wikimedia Commons",
-    "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Agate-Geode-with-Quartz-crystals-01.jpg",
-    "title": "File:Agate-Geode-with-Quartz-crystals-01.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Quartz_%28Ellenville%2C_New_York_State%2C_USA%29_19.jpg/960px-Quartz_%28Ellenville%2C_New_York_State%2C_USA%29_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Quartz_(Ellenville,_New_York_State,_USA)_19.jpg",
+    "title": "File:Quartz (Ellenville, New York State, USA) 19.jpg",
     "file": "candidates/quartz/5.jpg"
    },
    {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Quartz_crystal-lined_cavity_in_flint_%28Vanport_Flint%2C_Middle_Pennsylvanian%3B_Nethers_Flint_Quarries%2C_Flint_Ridge%2C_Ohio%2C_USA%29_6_%2838736759655%29.jpg/960px-Quartz_crystal-lined_cavity_in_flint_%28Vanport_Flint%2C_Middle_Pennsylvanian%3B_Nethers_Flint_Quarries%2C_Flint_Ridge%2C_Ohio%2C_USA%29_6_%2838736759655%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Quartz_%28Ellenville%2C_New_York_State%2C_USA%29_14.jpg/960px-Quartz_%28Ellenville%2C_New_York_State%2C_USA%29_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
     "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Quartz_crystal-lined_cavity_in_flint_(Vanport_Flint,_Middle_Pennsylvanian;_Nethers_Flint_Quarries,_Flint_Ridge,_Ohio,_USA)_6_(38736759655).jpg",
-    "title": "File:Quartz crystal-lined cavity in flint (Vanport Flint, Middle Pennsylvanian; Nethers Flint Quarries, Flint Ridge, Ohio, USA) 6 (38736759655).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Quartz_(Ellenville,_New_York_State,_USA)_14.jpg",
+    "title": "File:Quartz (Ellenville, New York State, USA) 14.jpg",
     "file": "candidates/quartz/6.jpg"
    },
    {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Quartz_crystal-lined_cavity_in_flint_%28Vanport_Flint%2C_Middle_Pennsylvanian%3B_Nethers_Flint_Quarries%2C_Flint_Ridge%2C_Ohio%2C_USA%29_3_%2831208349006%29.jpg/960px-Quartz_crystal-lined_cavity_in_flint_%28Vanport_Flint%2C_Middle_Pennsylvanian%3B_Nethers_Flint_Quarries%2C_Flint_Ridge%2C_Ohio%2C_USA%29_3_%2831208349006%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Quartz_%28Ellenville%2C_New_York_State%2C_USA%29_4.jpg/960px-Quartz_%28Ellenville%2C_New_York_State%2C_USA%29_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
     "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Quartz_crystal-lined_cavity_in_flint_(Vanport_Flint,_Middle_Pennsylvanian;_Nethers_Flint_Quarries,_Flint_Ridge,_Ohio,_USA)_3_(31208349006).jpg",
-    "title": "File:Quartz crystal-lined cavity in flint (Vanport Flint, Middle Pennsylvanian; Nethers Flint Quarries, Flint Ridge, Ohio, USA) 3 (31208349006).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Quartz_(Ellenville,_New_York_State,_USA)_4.jpg",
+    "title": "File:Quartz (Ellenville, New York State, USA) 4.jpg",
     "file": "candidates/quartz/7.jpg"
    }
   ]

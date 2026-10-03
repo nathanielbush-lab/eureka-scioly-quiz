@@ -1,10 +1,41 @@
-== gypsum
-  commons selenite gypsum crystal blade filetype:bitmap -> 12
-  commons satin spar gypsum filetype:bitmap -> 25
-  commons gypsum mineral specimen white filetype:bitmap -> 25
-  commons gypsum crystal clear filetype:bitmap -> 25
-  commons Category:Selenite -> 40
-  commons Category:Satin spar -> 0
-  commons Category:Gypsum (mineral) -> 0
+== calcite
+  commons Iceland spar calcite rhombohedron filetype:bitmap -> 1
+  commons calcite rhombohedral crystal clear filetype:bitmap -> 25
+  commons calcite cleavage rhomb white filetype:bitmap -> 0
+  commons Category:Iceland spar -> 40
+  commons Category:Calcite rhombohedra -> 0
   kept 12
+== feldspar
+  commons orthoclase feldspar pink filetype:bitmap -> 17
+  commons microcline feldspar specimen filetype:bitmap -> 25
+  commons feldspar cleavage pink filetype:bitmap -> 20
+  commons Category:Orthoclase -> 40
+  commons Category:Microcline -> 40
+  kept 12
+== hematite
+  commons kidney ore hematite filetype:bitmap -> 25
+  commons botryoidal hematite filetype:bitmap -> 25
+  commons hematite red earthy specimen filetype:bitmap -> 13
+  commons hematite streak plate red filetype:bitmap -> 1
+  commons Category:Kidney ore -> 0
+  commons Category:Botryoidal hematite -> 0
+  skip https://upload.wikimedia.org/wikipedia/commons/5/5d/Hematite-237638.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/5/5d/Hematite-237638.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/a/ae/Hematite-237639.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/a/ae/Hematite-237639.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/b/bf/Hematite-226339.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/b/bf/Hematite-226339.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/d/dd/Hematite-199355.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/d/dd/Hematite-199355.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/1/13/Hematite-156121.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/1/13/Hematite-156121.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  kept 7
+== quartz
+  commons clear quartz crystal cluster filetype:bitmap -> 25
+  commons rock crystal quartz points filetype:bitmap -> 25
+  commons quartz crystal six-sided point filetype:bitmap -> 6
+  commons milky quartz filetype:bitmap -> 25
+  commons Category:Rock crystal -> 40
+  commons Category:Quartz crystals -> 0
+  skip https://upload.wikimedia.org/wikipedia/commons/3/38/Quartz-153471.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/3/38/Quartz-153471.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/1/10/Quartz-rhqtz-46a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/1/10/Quartz-rhqtz-46a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/4/40/Quartz-rhqtz-46b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/4/40/Quartz-rhqtz-46b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/a/ab/Quartz-242680.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/a/ab/Quartz-242680.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  skip https://upload.wikimedia.org/wikipedia/commons/4/48/Quartz-rhqtz-79a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) for url: https://upload.wikimedia.org/wikipedia/commons/4/48/Quartz-rhqtz-79a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  kept 7
 done: 100 specimens; empty: []
