@@ -51,7 +51,7 @@ window.QUIZ_PHOTOS = {
   "copper": "Copper-red metal, often with a green or brown tarnish, in twisted, branching shapes. It's malleable.",
   "corundum": "Very hard (9), often in barrel-shaped, six-sided crystals. It can be gray, brown, red (ruby), or blue (sapphire).",
   "gold": "Bright golden-yellow metal, very heavy, and soft. It never tarnishes and leaves a gold-yellow streak.",
-  "hematite": "Silver-gray and metallic, or dull reddish-brown. Its streak is always reddish-brown.",
+  "hematite": "Silver-gray and metallic, often in bubbly, rounded lumps called 'kidney ore,' or dull reddish-brown. Its streak is always reddish-brown.",
   "olivine": "Glassy, olive-green grains or crystals, often in clumps. It's the gem peridot.",
   "copperhead": "Tan to pinkish body with dark hourglass-shaped (Hershey's Kiss) bands and a coppery head. Venomous!",
   "american-beech": "Smooth, light-gray bark (even on big trees), toothed oval leaves with straight veins, and spiky husks around beechnuts.",
@@ -502,8 +502,8 @@ window.QUIZ_PHOTOS = {
    "group": "mineral",
    "name": "Calcite",
    "image": "images/geology-rocks/calcite-1.jpg",
-   "credit": "Photo: Raimond Spekking, CC BY-SA 4.0, via Wikimedia Commons",
-   "source": "https://commons.wikimedia.org/wiki/File:Calcite._Lemerva,_USA-8831.jpg",
+   "credit": "Photo: Dexter Perkins, CC0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Calcite_rhomb_(GeoDIL_number_-_519).jpg",
    "alt": "Photo of a mineral specimen"
   },
   {
@@ -512,19 +512,10 @@ window.QUIZ_PHOTOS = {
    "group": "mineral",
    "name": "Calcite",
    "image": "images/geology-rocks/calcite-2.jpg",
-   "credit": "Photo: Raimond Spekking, CC BY-SA 4.0, via Wikimedia Commons",
-   "source": "https://commons.wikimedia.org/wiki/File:Calcite,_Mexico-8827.jpg",
-   "alt": "Photo of a mineral specimen"
-  },
-  {
-   "id": "calcite",
-   "event": "geology-rocks",
-   "group": "mineral",
-   "name": "Calcite",
-   "image": "images/geology-rocks/calcite-3.jpg",
-   "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
-   "source": "https://commons.wikimedia.org/wiki/File:Calcite-20188.jpg",
-   "alt": "Photo of a mineral specimen"
+   "credit": "Photo: Masha Milshina, CC BY 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Birefringence_of_calcite.jpg",
+   "alt": "Photo of a mineral specimen",
+   "note": "This clear piece of calcite (called Iceland spar) makes the words under it look doubled. That trick only works with clear calcite, and it's a great clue!"
   },
   {
    "id": "copper",
@@ -554,7 +545,8 @@ window.QUIZ_PHOTOS = {
    "image": "images/geology-rocks/copper-3.jpg",
    "credit": "Photo: Flipin,OG, CC0, via Wikimedia Commons",
    "source": "https://commons.wikimedia.org/wiki/File:Native_copper_mineral_specimen.jpg",
-   "alt": "Photo of a mineral specimen"
+   "alt": "Photo of a mineral specimen",
+   "note": "This piece is covered in green tarnish, which happens when copper sits in air and water for a long time. Look for the copper-colored metal peeking through."
   },
   {
    "id": "corundum",
@@ -622,8 +614,8 @@ window.QUIZ_PHOTOS = {
    "group": "mineral",
    "name": "Hematite",
    "image": "images/geology-rocks/hematite-1.jpg",
-   "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
-   "source": "https://commons.wikimedia.org/wiki/File:Hematite-turgite_3.jpg",
+   "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Hematite-40638.jpg",
    "alt": "Photo of a mineral specimen"
   },
   {
@@ -633,7 +625,17 @@ window.QUIZ_PHOTOS = {
    "name": "Hematite",
    "image": "images/geology-rocks/hematite-2.jpg",
    "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
-   "source": "https://commons.wikimedia.org/wiki/File:Hematite_(Cavradi_Gorge,_Switzerland)_4.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Hematite_(Florence_Mine,_near_Egremont,_England).jpg",
+   "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "hematite",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Hematite",
+   "image": "images/geology-rocks/hematite-3.jpg",
+   "credit": "Photo: Joe deSousa, CC0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Hematite_(20255007100).jpg",
    "alt": "Photo of a mineral specimen"
   },
   {
@@ -644,7 +646,8 @@ window.QUIZ_PHOTOS = {
    "image": "images/geology-rocks/olivine-1.jpg",
    "credit": "Photo: Nessa Eull, CC0, via Wikimedia Commons",
    "source": "https://commons.wikimedia.org/wiki/File:Olivine_(GeoDIL_number_-_528).jpg",
-   "alt": "Photo of a mineral specimen"
+   "alt": "Photo of a mineral specimen",
+   "note": "This photo shows olivine as green grains stuck in a dark volcanic rock, a common way to find it in nature."
   },
   {
    "id": "olivine",
@@ -654,16 +657,6 @@ window.QUIZ_PHOTOS = {
    "image": "images/geology-rocks/olivine-2.jpg",
    "credit": "Photo: Tõnis Saadre, CC BY-SA 4.0, via Wikimedia Commons",
    "source": "https://commons.wikimedia.org/wiki/File:Estonian_Museum_of_Natural_History_Specimen_No_176140_photo_(g244_g244-16_jpg).jpg",
-   "alt": "Photo of a mineral specimen"
-  },
-  {
-   "id": "olivine",
-   "event": "geology-rocks",
-   "group": "mineral",
-   "name": "Olivine",
-   "image": "images/geology-rocks/olivine-3.jpg",
-   "credit": "Photo: Darla Sondrol, CC0, via Wikimedia Commons",
-   "source": "https://commons.wikimedia.org/wiki/File:Olivine_(GeoDIL_number_-_2386).jpg",
    "alt": "Photo of a mineral specimen"
   },
   {
@@ -2723,17 +2716,7 @@ window.QUIZ_PHOTOS = {
    "name": "Feldspar (pink)",
    "image": "images/geology-rocks/feldspar-1.jpg",
    "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
-   "source": "https://commons.wikimedia.org/wiki/File:Microcline-199473.jpg",
-   "alt": "Photo of a mineral specimen"
-  },
-  {
-   "id": "feldspar",
-   "event": "geology-rocks",
-   "group": "mineral",
-   "name": "Feldspar (pink)",
-   "image": "images/geology-rocks/feldspar-2.jpg",
-   "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
-   "source": "https://commons.wikimedia.org/wiki/File:Quartz-Microcline-49598.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Orthoclase-246312.jpg",
    "alt": "Photo of a mineral specimen"
   },
   {
@@ -2772,9 +2755,30 @@ window.QUIZ_PHOTOS = {
    "group": "mineral",
    "name": "Gypsum",
    "image": "images/geology-rocks/gypsum-1.jpg",
-   "credit": "Photo: Carlquist, Sherwin John, 1930-2021, CC BY 4.0, via Wikimedia Commons",
-   "source": "https://commons.wikimedia.org/wiki/File:(Twinned_gypsum_mineral_specimen_close-up_from_Bishop_Museum,_United_States)_-_DPLA_-_453a3d2fb57f6482299f8ec709b1086c.jpg",
+   "credit": "Photo: Twyla Baker, CC0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Selenite_(GeoDIL_number_-_944).jpg",
    "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "gypsum",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Gypsum",
+   "image": "images/geology-rocks/gypsum-2.jpg",
+   "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Gypsum-239910.jpg",
+   "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "gypsum",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Gypsum",
+   "image": "images/geology-rocks/gypsum-3.jpg",
+   "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Gypsum-67904.jpg",
+   "alt": "Photo of a mineral specimen",
+   "note": "This is a 'desert rose': gypsum blades that grew inside sand, so they're tan and gritty instead of clear. The thin, curved blades are the clue."
   },
   {
    "id": "talc",
@@ -2812,8 +2816,8 @@ window.QUIZ_PHOTOS = {
    "group": "mineral",
    "name": "Quartz",
    "image": "images/geology-rocks/quartz-1.jpg",
-   "credit": "Photo: Meralt Limited, CC BY-SA 4.0, via Wikimedia Commons",
-   "source": "https://commons.wikimedia.org/wiki/File:Rutilated_Quartz_Specimen_from_Madagascar,_including_Copper_Rutiles_and_Schorl,_Polished.jpg",
+   "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Quartz_(Ellenville,_New_York_State,_USA)_18.jpg",
    "alt": "Photo of a mineral specimen"
   },
   {
@@ -2822,8 +2826,8 @@ window.QUIZ_PHOTOS = {
    "group": "mineral",
    "name": "Quartz",
    "image": "images/geology-rocks/quartz-2.jpg",
-   "credit": "Photo: Photo by and (c)2015 Derek Ramsey (Ram-Man), CC BY-SA 4.0, via Wikimedia Commons",
-   "source": "https://commons.wikimedia.org/wiki/File:Quartz_var_Amethyst_Specimen_22.JPG",
+   "credit": "Photo: James St. John, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Quartz_(Ellenville,_New_York_State,_USA)_20.jpg",
    "alt": "Photo of a mineral specimen"
   },
   {
@@ -2864,16 +2868,6 @@ window.QUIZ_PHOTOS = {
    "image": "images/geology-rocks/graphite-1.jpg",
    "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
    "source": "https://commons.wikimedia.org/wiki/File:Graphite-233436.jpg",
-   "alt": "Photo of a mineral specimen"
-  },
-  {
-   "id": "graphite",
-   "event": "geology-rocks",
-   "group": "mineral",
-   "name": "Graphite",
-   "image": "images/geology-rocks/graphite-2.jpg",
-   "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
-   "source": "https://commons.wikimedia.org/wiki/File:Graphite-208903.jpg",
    "alt": "Photo of a mineral specimen"
   },
   {
@@ -2934,6 +2928,16 @@ window.QUIZ_PHOTOS = {
    "image": "images/geology-rocks/mica-1.jpg",
    "credit": "Photo: Mai Seppel, CC BY-SA 4.0, via Wikimedia Commons",
    "source": "",
+   "alt": "Photo of a mineral specimen"
+  },
+  {
+   "id": "feldspar",
+   "event": "geology-rocks",
+   "group": "mineral",
+   "name": "Feldspar (pink)",
+   "image": "images/geology-rocks/feldspar-2.jpg",
+   "credit": "Photo: Robert M. Lavinsky, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Microcline-199473.jpg",
    "alt": "Photo of a mineral specimen"
   }
  ]

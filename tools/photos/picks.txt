@@ -11,12 +11,12 @@ quartzite 2 3 6
 sandstone 2 3 1
 schist 1 3 4
 slate 3 1 2
-calcite 2 1 4
+calcite 3 1
 copper 1 4 3
 corundum 1 2 5
 gold 1 7 5
-hematite 2 5
-olivine 2 6 3
+hematite 7 3 5
+olivine 2 6
 copperhead 2 4 6
 american-beech 5 4 8
 black-gum 2 8 5
@@ -87,13 +87,13 @@ zygentoma 2 8 3
 granite 2 1
 limestone-chemical 2 1
 shale 1 7
-feldspar 1 2
+feldspar 1
 fluorite 1 4 2
-gypsum 2
+gypsum 2 4 5
 talc 3
 pyrite 1 2
 quartz 4 2
 galena 6 5 4
-graphite 1 2
+graphite 1
 scoria 2 5
 halite 2 6

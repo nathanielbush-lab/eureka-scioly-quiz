@@ -113,6 +113,11 @@ contact sheets there and lists the good ones in `tools/photos/picks.txt`. Then
 `images/` and writes `questions/photos.js`. Identification tips are in `tools/photos/tips.json`.
 To remove a photo, delete its number from `picks.txt` and rebuild.
 
+Every photo should show its specimen the way students are likely to see it. If a photo
+shows something less typical (green tarnish on copper, a gypsum "desert rose"), add a
+short note to `tools/photos/notes.json`, keyed by the photo's source page. Students see
+the note after the identification tip.
+
 Photos someone supplies by hand go in `tools/photos/manual/`, with their credit and
 source page listed in `tools/photos/manual.json`; the same build step includes them.
 

@@ -155,7 +155,7 @@
             q: g.prompt || "What is this?",
             a: p.name,
             wrong: shuffle(pool).slice(0, 3),
-            why: tip ? "How to recognize it: " + tip : "",
+            why: (tip ? "How to recognize it: " + tip : "") + (p.note ? " About this photo: " + p.note : ""),
             image: p.image,
             imageAlt: p.alt || "Photo of a specimen to identify",
             credit: p.credit

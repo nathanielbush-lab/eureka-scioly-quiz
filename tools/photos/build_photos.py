@@ -7,6 +7,7 @@ specimen per line: "<specimen id> <candidate number> <candidate number> ...".
 Each picked candidate is copied to images/<event>/<id>-<k>.jpg, and its credit
 comes from the candidates' manifest.json.
 
+notes.json adds a note to a photo that shows its specimen in a less typical way.
 manual.json adds photos a person supplied directly (kept in tools/photos/manual/),
 as {"<specimen id>": [{"file", "credit", "source"}]}.
 """
@@ -44,6 +45,7 @@ def main(cand_root):
     manifest = json.load(open(os.path.join(cand_root, "candidates", "manifest.json")))
     specs = {s["id"]: s for s in json.load(open(os.path.join(HERE, "specimens.json")))["specimens"]}
     tips = json.load(open(os.path.join(HERE, "tips.json")))
+    notes = json.load(open(os.path.join(HERE, "notes.json")))
     photos = []
     img_root = os.path.join(ROOT, "images")
     if os.path.isdir(img_root):
@@ -67,6 +69,8 @@ def main(cand_root):
                 "image": rel, "credit": c["credit"], "source": c.get("source", ""),
                 "alt": ALT[spec["group"]],
             })
+            if notes.get(c.get("source")):
+                photos[-1]["note"] = notes[c["source"]]
     manual_path = os.path.join(HERE, "manual.json")
     manual = json.load(open(manual_path)) if os.path.exists(manual_path) else {}
     for sid, items in manual.items():
@@ -83,6 +87,8 @@ def main(cand_root):
                 "image": rel, "credit": item["credit"], "source": item.get("source", ""),
                 "alt": ALT[spec["group"]],
             })
+            if item.get("note"):
+                photos[-1]["note"] = item["note"]
     used_tips = {p["id"]: tips[p["id"]] for p in photos}
     out = {"groups": GROUPS, "tips": used_tips, "photos": photos}
     header = (
