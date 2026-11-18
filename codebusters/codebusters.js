@@ -68,7 +68,7 @@
   function show(view) {
     stopTimer();
     app.replaceChildren(view);
-    window.scrollTo(0, 0);
+    window.EurekaScroll.toTop();
   }
 
   // Pick a message whose letters suit the level; "banned" skips repeats in a test.

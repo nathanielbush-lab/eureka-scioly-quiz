@@ -369,7 +369,7 @@
     }
 
     app.replaceChildren(view);
-    window.scrollTo(0, 0);
+    window.EurekaScroll.toTop();
   }
 
   function eventLabel(eventId) {
@@ -458,7 +458,7 @@
     if (sb) sb.addEventListener("click", speakQuestion);
 
     app.replaceChildren(view);
-    window.scrollTo(0, 0);
+    window.EurekaScroll.toTop();
     var input = view.querySelector("#typed-answer");
     if (input && window.matchMedia("(pointer: fine)").matches) input.focus();
     if (readAloudBox.checked) speakQuestion();
@@ -616,7 +616,7 @@
 
     state.screen = "results";
     app.replaceChildren(view);
-    window.scrollTo(0, 0);
+    window.EurekaScroll.toTop();
     if (pct >= 80) confetti();
   }
 

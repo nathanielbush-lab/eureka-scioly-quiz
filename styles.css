@@ -88,6 +88,10 @@ img { max-width: 100%; }
   gap: 20px;
   min-height: 100vh;
 }
+/* Google Sites keeps a 56px header bar fixed over the page. scroll.js lines the
+   top of this frame up with the top of the screen; browsers won't stop a
+   frame's scroll short of that, so make room under the bar instead. */
+.clear-site-header .wrap { padding-top: 68px; }
 
 /* Top bar */
 .topbar {

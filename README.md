@@ -95,6 +95,7 @@ and there are no accounts.
 index.html              the page
 styles.css              the look
 app.js                  quiz logic
+scroll.js               brings each new screen to the top, also inside the Google Site
 questions/*.js          one question bank per event
 questions/photos.js     Picture ID photos (generated)
 codebusters/            Codebusters practice: codebusters.js (ciphers, puzzles, drills,
