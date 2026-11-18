@@ -63,6 +63,12 @@
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
     });
   }
+  // A browser can briefly hold a cached index.html without scroll.js after an
+  // update; fall back to plain scrolling rather than failing to draw.
+  function scrollToTop() {
+    if (window.EurekaScroll) window.EurekaScroll.toTop();
+    else window.scrollTo(0, 0);
+  }
   function el(html) {
     var t = document.createElement("template");
     t.innerHTML = html.trim();
@@ -369,7 +375,7 @@
     }
 
     app.replaceChildren(view);
-    window.EurekaScroll.toTop();
+    scrollToTop();
   }
 
   function eventLabel(eventId) {
@@ -458,7 +464,7 @@
     if (sb) sb.addEventListener("click", speakQuestion);
 
     app.replaceChildren(view);
-    window.EurekaScroll.toTop();
+    scrollToTop();
     var input = view.querySelector("#typed-answer");
     if (input && window.matchMedia("(pointer: fine)").matches) input.focus();
     if (readAloudBox.checked) speakQuestion();
@@ -616,7 +622,7 @@
 
     state.screen = "results";
     app.replaceChildren(view);
-    window.EurekaScroll.toTop();
+    scrollToTop();
     if (pct >= 80) confetti();
   }
 
