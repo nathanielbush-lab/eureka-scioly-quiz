@@ -1,0 +1,80 @@
+{
+  "overview": {
+    "svg_bytes": 7107,
+    "png_bytes": 55191,
+    "png_dimensions": [
+      800,
+      640
+    ],
+    "parts": [
+      "systemic-veins",
+      "systemic-arteries",
+      "pulmonary-arteries",
+      "pulmonary-veins",
+      "lungs",
+      "heart",
+      "body"
+    ]
+  },
+  "heart": {
+    "svg_bytes": 10020,
+    "png_bytes": 70412,
+    "png_dimensions": [
+      800,
+      640
+    ],
+    "parts": [
+      "vena-cava",
+      "pulmonary-veins",
+      "right-atrium",
+      "left-atrium",
+      "right-ventricle",
+      "left-ventricle",
+      "tricuspid-valve",
+      "mitral-valve",
+      "pulmonary-arteries",
+      "aorta",
+      "pulmonary-valve",
+      "aortic-valve"
+    ]
+  },
+  "lungs": {
+    "svg_bytes": 10863,
+    "png_bytes": 65246,
+    "png_dimensions": [
+      800,
+      640
+    ],
+    "parts": [
+      "nose",
+      "mouth",
+      "pharynx",
+      "larynx",
+      "trachea",
+      "right-lung",
+      "left-lung",
+      "bronchi",
+      "bronchioles",
+      "alveoli",
+      "diaphragm"
+    ]
+  },
+  "exchange": {
+    "svg_bytes": 6664,
+    "png_bytes": 58389,
+    "png_dimensions": [
+      800,
+      640
+    ],
+    "parts": [
+      "alveolus",
+      "capillaries",
+      "oxygen",
+      "carbon-dioxide",
+      "plasma",
+      "red-cells",
+      "white-cells",
+      "platelets"
+    ]
+  }
+}

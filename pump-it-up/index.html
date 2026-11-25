@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#16344a">
+  <meta name="description" content="Explore the heart and lungs, follow oxygen through the body, and practice with interactive diagrams for NC Science Olympiad Division A.">
+  <title>Pump It Up | Eureka! Science Lab</title>
+  <link rel="stylesheet" href="styles.css?v=cb375f6ebf">
+  <script defer src="content.js?v=883c703b62"></script>
+  <script defer src="diagrams.js?v=6ae20f1d91"></script>
+  <script defer src="app.js?v=2f24f0aa77"></script>
+</head>
+<body>
+  <a href="#workspace" class="skip-link">Skip to the diagram</a>
+  <div class="shell">
+    <header class="masthead">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">e!</span><span>Eureka! <span class="brand-light">Science Lab</span></span></div>
+      <a class="external" href="https://nathanielbush-lab.github.io/eureka-scioly-quiz/" target="_blank" rel="noopener">Quiz collection</a>
+    </header>
+    <section class="intro">
+      <div><p class="eyebrow">NC SCIENCE OLYMPIAD · DIVISION A</p><h1>Pump It Up</h1><p class="lead">Two systems. One connected journey.<br>Discover how your heart and lungs keep your body supplied.</p></div>
+      <div class="intro-note"><span class="pulse-line" aria-hidden="true">⌁</span><p><strong>Start with a question.</strong><br>How does oxygen in the air reach your toes?</p></div>
+    </section>
+    <nav class="modes" aria-label="Learning mode">
+      <button data-mode="explore" aria-pressed="true">Explore</button>
+      <button data-mode="journey" aria-pressed="false">Follow the journey</button>
+      <button data-mode="practice" aria-pressed="false">Visual practice</button>
+    </nav>
+    <main id="workspace" tabindex="-1">
+      <div id="mode-intro" class="mode-intro"></div>
+      <nav id="views" class="views" aria-label="Diagram view"></nav>
+      <div class="workspace-grid">
+        <section class="diagram-card" aria-labelledby="diagram-title">
+          <div class="diagram-toolbar"><div><p class="eyebrow" id="view-kicker">THE BIG PICTURE</p><h2 id="diagram-title">Heart, lungs & body</h2></div><div class="diagram-options"><label class="check-label"><input type="checkbox" id="labels" checked> Labels</label><button id="zoom" aria-pressed="false" title="Enlarge the diagram; scroll to see its edges">Enlarge</button></div></div>
+          <div id="diagram" class="diagram"></div>
+          <div class="legend"><span><i class="rich"></i>Oxygen-rich blood</span><span><i class="poor"></i>Oxygen-poor blood</span><span><i class="air"></i>Air / gas movement</span></div>
+          <p class="flow-key"><strong>Follow the white arrows.</strong> Arteries carry blood away from the heart. Veins carry blood toward it.</p>
+          <p class="diagram-note" id="diagram-note">Simplified teaching diagram. Shapes and distances are not to scale.</p>
+        </section>
+        <aside id="panel" class="detail-panel" aria-label="Learning activity"></aside>
+      </div>
+      <section class="structure-section" aria-labelledby="structure-heading"><div class="section-top"><h2 id="structure-heading">Choose a structure</h2><span>Tap the diagram or use these buttons.</span></div><div id="structure-list" class="structure-list"></div></section>
+      <details class="partner"><summary>Study with your partner</summary><p>One partner points to a structure or traces a pathway. The other explains its job without reading the panel. Check together, then switch roles.</p><p id="partner-prompt"></p></details>
+      <div class="utility-bar"><a href="worksheets/pump-it-up-labeled.pdf" target="_blank" rel="noopener">Labeled worksheets (PDF)</a><a href="worksheets/pump-it-up-blank.pdf" target="_blank" rel="noopener">Blank worksheets (PDF)</a><a id="open-app" href="./" target="_blank" rel="noopener">Open in a new tab</a><label class="check-label"><input id="motion" type="checkbox"> Reduce motion</label></div>
+      <details class="sources"><summary>Sources & learning scope</summary><p>This anatomy and pathways activity supports the 2027 NC Division A Pump It Up rules, section 9. It covers structures, functions, blood components, and system interactions. The eight listed diseases are a later addition; this activity is not a complete event study guide.</p><ul><li><a href="https://ncscienceolympiad.ncsu.edu/resources/elementary/" target="_blank" rel="noopener">NCSO official manual and current clarifications</a></li><li><a href="https://www.nhlbi.nih.gov/health/heart/blood-flow" target="_blank" rel="noopener">NIH: Blood flow through the heart</a></li><li><a href="https://www.nhlbi.nih.gov/health/lungs/respiratory-system" target="_blank" rel="noopener">NIH: Respiratory system</a></li><li><a href="https://www.nhlbi.nih.gov/health/lungs/what-breathing-does" target="_blank" rel="noopener">NIH: Breathing and gas exchange</a></li><li><a href="https://www.cancer.gov/publications/dictionaries/cancer-terms/def/blood" target="_blank" rel="noopener">NCI: Components of blood</a></li></ul><p>Original editable SVG artwork. Anatomy content checked November 24, 2026. Practice results stay in this session and reset when the page reloads.</p></details>
+    </main>
+    <footer>Olde Providence · Learn the parts. Follow the connections.</footer>
+  </div>
+  <div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+  <noscript>This activity needs JavaScript. Open the PNG or SVG diagrams in the assets folder for a printable alternative.</noscript>
+</body>
+</html>
+
